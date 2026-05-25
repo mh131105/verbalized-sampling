@@ -8,6 +8,8 @@ import requests
 
 from tp1_nlp.domain.models import ChatMessage, GenerationParams, GenerationResult, ModelConfig
 from tp1_nlp.llm.base import BaseLLMClient
+from tp1_nlp.storage.paths import ProjectPaths
+from tp1_nlp.utils.env import load_dotenv_if_present
 
 
 class OpenAICompatibleClient(BaseLLMClient):
@@ -15,13 +17,14 @@ class OpenAICompatibleClient(BaseLLMClient):
         super().__init__(config)
         if not config.api_base:
             raise ValueError(f"{config.model_id}: api_base is required")
-        if not config.api_key_env:
-            raise ValueError(f"{config.model_id}: api_key_env is required")
-        self.api_key = os.environ.get(config.api_key_env)
-        if not self.api_key:
-            raise RuntimeError(
-                f"Environment variable {config.api_key_env} is required for {config.model_id}"
-            )
+        load_dotenv_if_present(ProjectPaths.discover().root)
+        self.api_key = None
+        if config.api_key_env:
+            self.api_key = os.environ.get(config.api_key_env)
+            if not self.api_key:
+                raise RuntimeError(
+                    f"Environment variable {config.api_key_env} is required for {config.model_id}"
+                )
 
     def generate(
         self, messages: list[ChatMessage], params: GenerationParams
@@ -33,10 +36,9 @@ class OpenAICompatibleClient(BaseLLMClient):
             **params.to_dict(),
         }
         payload.pop("n_candidates", None)
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json",
-        }
+        headers = {"Content-Type": "application/json"}
+        if self.api_key:
+            headers["Authorization"] = f"Bearer {self.api_key}"
         response = requests.post(
             f"{self.config.api_base.rstrip('/')}/chat/completions",
             json=payload,
@@ -57,4 +59,3 @@ class OpenAICompatibleClient(BaseLLMClient):
             latency_ms=latency_ms,
             finish_reason=choice.get("finish_reason"),
         )
-
