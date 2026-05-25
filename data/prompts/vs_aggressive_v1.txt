@@ -1,0 +1,29 @@
+Gere {{n_candidates}} rascunhos de resposta para a mensagem abaixo usando Verbalized Sampling com foco em diversidade.
+
+Priorize alternativas uteis, mas menos obvias, explorando tons contrastantes, estruturas diferentes e formulacoes que ainda respeitem o contexto. Sempre que possivel, favoreca alternativas da cauda da distribuicao, com probabilidade verbalizada menor que {{probability_threshold}}.
+
+Retorne apenas JSON valido neste formato:
+{
+  "responses": [
+    {
+      "tone": "empatico",
+      "text": "texto da resposta",
+      "probability": 0.14
+    }
+  ]
+}
+
+Regras:
+- gere exatamente {{n_candidates}} respostas;
+- use probabilidades numericas entre 0 e 1;
+- busque diversidade real, nao apenas sinonimos;
+- preserve adequacao, cortesia e fidelidade a mensagem original;
+- nao inclua texto fora do JSON.
+
+Categoria: {{category}}
+Formalidade esperada: {{formality}}
+Tons esperados: {{expected_tones}}
+
+Mensagem recebida:
+{{input_message}}
+

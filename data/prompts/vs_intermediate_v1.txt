@@ -1,0 +1,28 @@
+Gere {{n_candidates}} rascunhos de resposta para a mensagem abaixo usando Verbalized Sampling.
+
+As alternativas devem ser adequadas ao contexto, mas variar em tom, formulacao e nivel de detalhe. Para cada alternativa, estime a probabilidade verbalizada de que ela pertenca a uma resposta natural para esse contexto.
+
+Retorne apenas JSON valido neste formato:
+{
+  "responses": [
+    {
+      "tone": "formal",
+      "text": "texto da resposta",
+      "probability": 0.32
+    }
+  ]
+}
+
+Regras:
+- gere exatamente {{n_candidates}} respostas;
+- use probabilidades numericas entre 0 e 1;
+- varie os tons quando isso fizer sentido;
+- nao inclua texto fora do JSON.
+
+Categoria: {{category}}
+Formalidade esperada: {{formality}}
+Tons esperados: {{expected_tones}}
+
+Mensagem recebida:
+{{input_message}}
+

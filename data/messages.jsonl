@@ -1,0 +1,25 @@
+{"message_id":"msg_001","category":"pedido","formality":"formal","input_message":"Voce consegue revisar meu texto ate amanha de manha?","expected_tones":["formal","cordial","objetivo"]}
+{"message_id":"msg_002","category":"pedido","formality":"informal","input_message":"Pode me mandar aquele arquivo quando tiver um tempinho?","expected_tones":["cordial","curto","informal"]}
+{"message_id":"msg_003","category":"cobranca","formality":"formal","input_message":"Ainda nao recebi o retorno sobre a proposta enviada na semana passada.","expected_tones":["formal","direto","cordial"]}
+{"message_id":"msg_004","category":"cobranca","formality":"informal","input_message":"Oi, voce conseguiu ver minha mensagem de ontem?","expected_tones":["cordial","curto","direto"]}
+{"message_id":"msg_005","category":"recusa","formality":"formal","input_message":"Voce poderia participar da reuniao extra hoje as 18h?","expected_tones":["formal","cordial","objetivo"]}
+{"message_id":"msg_006","category":"recusa","formality":"informal","input_message":"Bora sair depois da aula hoje?","expected_tones":["informal","gentil","curto"]}
+{"message_id":"msg_007","category":"agradecimento","formality":"formal","input_message":"Segue o material revisado conforme combinado.","expected_tones":["formal","agradecido","cordial"]}
+{"message_id":"msg_008","category":"agradecimento","formality":"informal","input_message":"Consegui resolver com a dica que voce me deu, valeu!","expected_tones":["informal","agradecido","entusiasmado"]}
+{"message_id":"msg_009","category":"convite","formality":"formal","input_message":"Gostariamos de convida-lo para apresentar seu projeto na proxima reuniao do grupo.","expected_tones":["formal","cordial","positivo"]}
+{"message_id":"msg_010","category":"convite","formality":"informal","input_message":"Vamos almocar juntos sexta?","expected_tones":["informal","animado","curto"]}
+{"message_id":"msg_011","category":"esclarecimento","formality":"formal","input_message":"Poderia esclarecer se o prazo final e sexta ou segunda-feira?","expected_tones":["formal","objetivo","cordial"]}
+{"message_id":"msg_012","category":"esclarecimento","formality":"informal","input_message":"Nao entendi bem a parte do grafico. Voce pode explicar?","expected_tones":["informal","direto","cordial"]}
+{"message_id":"msg_013","category":"confirmacao","formality":"formal","input_message":"Confirmamos sua participacao na banca de avaliacao do dia 12.","expected_tones":["formal","cordial","objetivo"]}
+{"message_id":"msg_014","category":"confirmacao","formality":"informal","input_message":"Fechou entao a gente se encontra as 15h na biblioteca?","expected_tones":["informal","curto","positivo"]}
+{"message_id":"msg_015","category":"adiamento","formality":"formal","input_message":"Infelizmente precisaremos remarcar a entrega do relatorio para a proxima semana.","expected_tones":["formal","empatico","objetivo"]}
+{"message_id":"msg_016","category":"adiamento","formality":"informal","input_message":"Acho que vou atrasar um pouco pra chegar, tudo bem?","expected_tones":["informal","cordial","curto"]}
+{"message_id":"msg_017","category":"pedido","formality":"formal","input_message":"Seria possivel enviar uma versao atualizada do cronograma ainda hoje?","expected_tones":["formal","cordial","direto"]}
+{"message_id":"msg_018","category":"cobranca","formality":"formal","input_message":"Gostaria de reforcar a importancia do envio dos documentos pendentes.","expected_tones":["formal","firme","cordial"]}
+{"message_id":"msg_019","category":"recusa","formality":"formal","input_message":"Podemos contar com voce para assumir essa demanda adicional nesta semana?","expected_tones":["formal","empatico","justificativo"]}
+{"message_id":"msg_020","category":"agradecimento","formality":"formal","input_message":"Agradecemos pela disponibilidade e pelo apoio durante a organizacao do evento.","expected_tones":["formal","agradecido","caloroso"]}
+{"message_id":"msg_021","category":"convite","formality":"informal","input_message":"Topa participar do grupo de estudos na quarta?","expected_tones":["informal","positivo","curto"]}
+{"message_id":"msg_022","category":"esclarecimento","formality":"formal","input_message":"Voce poderia detalhar quais criterios serao usados na avaliacao?","expected_tones":["formal","objetivo","cordial"]}
+{"message_id":"msg_023","category":"confirmacao","formality":"formal","input_message":"Por favor, confirme o recebimento deste e-mail e a ciencia das orientacoes.","expected_tones":["formal","objetivo","cordial"]}
+{"message_id":"msg_024","category":"adiamento","formality":"formal","input_message":"Solicito a possibilidade de adiar nossa reuniao para quinta-feira a tarde.","expected_tones":["formal","cordial","justificativo"]}
+
