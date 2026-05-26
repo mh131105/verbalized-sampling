@@ -1,24 +1,40 @@
-Gere {{n_candidates}} rascunhos de resposta para a mensagem abaixo usando Verbalized Sampling com foco em diversidade.
+Gere uma distribuicao verbalizada de {{n_candidates}} rascunhos plausiveis, priorizando alternativas uteis menos obvias.
 
-Priorize alternativas uteis, mas menos obvias, explorando tons contrastantes, estruturas diferentes e formulacoes que ainda respeitem o contexto. Sempre que possivel, favoreca alternativas da cauda da distribuicao, com probabilidade verbalizada menor que {{probability_threshold}}.
+Voce deve explorar a cauda da distribuicao: respostas que provavelmente nao seriam a primeira escolha de um prompt direto, mas que ainda seriam adequadas, naturais e uteis.
 
-Retorne apenas JSON valido neste formato:
+Definicao de probability:
+"probability" e a probabilidade estimada de aquela resposta aparecer como resposta direta mais provavel.
+Todas as respostas devem ter probability menor que {{probability_threshold}}.
+As probabilidades sao aproximadas e nao precisam somar 1.
+
+Use apenas estes valores no campo "tone":
+formal, cordial, objetivo, direto, empatico, informal, firme, agradecido, positivo, justificativo, curto, gentil, entusiasmado, caloroso, animado.
+Nao invente novos nomes de tom.
+Nao combine tons no mesmo campo.
+
+Retorne somente JSON valido, sem markdown e sem texto fora do JSON.
+
+Formato:
 {
   "responses": [
     {
       "tone": "empatico",
       "text": "texto da resposta",
-      "probability": 0.14
+      "probability": 0.09
     }
   ]
 }
 
 Regras:
 - gere exatamente {{n_candidates}} respostas;
-- use probabilidades numericas entre 0 e 1;
 - busque diversidade real, nao apenas sinonimos;
-- preserve adequacao, cortesia e fidelidade a mensagem original;
-- nao inclua texto fora do JSON.
+- varie estrategia comunicativa, nao apenas palavras;
+- preserve adequacao, cortesia e fidelidade;
+- nao use sarcasmo;
+- nao exagere intimidade;
+- nao invente fatos;
+- nao gere respostas longas demais;
+- se uma alternativa ficar inadequada, prefira uma variacao mais segura.
 
 Categoria: {{category}}
 Formalidade esperada: {{formality}}
@@ -26,4 +42,3 @@ Tons esperados: {{expected_tones}}
 
 Mensagem recebida:
 {{input_message}}
-

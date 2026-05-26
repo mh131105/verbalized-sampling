@@ -12,7 +12,7 @@ from tp1_nlp.storage.paths import ProjectPaths
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run TP1 NLP experiment.")
-    parser.add_argument("--config", default="configs/experiment.yaml")
+    parser.add_argument("--config", default="configs/experiment.lmstudio.yaml")
     parser.add_argument("--run-id", default=None)
     parser.add_argument("--only-model", default=None)
     parser.add_argument("--only-condition", default=None)
@@ -33,4 +33,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

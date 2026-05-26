@@ -1,6 +1,10 @@
-Responda a mensagem abaixo de forma natural, adequada e util.
+Responda a mensagem abaixo com um unico rascunho pronto para envio.
 
-Use um tom compativel com a situacao. Nao gere lista de opcoes, nao explique sua estrategia e nao inclua probabilidades.
+A resposta deve ser natural, adequada ao contexto e coerente com a formalidade esperada.
+Nao gere lista de opcoes.
+Nao explique sua estrategia.
+Nao inclua probabilidades.
+Nao use markdown.
 
 Categoria: {{category}}
 Formalidade esperada: {{formality}}
@@ -10,4 +14,3 @@ Mensagem recebida:
 {{input_message}}
 
 Resposta:
-

@@ -1,0 +1,33 @@
+model_id,condition,message_id,sample_index,declared_tone,verbalized_probability,text
+openai_gpt41_mini,baseline,pt_msg_001,1,,,"Claro, posso revisar seu texto até amanhã de manhã. Por favor, envie o arquivo quando estiver pronto para que eu possa começar a análise e garantir que o tom esteja adequado."
+openai_gpt41_mini,baseline,pt_msg_001,2,,,"Claro, posso revisar seu texto até amanhã de manhã. Por favor, envie a versão curta para que eu possa garantir que o tom esteja adequado antes do envio."
+openai_gpt41_mini,vs_intermediate,pt_msg_001,1,formal,0.35,"Claro, posso revisar seu texto até amanhã de manhã. Envie-me a versão curta para que eu possa garantir que o tom esteja adequado antes do envio."
+openai_gpt41_mini,vs_intermediate,pt_msg_001,2,cordial,0.25,"Ficarei feliz em ajudar com a revisão do seu texto até amanhã de manhã. Por favor, encaminhe a versão curta para que eu possa verificar o tom e sugerir melhorias, se necessário."
+openai_gpt41_mini,vs_aggressive,pt_msg_001,1,formal,0.08,Posso analisar seu texto até amanhã pela manhã para assegurar que o tom esteja apropriado antes do envio.
+openai_gpt41_mini,vs_aggressive,pt_msg_001,2,cordial,0.07,"Com certeza, revisarei seu texto até o início do dia seguinte para garantir que o tom esteja correto."
+lmstudio_gemma_e2b,baseline,pt_msg_001,1,,,"Com certeza, farei a revisão do seu texto até amanhã de manhã."
+lmstudio_gemma_e2b,baseline,pt_msg_001,2,,,"Com certeza, posso revisar seu texto até amanhã de manhã. Por favor, envie o material quando desejar."
+lmstudio_gemma_e2b,vs_intermediate,pt_msg_001,1,formal,0.35,"Com certeza. Farei a revisão do seu texto até amanhã pela manhã, garantindo que o tom esteja adequado conforme solicitado."
+lmstudio_gemma_e2b,vs_intermediate,pt_msg_001,2,objetivo,0.28,A revisão do seu texto será concluída até amanhã de manhã.
+lmstudio_gemma_e2b,vs_aggressive,pt_msg_001,1,objetivo,0.075,Verifique a urgência e o escopo exato da revisão para confirmar a viabilidade dentro do prazo estipulado.
+lmstudio_gemma_e2b,vs_aggressive,pt_msg_001,2,cordial,0.065,Compreendo a necessidade de validação do tom. Gostaria de verificar a extensão da revisão para me organizar melhor.
+lmstudio_ministral_3b,baseline,pt_msg_001,1,,,"Caro(a) [Seu Nome ou ""Colaborador""],
+
+Completo o seu pedido de revisão do texto até amanhã às 12h (horário local), garantindo que o material mantenha a formalidade e adequação ao contexto esperado. Caso precise de ajustes adicionais ou esclarecimentos sobre algum trecho, posso revisar detalhadamente antes do prazo.
+
+Fico à disposição para quaisquer dúvidas ou complementos necessários durante o processo. Valeu pela confiança!
+
+Atenciosamente,
+[Seu Nome ou ""Assistente""]"
+lmstudio_ministral_3b,baseline,pt_msg_001,2,,,"Caro colaborador,
+
+Para assegurar a qualidade e precisão do texto antes de sua publicação, ficarei responsável pela revisão completa até o horário do dia seguinte à tarde. Caso precise de ajustes mais específicos na estrutura ou no tom durante esse período, estou à disposição para garantir que tudo esteja alinhado com as expectativas.
+
+Agradeço a confiança depositada no processo e restam-me apenas os melhores cuidados para o material. Se houver alguma preferência adicional na abordagem, por favor, me informe para que possa ajustar o enfoque conforme necessário.
+
+Atenciosamente,
+[Seu nome ou equipe]"
+lmstudio_ministral_3b,vs_intermediate,pt_msg_001,1,formal,0.28,"Claro, professor. Atenderei às suas instruções detalhadamente: revisaria sua versão curta até o horário de abertura oficial de amanhã, garantindo que o tom seja adequado e coerente com suas expectativas. Envio um feedback formal por meios eletrônicos oficiais para registro."
+lmstudio_ministral_3b,vs_intermediate,pt_msg_001,2,cordial,0.35,"Com certeza! Verificarei a adequação do tom e revisarei até o horário amanhã, priorizando um texto limpo e alinhado às suas expectativas. Sua comodidade é importante para o sucesso desse processo."
+lmstudio_ministral_3b,vs_aggressive,pt_msg_001,1,objetivo,0.08,"Poderíamos revisar seu texto até o horário inicial de entrega do dia seguinte, garantindo um tom neutro e funcional para a versão final."
+lmstudio_ministral_3b,vs_aggressive,pt_msg_001,2,formal,0.07,"Para assegurar a precisão e adequação do texto antes de sua submissão, sugerimos ajustes até o horário da manhã de amanhã, com enfoque em clareza formal."

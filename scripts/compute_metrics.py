@@ -14,7 +14,7 @@ from tp1_nlp.storage.paths import ProjectPaths
 def main() -> int:
     parser = argparse.ArgumentParser(description="Compute automatic metrics for a run.")
     parser.add_argument("--run-id", required=True)
-    parser.add_argument("--config", default="configs/experiment.yaml")
+    parser.add_argument("--config", default="configs/experiment.lmstudio.yaml")
     parser.add_argument("--skip-perplexity", action="store_true")
     args = parser.parse_args()
 
@@ -35,4 +35,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

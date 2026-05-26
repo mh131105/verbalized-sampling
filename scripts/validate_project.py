@@ -16,7 +16,7 @@ from tp1_nlp.storage.paths import ProjectPaths, validate_project_contract
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate TP1 project structure.")
-    parser.add_argument("--config", default="configs/experiment.yaml")
+    parser.add_argument("--config", default="configs/experiment.lmstudio.yaml")
     args = parser.parse_args()
 
     paths = ProjectPaths.discover(ROOT)
@@ -52,4 +52,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

@@ -12,9 +12,8 @@ from tp1_nlp.storage.paths import ProjectPaths
 
 
 MODEL_ALIASES = {
-    "qwen": "lmstudio_qwen35_9b",
-    "gemma": "lmstudio_gemma_e4b",
-    "ministral": "lmstudio_ministral_14b",
+    "gemma": "lmstudio_gemma_e2b",
+    "ministral": "lmstudio_ministral_3b",
 }
 
 
@@ -42,4 +41,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

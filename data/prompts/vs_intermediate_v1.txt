@@ -1,8 +1,22 @@
-Gere {{n_candidates}} rascunhos de resposta para a mensagem abaixo usando Verbalized Sampling.
+Gere uma distribuicao verbalizada de {{n_candidates}} rascunhos plausiveis para responder a mensagem abaixo.
 
-As alternativas devem ser adequadas ao contexto, mas variar em tom, formulacao e nivel de detalhe. Para cada alternativa, estime a probabilidade verbalizada de que ela pertenca a uma resposta natural para esse contexto.
+Cada rascunho deve representar uma alternativa que poderia ser escolhida por um assistente de escrita cuidadoso.
+As alternativas devem variar em tom, estrutura e nivel de detalhe, mas todas devem preservar o sentido da mensagem original.
 
-Retorne apenas JSON valido neste formato:
+Definicao de probability:
+"probability" e a probabilidade estimada de aquela resposta ser escolhida como resposta direta mais provavel para esta mensagem.
+As probabilidades sao aproximadas.
+Elas nao precisam somar 1.
+Evite usar valores iguais para todas as respostas.
+
+Use apenas estes valores no campo "tone":
+formal, cordial, objetivo, direto, empatico, informal, firme, agradecido, positivo, justificativo, curto, gentil, entusiasmado, caloroso, animado.
+Nao invente novos nomes de tom.
+Nao combine tons no mesmo campo.
+
+Retorne somente JSON valido, sem markdown e sem texto fora do JSON.
+
+Formato:
 {
   "responses": [
     {
@@ -15,9 +29,11 @@ Retorne apenas JSON valido neste formato:
 
 Regras:
 - gere exatamente {{n_candidates}} respostas;
-- use probabilidades numericas entre 0 e 1;
-- varie os tons quando isso fizer sentido;
-- nao inclua texto fora do JSON.
+- cada "text" deve ser uma resposta pronta para envio;
+- nao gere apenas sinonimos;
+- nao invente informacoes;
+- nao assuma compromissos que nao estejam na mensagem;
+- preserve adequacao, cortesia e fidelidade ao contexto.
 
 Categoria: {{category}}
 Formalidade esperada: {{formality}}
@@ -25,4 +41,3 @@ Tons esperados: {{expected_tones}}
 
 Mensagem recebida:
 {{input_message}}
-
