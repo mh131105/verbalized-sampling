@@ -22,7 +22,23 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Perplexity usa `transformers` e `torch`, que estao comentados em `requirements.txt` por serem dependencias pesadas. Sem essas dependencias, use `--skip-perplexity`; as demais metricas continuam sendo calculadas.
+O fluxo oficial calcula perplexity por padrao. Por isso, `requirements.txt` inclui `transformers` e `torch`, usados pelos avaliadores fixos de perplexity.
+
+Se o objetivo for apenas fazer um teste rapido do pipeline, as metricas podem ser calculadas sem perplexity usando `--skip-perplexity`. Esse modo e util para desenvolvimento, mas nao corresponde ao fluxo completo usado nos resultados finais.
+
+## Ambiente Compativel
+
+As runs finais foram geradas em macOS Apple Silicon usando LM Studio como servidor local OpenAI-compatible para os modelos abertos e OpenAI API para o modelo fechado.
+
+O projeto pode rodar em outro computador compativel, desde que:
+
+- Python 3.11 ou superior esteja disponivel;
+- as dependencias em `requirements.txt` sejam instaladas;
+- o LM Studio esteja instalado e com o servidor local ativo em `http://localhost:1234/v1`;
+- os modelos locais configurados estejam disponiveis no LM Studio;
+- `OPENAI_API_KEY` esteja configurada para executar o modelo `gpt-4.1-mini`.
+
+Em Windows, Linux ou outro Mac, os modelos baixados no LM Studio podem aparecer com IDs diferentes. Nesse caso, rode o checker, veja os nomes disponiveis e ajuste o campo `model_name` em `configs/experiment.lmstudio.yaml` e `configs/experiment.lmstudio.en.yaml`.
 
 ## Modelos
 
@@ -40,7 +56,28 @@ lmstudio_gemma_e2b     -> gemma-4-e2b-it-mlx
 lmstudio_ministral_3b  -> ministral-3-3b-instruct-2512
 ```
 
-Antes de rodar o experimento, abra o LM Studio, carregue Gemma e Ministral e inicie o servidor local. Para o modelo OpenAI, defina `OPENAI_API_KEY` no ambiente ou em `.env`.
+Antes de rodar o experimento:
+
+1. Abra o LM Studio.
+2. Baixe ou selecione modelos equivalentes a Gemma e Ministral.
+3. Inicie o servidor local em `http://localhost:1234/v1`.
+4. Rode `python3 scripts/check_lmstudio.py --config configs/experiment.lmstudio.yaml`.
+5. Se algum modelo aparecer como `MISSING`, copie o ID listado pelo checker e atualize o campo `model_name` nos arquivos de configuracao.
+
+Para o modelo OpenAI, defina `OPENAI_API_KEY` no ambiente:
+
+```bash
+export OPENAI_API_KEY="sua-chave"
+```
+
+Ou crie um arquivo `.env` local:
+
+```bash
+cp .env.example .env
+# edite .env e preencha OPENAI_API_KEY
+```
+
+O arquivo `.env` e ignorado pelo Git e nao deve ser entregue com chave real.
 
 O repositório também inclui um fluxo paralelo em inglês em `configs/experiment.lmstudio.en.yaml`. Ele usa os mesmos modelos e parâmetros, mas lê `data/messages_en.jsonl`, usa prompts em inglês e calcula perplexity com `gpt2`.
 
@@ -98,6 +135,15 @@ python3 scripts/smoke_lmstudio.py --model ministral
 
 Cada smoke gera um `run_id` automatico e roda apenas a condicao `baseline` para o modelo local escolhido.
 
+Os arquivos oficiais de configuracao sao:
+
+```text
+configs/experiment.lmstudio.yaml
+configs/experiment.lmstudio.en.yaml
+```
+
+O arquivo `configs/experiment.yaml` usa clientes fake e serve apenas para testes internos do pipeline. Ele nao representa o experimento final.
+
 ## Execucao Oficial
 
 Rodar o experimento completo:
@@ -129,9 +175,11 @@ results/runs/<run_id>/
 
 O `manifest.json` registra dataset, hash do dataset, modelos, parametros, prompts, ambiente e caminhos dos arquivos gerados.
 
+O pipeline nao sobrescreve uma run existente. Se `results/runs/<run_id>/` ja existir, use outro `--run-id` ou remova a pasta antiga antes de repetir a execucao.
+
 ## Metricas e Graficos
 
-Calcular metricas automaticas:
+Calcular metricas automaticas completas, incluindo perplexity:
 
 ```bash
 .venv/bin/python scripts/compute_metrics.py \
@@ -145,6 +193,15 @@ Para calcular metricas do fluxo em ingles com perplexity:
 .venv/bin/python scripts/compute_metrics.py \
   --config configs/experiment.lmstudio.en.yaml \
   --run-id lmstudio_en_final
+```
+
+Para desenvolvimento rapido, e possivel pular perplexity:
+
+```bash
+.venv/bin/python scripts/compute_metrics.py \
+  --config configs/experiment.lmstudio.yaml \
+  --run-id lmstudio_pt_final \
+  --skip-perplexity
 ```
 
 Gerar graficos e exemplos:
@@ -177,7 +234,16 @@ Metricas automaticas implementadas:
 - `parse_success_rate`: taxa de grupos VS com JSON parseado em respostas validas.
 - `valid_tone_rate`: proporcao de alternativas VS cujo `tone` pertence a lista fechada.
 - `threshold_violation_rate`: proporcao de respostas do VS agressivo com probabilidade maior ou igual ao limite configurado.
-- `perplexity`: opcional, com modelo avaliador fixo via `transformers`.
+- `perplexity`: fluencia estimada com modelo avaliador fixo via `transformers`.
+
+A perplexity usa avaliadores diferentes por idioma:
+
+```text
+PT: pierreguillou/gpt2-small-portuguese
+EN: gpt2
+```
+
+Por isso, os valores absolutos de perplexity nao devem ser comparados diretamente entre portugues e ingles. A comparacao mais apropriada e dentro do mesmo idioma, entre modelos e condicoes.
 
 ## Avaliacao Manual
 
@@ -228,6 +294,8 @@ manual_metrics_summary.csv, se houver avaliacao manual preenchida
 ```
 
 Nao use runs antigos de debug, smoke tests, runs com Qwen/Phi ou execucoes falhas como resultado oficial.
+
+Importante: os scripts leem e escrevem por padrao em `results/runs/<run_id>/`. A pasta `results/final/` contem copias selecionadas dos resultados oficiais para entrega e auditoria. Para reproduzir do zero, execute novamente os comandos oficiais e gere novas pastas em `results/runs/`. Para apenas inspecionar os resultados ja obtidos, use os arquivos em `results/final/`.
 
 ## Decisao sobre Baseline
 
