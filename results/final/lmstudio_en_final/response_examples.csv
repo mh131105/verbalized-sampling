@@ -1,0 +1,27 @@
+model_id,condition,message_id,sample_index,declared_tone,verbalized_probability,text
+openai_gpt41_mini,baseline,en_msg_001,1,,,"Certainly, I will review your text and provide feedback by tomorrow morning to ensure the tone is appropriate. Please send it over at your earliest convenience."
+openai_gpt41_mini,baseline,en_msg_001,2,,,"Certainly, please send me your text at your earliest convenience, and I will review it to ensure the tone is appropriate before tomorrow morning."
+openai_gpt41_mini,vs_intermediate,en_msg_001,1,formal,0.35,"Certainly, I will review your text and provide feedback on the tone by tomorrow morning as requested."
+openai_gpt41_mini,vs_intermediate,en_msg_001,2,cordial,0.25,I'd be happy to review your text and ensure the tone is appropriate. You can expect my feedback by tomorrow morning.
+openai_gpt41_mini,vs_aggressive,en_msg_001,1,formal,0.08,I will allocate time to review your text by tomorrow morning and ensure the tone aligns with your intent.
+openai_gpt41_mini,vs_aggressive,en_msg_001,2,cordial,0.07,Thank you for entrusting me with your text. I will carefully examine it and provide feedback on the tone by tomorrow morning.
+lmstudio_gemma_e2b,baseline,en_msg_001,1,,,I would be happy to review your text for tone and appropriateness by tomorrow morning.
+lmstudio_gemma_e2b,baseline,en_msg_001,2,,,I would be pleased to review your text for tone by tomorrow morning.
+lmstudio_gemma_e2b,vs_intermediate,en_msg_001,1,formal,0.45,I would be pleased to review your text for tone appropriateness by tomorrow morning.
+lmstudio_gemma_e2b,vs_intermediate,en_msg_001,2,cordial,0.35,"Certainly, I can look over your text and check the tone for you by tomorrow morning."
+lmstudio_gemma_e2b,vs_aggressive,en_msg_001,1,objective,0.075,I can certainly look over your text for tone appropriateness by tomorrow morning.
+lmstudio_gemma_e2b,vs_aggressive,en_msg_001,2,cordial,0.065,That sounds like a good plan. I will prioritize reviewing your short version for tone by tomorrow morning.
+lmstudio_ministral_3b,baseline,en_msg_001,1,,,"Of course. You can share a draft of your revised text, and I’ll review it with attention to clarity, tone consistency, and professionalism. Please ensure it meets the intended level of formality before proceeding.
+
+Once ready, just let me know when you’re comfortable with the suggested adjustments, and I’ll finalize it for your approval. Looking forward to assisting you promptly."
+lmstudio_ministral_3b,baseline,en_msg_001,2,,,"I hope you have a productive day ahead. Please find my review of your text attached for tomorrow morning’s consideration.
+
+In reviewing it, I’ve ensured the tone remains polished and aligned with a professional yet warm objective, avoiding any unnecessary formality or informality that might detract from clarity. The language is precise and neutral, which should help maintain a consistent and credible impression.
+
+If you’d like any adjustments or additional feedback on specific phrasing, feel free to share as needed. I’m happy to refine the text further if required.
+
+Wishing you a smooth process ahead!"
+lmstudio_ministral_3b,vs_intermediate,en_msg_001,1,formal,0.45,"Could you kindly review my draft before sending it, ensuring the tone remains polished and professional by tomorrow morning? I’d appreciate your careful assessment."
+lmstudio_ministral_3b,vs_intermediate,en_msg_001,2,cordial,0.38,I’d be grateful if you could take a quick look at this revised version by tomorrow morning. I want to make sure the tone fits well before sharing it.
+lmstudio_ministral_3b,vs_aggressive,en_msg_001,1,formal,0.07,"Please review the revised draft by 8:00 AM tomorrow. Given its brevity, I’d like to confirm that the tone aligns with my intended professionalism before final submission."
+lmstudio_ministral_3b,vs_aggressive,en_msg_001,2,objective,0.06,"Could you verify the draft by tomorrow’s close of business, with a focus on ensuring clarity and alignment with the professional tone required?"

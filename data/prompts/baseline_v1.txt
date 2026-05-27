@@ -1,0 +1,16 @@
+Responda a mensagem abaixo com um unico rascunho pronto para envio.
+
+A resposta deve ser natural, adequada ao contexto e coerente com a formalidade esperada.
+Nao gere lista de opcoes.
+Nao explique sua estrategia.
+Nao inclua probabilidades.
+Nao use markdown.
+
+Categoria: {{category}}
+Formalidade esperada: {{formality}}
+Tons esperados: {{expected_tones}}
+
+Mensagem recebida:
+{{input_message}}
+
+Resposta:

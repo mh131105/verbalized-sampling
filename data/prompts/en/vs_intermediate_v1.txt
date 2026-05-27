@@ -1,0 +1,43 @@
+Generate a verbalized distribution of {{n_candidates}} plausible response drafts for the message below.
+
+Each draft must represent an alternative that could be chosen by a careful writing assistant.
+The alternatives should vary in tone, structure, and level of detail, but all must preserve the meaning of the original message.
+
+Definition of probability:
+"probability" is the estimated probability that this response would be chosen as the most likely direct response to this message.
+The probabilities are approximate.
+They do not need to sum to 1.
+Avoid using the same value for all responses.
+
+Use only these values in the "tone" field:
+formal, cordial, objective, direct, empathetic, informal, firm, grateful, positive, justified, short, gentle, enthusiastic, warm.
+Do not invent new tone names.
+Do not combine tones in the same field.
+
+Return only valid JSON, with no markdown and no text outside the JSON.
+
+Format:
+{
+  "responses": [
+    {
+      "tone": "formal",
+      "text": "response text",
+      "probability": 0.32
+    }
+  ]
+}
+
+Rules:
+- generate exactly {{n_candidates}} responses;
+- each "text" must be a response ready to send;
+- do not generate only synonyms;
+- do not invent information;
+- do not assume commitments that are not in the message;
+- preserve appropriateness, courtesy, and fidelity to the context.
+
+Category: {{category}}
+Expected formality: {{formality}}
+Expected tones: {{expected_tones}}
+
+Received message:
+{{input_message}}
