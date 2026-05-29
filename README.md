@@ -194,7 +194,7 @@ Metricas automaticas implementadas:
 - `parse_success_rate`: taxa de grupos VS com JSON parseado em respostas validas.
 - `valid_tone_rate`: proporcao de alternativas VS cujo `tone` pertence a lista fechada.
 - `threshold_violation_rate`: proporcao de respostas do VS agressivo com probabilidade maior ou igual ao limite configurado.
-- `perplexity`: fluencia estimada com `pierreguillou/gpt2-small-portuguese`.
+- `perplexity`: fluencia estimada com `PORTULAN/gervasio-8b-portuguese-ptpt-decoder-quantized-4bit`.
 
 ## Avaliacao Manual
 
