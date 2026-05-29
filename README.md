@@ -14,6 +14,7 @@ scripts/              CLIs de execucao, validacao e analise
 src/tp1_nlp/          Codigo modular do pipeline
 results/runs/         Artefatos brutos de novas execucoes
 results/final/        Run final selecionada para entrega
+output/doc/           Relatorio final em DOCX/PDF e figuras usadas no documento
 tests/                Testes com pytest
 ```
 
@@ -260,6 +261,17 @@ manual_metrics_summary.csv
 manual_metrics_by_category.csv
 observações.md
 ```
+
+O relatorio final foi gerado fora de `results/`, em:
+
+```text
+output/doc/
+  relatorio_tp1_nlp.docx
+  relatorio_tp1_nlp.pdf
+  assets/
+```
+
+`relatorio_tp1_nlp.docx` e o documento principal para edicao e entrega. `relatorio_tp1_nlp.pdf` e a versao exportada pelo LibreOffice para conferencia visual. A pasta `assets/` contem as figuras incorporadas ao relatorio, incluindo o fluxo do pipeline, comparacoes de metricas automaticas, avaliacao manual por modelo/condicao, ganho por categoria e comparacao por formalidade.
 
 `results/runs/*` e ignorado por padrao para evitar versionar execucoes intermediarias, logs grandes e tentativas descartadas. Para reproduzir do zero, execute os comandos oficiais e gere uma nova pasta em `results/runs/`.
 
