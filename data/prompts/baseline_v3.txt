@@ -1,0 +1,12 @@
+Gere uma resposta para a mensagem recebida.
+A resposta deve ter aproximadamente 15 palavras.
+Priorize adequacao e utilidade, sem forcar contagem exata.
+Retorne SOMENTE a resposta, sem explicacoes ou texto extra.
+Mantenha a resposta natural, adequada a situacao e util para quem vai receber.
+
+Categoria da situacao: {{category}}
+
+Mensagem recebida:
+{{input_message}}
+
+Resposta:

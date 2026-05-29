@@ -1,0 +1,54 @@
+{
+  "run_id": "resultados_finais",
+  "message_id": "pt_msg_017",
+  "model_id": "lmstudio_ministral_14b",
+  "condition": "vs_aggressive",
+  "call_index": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "Voce e um assistente de escrita cuidadoso. Retorne um objeto JSON que siga o schema solicitado."
+    },
+    {
+      "role": "user",
+      "content": "Gere uma distribuicao verbalizada de 5 respostas plausiveis para a mensagem abaixo, priorizando alternativas uteis menos obvias que a primeira resposta direta.\n\nExplore a cauda da distribuicao: respostas que seriam menos provaveis como resposta padrao, mas ainda naturais, uteis e adequadas.\nCada resposta deve ter aproximadamente 15 palavras.\nPriorize adequacao e utilidade, sem forcar contagem exata.\nVarie tom, estrutura, assertividade e nivel de detalhe preservando a situacao.\n\nSignificado de probability:\n\"probability\" e sua estimativa, de 0.0 a 1.0, da probabilidade desta resposta dada a mensagem recebida, relativa a distribuicao completa de respostas plausiveis.\nUse valores abaixo de 0.1.\nOs valores nao precisam somar 1.\n\nEscolha cada \"tone\" desta lista:\nformal, cordial, objetivo, direto, empatico, informal, firme, agradecido, positivo, justificativo, curto, gentil, entusiasmado, caloroso, animado.\n\nRetorne um objeto JSON valido usando exatamente esta estrutura:\n{\n  \"responses\": [\n    {\n      \"tone\": \"empatico\",\n      \"text\": \"texto da resposta\",\n      \"probability\": 0.09\n    }\n  ]\n}\n\nAlvos de geracao:\n- gere exatamente 5 respostas;\n- mantenha cada \"text\" com aproximadamente 15 palavras e pronto para envio;\n- torne as respostas significativamente diferentes em tom ou estrategia comunicativa;\n- mantenha cada probability abaixo de 0.1;\n- mantenha cada resposta ancorada na mensagem recebida;\n- preserve a situacao, a cortesia e a utilidade pratica.\n\nCategoria da situacao: esclarecimento\n\nMensagem recebida:\nNão entendi bem a parte do gráfico de resultados. Você pode explicar como interpretar aqueles valores?\n"
+    }
+  ],
+  "params": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "max_tokens": 700,
+    "seed": 303,
+    "n_candidates": 5
+  },
+  "response": {
+    "id": "chatcmpl-fp4dsieth26sydaoevatq",
+    "object": "chat.completion",
+    "created": 1780070305,
+    "model": "ministral-3-14b-instruct-2512",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"responses\": [\n    {\n      \"tone\": \"formal\",\n      \"text\": \"Os valores no gráfico representam métricas específicas, como percentuais ou índices. Verifique a legenda para entender cada eixo.\",\n      \"probability\": 0.07\n    },\n    {\n      \"tone\": \"cordial\",\n      \"text\": \"Claro! Os números são resultados brutos ou processados. O eixo vertical mostra, por exemplo, valores de performance; o horizontal, categorias comparativas.\",\n      \"probability\": 0.06\n    },\n    {\n      \"tone\": \"direto\",\n      \"text\": \"Cada ponto no gráfico é uma medida. Confira a descrição abaixo dele para saber qual valor corresponde a cada categoria.\",\n      \"probability\": 0.05\n    },\n    {\n      \"tone\": \"justificativo\",\n      \"text\": \"A interpretação depende do contexto: se são dados de venda, os valores podem ser quantitativos; se são pesquisas, percentuais. Ajuste a análise ao tema.\",\n      \"probability\": 0.04\n    },\n    {\n      \"tone\": \"gentil\",\n      \"text\": \"Sem problema! Vamos juntos: *eixo Y* é o que medimos (ex.: satisfação); *eixo X*, as opções. Os pontos são resultados por categoria.\",\n      \"probability\": 0.03\n    }\n  ]\n}\n```",
+          "reasoning_content": "",
+          "tool_calls": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 451,
+      "completion_tokens": 324,
+      "total_tokens": 775,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "stats": {},
+    "system_fingerprint": "ministral-3-14b-instruct-2512"
+  },
+  "text": "```json\n{\n  \"responses\": [\n    {\n      \"tone\": \"formal\",\n      \"text\": \"Os valores no gráfico representam métricas específicas, como percentuais ou índices. Verifique a legenda para entender cada eixo.\",\n      \"probability\": 0.07\n    },\n    {\n      \"tone\": \"cordial\",\n      \"text\": \"Claro! Os números são resultados brutos ou processados. O eixo vertical mostra, por exemplo, valores de performance; o horizontal, categorias comparativas.\",\n      \"probability\": 0.06\n    },\n    {\n      \"tone\": \"direto\",\n      \"text\": \"Cada ponto no gráfico é uma medida. Confira a descrição abaixo dele para saber qual valor corresponde a cada categoria.\",\n      \"probability\": 0.05\n    },\n    {\n      \"tone\": \"justificativo\",\n      \"text\": \"A interpretação depende do contexto: se são dados de venda, os valores podem ser quantitativos; se são pesquisas, percentuais. Ajuste a análise ao tema.\",\n      \"probability\": 0.04\n    },\n    {\n      \"tone\": \"gentil\",\n      \"text\": \"Sem problema! Vamos juntos: *eixo Y* é o que medimos (ex.: satisfação); *eixo X*, as opções. Os pontos são resultados por categoria.\",\n      \"probability\": 0.03\n    }\n  ]\n}\n```"
+}

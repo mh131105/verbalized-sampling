@@ -1,0 +1,183 @@
+{
+  "completed_at": "2026-05-29T16:00:28+00:00",
+  "conditions_experimental": [
+    {
+      "condition_id": "baseline",
+      "condition_type": "baseline",
+      "generation_params": {
+        "max_tokens": 220,
+        "temperature": 0.6,
+        "top_p": 0.95
+      },
+      "n_candidates": 1,
+      "probability_threshold": null,
+      "prompt_id": "baseline",
+      "prompt_path": "data/prompts/baseline_v3.txt",
+      "prompt_version": "v3",
+      "system_message": "Voce e um assistente de escrita cuidadoso para mensagens cotidianas. Escreva apenas a resposta final.",
+      "vs_probability_mode": null
+    },
+    {
+      "condition_id": "vs_intermediate",
+      "condition_type": "verbalized_sampling",
+      "generation_params": {
+        "max_tokens": 700,
+        "temperature": 0.6,
+        "top_p": 0.95
+      },
+      "n_candidates": 5,
+      "probability_threshold": null,
+      "prompt_id": "vs_intermediate",
+      "prompt_path": "data/prompts/vs_intermediate_v3.txt",
+      "prompt_version": "v3",
+      "system_message": "Voce e um assistente de escrita cuidadoso. Retorne um objeto JSON que siga o schema solicitado.",
+      "vs_probability_mode": "full_distribution"
+    },
+    {
+      "condition_id": "vs_aggressive",
+      "condition_type": "verbalized_sampling",
+      "generation_params": {
+        "max_tokens": 700,
+        "temperature": 0.6,
+        "top_p": 0.95
+      },
+      "n_candidates": 5,
+      "probability_threshold": 0.1,
+      "prompt_id": "vs_aggressive",
+      "prompt_path": "data/prompts/vs_aggressive_v3.txt",
+      "prompt_version": "v3",
+      "system_message": "Voce e um assistente de escrita cuidadoso. Retorne um objeto JSON que siga o schema solicitado.",
+      "vs_probability_mode": "tail_distribution"
+    }
+  ],
+  "config_path": "/Users/matheus/Documents/New project 5/configs/experiment.lmstudio.yaml",
+  "created_at": "2026-05-29T15:34:52+00:00",
+  "dataset_hash": "4f9d4902df1b538e2a2365532c22cbc2c7187601990db9f61295f86edff7d637",
+  "dataset_id": "messages.jsonl",
+  "environment": {
+    "dependency_versions": {
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.7",
+      "requests": "2.32.3",
+      "torch": "2.12.0",
+      "transformers": "5.9.0"
+    },
+    "machine": "arm64",
+    "os": "Darwin",
+    "platform": "macOS-15.7.7-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "python_version": "3.14.4 (main, Apr  7 2026, 13:13:20) [Clang 17.0.0 (clang-1700.6.4.2)]"
+  },
+  "errors": [],
+  "generated_files": {
+    "figures": "/Users/matheus/Documents/New project 5/results/final/resultados_finais/figures",
+    "generations": "/Users/matheus/Documents/New project 5/results/final/resultados_finais/generations.jsonl",
+    "manifest": "/Users/matheus/Documents/New project 5/results/final/resultados_finais/manifest.json",
+    "metrics_long": "/Users/matheus/Documents/New project 5/results/final/resultados_finais/metrics_long.csv",
+    "metrics_summary": "/Users/matheus/Documents/New project 5/results/final/resultados_finais/metrics_summary.csv",
+    "raw_responses": "/Users/matheus/Documents/New project 5/results/final/resultados_finais/raw_responses",
+    "run_dir": "/Users/matheus/Documents/New project 5/results/final/resultados_finais"
+  },
+  "git_commit": "c8322208ef83eedd8f40d1630bb4aef31c06ce13",
+  "models_used": [
+    {
+      "api_base": "https://api.openai.com/v1",
+      "backend": "openai",
+      "device": null,
+      "extra": {
+        "timeout": 240
+      },
+      "generation_params": {
+        "seed": 101
+      },
+      "is_local": false,
+      "model_id": "openai_gpt41_mini",
+      "model_name": "gpt-4.1-mini",
+      "provider": "openai",
+      "quantization": null,
+      "revision": null
+    },
+    {
+      "api_base": "http://localhost:1234/v1",
+      "backend": "lmstudio",
+      "device": null,
+      "extra": {
+        "timeout": 240
+      },
+      "generation_params": {
+        "seed": 202
+      },
+      "is_local": true,
+      "model_id": "lmstudio_gemma_e2b",
+      "model_name": "mlx-community/gemma-4-e2b-it",
+      "provider": "openai_compatible",
+      "quantization": null,
+      "revision": null
+    },
+    {
+      "api_base": "http://localhost:1234/v1",
+      "backend": "lmstudio",
+      "device": null,
+      "extra": {
+        "timeout": 240
+      },
+      "generation_params": {
+        "seed": 303
+      },
+      "is_local": true,
+      "model_id": "lmstudio_ministral_14b",
+      "model_name": "ministral-3-14b-instruct-2512",
+      "provider": "openai_compatible",
+      "quantization": null,
+      "revision": null
+    }
+  ],
+  "prompts_used": [
+    {
+      "condition": "baseline",
+      "output_schema": "plain_text",
+      "prompt_id": "baseline",
+      "prompt_version": "v3",
+      "system_message": "Voce e um assistente de escrita cuidadoso para mensagens cotidianas. Escreva apenas a resposta final.",
+      "user_template": "Gere uma resposta para a mensagem recebida.\nA resposta deve ter aproximadamente 15 palavras.\nPriorize adequacao e utilidade, sem forcar contagem exata.\nRetorne SOMENTE a resposta, sem explicacoes ou texto extra.\nMantenha a resposta natural, adequada a situacao e util para quem vai receber.\n\nCategoria da situacao: {{category}}\n\nMensagem recebida:\n{{input_message}}\n\nResposta:\n",
+      "user_template_path": "/Users/matheus/Documents/New project 5/data/prompts/baseline_v3.txt"
+    },
+    {
+      "condition": "vs_intermediate",
+      "output_schema": {
+        "responses": [
+          {
+            "probability": "float",
+            "text": "str",
+            "tone": "str"
+          }
+        ]
+      },
+      "prompt_id": "vs_intermediate",
+      "prompt_version": "v3",
+      "system_message": "Voce e um assistente de escrita cuidadoso. Retorne um objeto JSON que siga o schema solicitado.",
+      "user_template": "Gere uma distribuicao verbalizada de {{n_candidates}} respostas plausiveis para a mensagem abaixo.\n\nCada resposta deve estar pronta para envio e soar natural em uma conversa cotidiana.\nCada resposta deve ter aproximadamente 15 palavras.\nPriorize adequacao e utilidade, sem forcar contagem exata.\nVarie tom, estrutura e nivel de detalhe preservando a situacao.\n\nSignificado de probability:\n\"probability\" e sua estimativa, de 0.0 a 1.0, da probabilidade desta resposta dada a mensagem recebida, relativa a distribuicao completa de respostas plausiveis.\nOs valores nao precisam somar 1.\nUse probabilidades diferentes quando as respostas nao forem igualmente tipicas.\n\nEscolha cada \"tone\" desta lista:\nformal, cordial, objetivo, direto, empatico, informal, firme, agradecido, positivo, justificativo, curto, gentil, entusiasmado, caloroso, animado.\n\nRetorne um objeto JSON valido usando exatamente esta estrutura:\n{\n  \"responses\": [\n    {\n      \"tone\": \"cordial\",\n      \"text\": \"texto da resposta\",\n      \"probability\": 0.24\n    }\n  ]\n}\n\nAlvos de geracao:\n- gere exatamente {{n_candidates}} respostas;\n- mantenha cada \"text\" com aproximadamente 15 palavras e pronto para envio;\n- torne as respostas significativamente diferentes em tom ou estrategia comunicativa;\n- mantenha cada resposta ancorada na mensagem recebida;\n- preserve a situacao, a cortesia e a utilidade pratica.\n\nCategoria da situacao: {{category}}\n\nMensagem recebida:\n{{input_message}}\n",
+      "user_template_path": "/Users/matheus/Documents/New project 5/data/prompts/vs_intermediate_v3.txt"
+    },
+    {
+      "condition": "vs_aggressive",
+      "output_schema": {
+        "responses": [
+          {
+            "probability": "float",
+            "text": "str",
+            "tone": "str"
+          }
+        ]
+      },
+      "prompt_id": "vs_aggressive",
+      "prompt_version": "v3",
+      "system_message": "Voce e um assistente de escrita cuidadoso. Retorne um objeto JSON que siga o schema solicitado.",
+      "user_template": "Gere uma distribuicao verbalizada de {{n_candidates}} respostas plausiveis para a mensagem abaixo, priorizando alternativas uteis menos obvias que a primeira resposta direta.\n\nExplore a cauda da distribuicao: respostas que seriam menos provaveis como resposta padrao, mas ainda naturais, uteis e adequadas.\nCada resposta deve ter aproximadamente 15 palavras.\nPriorize adequacao e utilidade, sem forcar contagem exata.\nVarie tom, estrutura, assertividade e nivel de detalhe preservando a situacao.\n\nSignificado de probability:\n\"probability\" e sua estimativa, de 0.0 a 1.0, da probabilidade desta resposta dada a mensagem recebida, relativa a distribuicao completa de respostas plausiveis.\nUse valores abaixo de {{probability_threshold}}.\nOs valores nao precisam somar 1.\n\nEscolha cada \"tone\" desta lista:\nformal, cordial, objetivo, direto, empatico, informal, firme, agradecido, positivo, justificativo, curto, gentil, entusiasmado, caloroso, animado.\n\nRetorne um objeto JSON valido usando exatamente esta estrutura:\n{\n  \"responses\": [\n    {\n      \"tone\": \"empatico\",\n      \"text\": \"texto da resposta\",\n      \"probability\": 0.09\n    }\n  ]\n}\n\nAlvos de geracao:\n- gere exatamente {{n_candidates}} respostas;\n- mantenha cada \"text\" com aproximadamente 15 palavras e pronto para envio;\n- torne as respostas significativamente diferentes em tom ou estrategia comunicativa;\n- mantenha cada probability abaixo de {{probability_threshold}};\n- mantenha cada resposta ancorada na mensagem recebida;\n- preserve a situacao, a cortesia e a utilidade pratica.\n\nCategoria da situacao: {{category}}\n\nMensagem recebida:\n{{input_message}}\n",
+      "user_template_path": "/Users/matheus/Documents/New project 5/data/prompts/vs_aggressive_v3.txt"
+    }
+  ],
+  "run_id": "resultados_finais",
+  "status": "completed",
+  "warnings": []
+}

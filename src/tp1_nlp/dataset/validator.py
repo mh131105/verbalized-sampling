@@ -33,6 +33,9 @@ def validate_messages(
             errors.append(f"{message.message_id}: input_message cannot be empty")
         if not message.expected_tones:
             errors.append(f"{message.message_id}: expected_tones cannot be empty")
+        response_length = message.metadata.get("response_length")
+        if response_length is not None:
+            errors.extend(_validate_response_length(message.message_id, response_length))
 
     categories = {message.category for message in messages}
     missing_categories = sorted(set(required_categories or []) - categories)
@@ -41,3 +44,17 @@ def validate_messages(
 
     return errors
 
+
+def _validate_response_length(message_id: str, value: object) -> list[str]:
+    if not isinstance(value, dict):
+        return [f"{message_id}: response_length must be an object"]
+
+    min_words = value.get("min_words")
+    max_words = value.get("max_words")
+    if not isinstance(min_words, int) or not isinstance(max_words, int):
+        return [f"{message_id}: response_length min_words and max_words must be integers"]
+    if min_words <= 0 or max_words <= 0:
+        return [f"{message_id}: response_length values must be positive"]
+    if min_words > max_words:
+        return [f"{message_id}: response_length min_words cannot exceed max_words"]
+    return []

@@ -1,0 +1,38 @@
+Gere uma distribuicao verbalizada de {{n_candidates}} respostas plausiveis para a mensagem abaixo, priorizando alternativas uteis menos obvias que a primeira resposta direta.
+
+Explore a cauda da distribuicao: respostas que seriam menos provaveis como resposta padrao, mas ainda naturais, uteis e adequadas.
+Cada resposta deve ter aproximadamente 15 palavras.
+Priorize adequacao e utilidade, sem forcar contagem exata.
+Varie tom, estrutura, assertividade e nivel de detalhe preservando a situacao.
+
+Significado de probability:
+"probability" e sua estimativa, de 0.0 a 1.0, da probabilidade desta resposta dada a mensagem recebida, relativa a distribuicao completa de respostas plausiveis.
+Use valores abaixo de {{probability_threshold}}.
+Os valores nao precisam somar 1.
+
+Escolha cada "tone" desta lista:
+formal, cordial, objetivo, direto, empatico, informal, firme, agradecido, positivo, justificativo, curto, gentil, entusiasmado, caloroso, animado.
+
+Retorne um objeto JSON valido usando exatamente esta estrutura:
+{
+  "responses": [
+    {
+      "tone": "empatico",
+      "text": "texto da resposta",
+      "probability": 0.09
+    }
+  ]
+}
+
+Alvos de geracao:
+- gere exatamente {{n_candidates}} respostas;
+- mantenha cada "text" com aproximadamente 15 palavras e pronto para envio;
+- torne as respostas significativamente diferentes em tom ou estrategia comunicativa;
+- mantenha cada probability abaixo de {{probability_threshold}};
+- mantenha cada resposta ancorada na mensagem recebida;
+- preserve a situacao, a cortesia e a utilidade pratica.
+
+Categoria da situacao: {{category}}
+
+Mensagem recebida:
+{{input_message}}

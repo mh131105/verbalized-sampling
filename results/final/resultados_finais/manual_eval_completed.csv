@@ -1,0 +1,1114 @@
+run_id,message_id,model_id,condition,sample_index,text,utility,coherence,fidelity,tone_adequacy,notes
+resultados_finais,pt_msg_001,openai_gpt41_mini,baseline,1,"Claro, posso revisar seu texto até amanhã de manhã e ajustar o tom para você.",5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,baseline,2,"Claro, posso revisar seu texto até amanhã de manhã e ajustar o tom para você.",5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,baseline,3,"Claro, posso revisar seu texto até amanhã de manhã e garantir que o tom esteja adequado.",5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,baseline,4,"Claro, posso revisar seu texto até amanhã de manhã e garantir que o tom esteja adequado.",5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,baseline,5,"Claro, posso revisar seu texto até amanhã de manhã e garantir que o tom esteja adequado.",5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,baseline,1,"Claro, vou separar o arquivo e te envio até o meio da tarde, pode ser?",5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,baseline,2,"Claro, vou separar o arquivo e te envio ainda pela manhã, pode deixar!",5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,baseline,3,"Claro! Vou separar o arquivo e enviar para você ainda hoje, sem falta.",5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,baseline,4,"Claro, vou separar o arquivo e te envio até o meio da manhã, sem falta.",5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,baseline,5,"Claro, vou separar o arquivo e te envio ainda pela manhã, pode deixar!",5,5,5,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,baseline,1,"Claro, vou revisar o cronograma e enviar a versão atualizada até o final do dia.",5,5,5,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,baseline,2,"Claro, vou atualizar o cronograma e enviar até o final do dia para facilitar o alinhamento.",5,5,5,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,baseline,3,"Claro, vou revisar e enviar a versão atualizada do cronograma até o final do dia.",5,5,5,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,baseline,4,"Claro, vou revisar e enviar a versão atualizada do cronograma até o final do dia.",5,5,5,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,baseline,5,"Claro, vou atualizar o cronograma e enviar para você até o final do dia.",5,5,5,5,
+resultados_finais,pt_msg_004,openai_gpt41_mini,baseline,1,Peço desculpas pela demora. Estou analisando a proposta e retorno até o final do dia.,5,5,4,5,
+resultados_finais,pt_msg_004,openai_gpt41_mini,baseline,2,Peço desculpas pela demora. Estou revisando e retorno com uma resposta até o final do dia.,5,5,4,5,
+resultados_finais,pt_msg_004,openai_gpt41_mini,baseline,3,Peço desculpas pela demora. Estou revisando a proposta e retorno até o final do dia.,5,5,4,5,
+resultados_finais,pt_msg_004,openai_gpt41_mini,baseline,4,Peço desculpas pela demora. Estou revisando a proposta e retorno até o final do dia.,5,5,4,5,
+resultados_finais,pt_msg_004,openai_gpt41_mini,baseline,5,Peço desculpas pela demora. Estou revisando a proposta e envio um retorno até amanhã.,5,5,4,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,baseline,1,"Oi, vi sim! Vou resolver isso ainda hoje e te aviso assim que estiver pronto.",5,5,4,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,baseline,2,"Oi, vi sim! Estou verificando e te respondo até o final do dia, pode deixar.",5,5,4,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,baseline,3,"Oi, vi sim! Estou trabalhando nisso e te retorno até o final do dia, pode deixar.",5,5,4,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,baseline,4,"Oi, vi sim! Estou verificando tudo e te retorno até o final do dia, pode deixar.",5,5,4,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,baseline,5,"Oi, vi sim! Estou verificando aqui e te retorno até o final do dia, pode deixar.",5,5,4,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,baseline,1,Obrigado pelo lembrete. Estou providenciando os documentos e envio até o final do dia.,5,5,4,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,baseline,2,"Entendi, vou providenciar o envio dos documentos pendentes o quanto antes. Obrigado pelo aviso!",5,5,4,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,baseline,3,Obrigado pelo lembrete. Estou providenciando os documentos e envio até o final do dia.,5,5,4,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,baseline,4,Obrigado pelo aviso. Estou providenciando os documentos e envio até o final do dia.,5,5,4,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,baseline,5,Entendi a importância e estou providenciando os documentos pendentes para envio o quanto antes.,5,5,4,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,baseline,1,"Agradeço o convite, mas infelizmente não poderei participar da reunião hoje às 18h.",5,5,5,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,baseline,2,"Agradeço o convite, mas infelizmente não poderei participar da reunião hoje às 18h.",5,5,5,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,baseline,3,"Agradeço o convite, mas infelizmente não poderei participar da reunião hoje às 18h.",5,5,5,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,baseline,4,"Agradeço o convite, mas infelizmente não poderei participar da reunião hoje às 18h.",5,5,5,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,baseline,5,"Agradeço o convite, mas infelizmente não poderei participar da reunião hoje às 18h.",5,5,5,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,baseline,1,"Hoje não vou conseguir, estou com bastante coisa para fazer. Aproveitem aí!",5,5,5,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,baseline,2,"Obrigado pelo convite, mas hoje não vou poder. Espero que vocês se divirtam!",3,5,3,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,baseline,3,"Obrigado pelo convite, mas hoje não vou poder. Aproveitem bastante, hein!",3,5,3,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,baseline,4,"Obrigado pelo convite, mas hoje não vou conseguir. Vamos marcar outra hora!",5,5,5,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,baseline,5,"Obrigado pelo convite, mas hoje não vou poder. Aproveitem bastante, hein!",3,5,3,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,baseline,1,"Agradeço a confiança, mas infelizmente não conseguirei assumir essa demanda extra nesta semana.",5,5,5,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,baseline,2,"Agradeço a confiança, mas infelizmente não conseguirei assumir essa demanda extra nesta semana.",5,5,5,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,baseline,3,"Agradeço a confiança, mas infelizmente não conseguirei assumir essa demanda extra nesta semana.",5,5,5,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,baseline,4,"Agradeço a confiança, mas infelizmente não conseguirei assumir essa demanda extra nesta semana.",5,5,5,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,baseline,5,"Agradeço a confiança, mas infelizmente não conseguirei assumir essa demanda extra nesta semana.",5,5,5,5,
+resultados_finais,pt_msg_010,openai_gpt41_mini,baseline,1,Obrigado pelo cuidado na revisão e pelos ajustes. Vou analisar o material com atenção.,5,5,5,5,
+resultados_finais,pt_msg_010,openai_gpt41_mini,baseline,2,Obrigado pela revisão e pelos ajustes feitos. Isso vai ajudar muito na qualidade final.,5,5,5,5,
+resultados_finais,pt_msg_010,openai_gpt41_mini,baseline,3,Obrigado pelo cuidado na revisão e pelos ajustes feitos. Vou analisar o material com atenção.,5,5,5,5,
+resultados_finais,pt_msg_010,openai_gpt41_mini,baseline,4,Obrigado pelo cuidado na revisão e pelos ajustes. Vou analisar o material com atenção.,5,5,5,5,
+resultados_finais,pt_msg_010,openai_gpt41_mini,baseline,5,Obrigado pelo cuidado na revisão e pelos ajustes feitos. Vou analisar o material com atenção.,5,5,5,5,
+resultados_finais,pt_msg_011,openai_gpt41_mini,baseline,1,"Que ótimo saber que a dica ajudou! Qualquer coisa, pode contar comigo sempre.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,openai_gpt41_mini,baseline,2,"Fico feliz em ajudar! Sempre que precisar, pode contar comigo para o que precisar.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,openai_gpt41_mini,baseline,3,"Fico feliz em ajudar! Sempre que precisar, pode contar comigo para o que precisar.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,openai_gpt41_mini,baseline,4,"Fico muito feliz em saber que a dica ajudou! Sempre que precisar, estou à disposição.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,openai_gpt41_mini,baseline,5,"Fico muito feliz em saber que a dica ajudou! Sempre que precisar, conte comigo.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,openai_gpt41_mini,baseline,1,Fico muito feliz em ajudar! Conte comigo sempre que precisar para próximos eventos.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,openai_gpt41_mini,baseline,2,Fico muito feliz em ajudar! Conte comigo sempre que precisar para futuros eventos.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,openai_gpt41_mini,baseline,3,Fico muito feliz em ajudar! Parabéns pelo sucesso do evento e conte comigo sempre.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,openai_gpt41_mini,baseline,4,Fico muito feliz em ajudar! Parabéns pelo sucesso do evento e conte comigo sempre.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,openai_gpt41_mini,baseline,5,Fico feliz em ajudar! Conte comigo sempre que precisar para futuros eventos. Abraços!,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_013,openai_gpt41_mini,baseline,1,Agradeço o convite e confirmo minha participação na apresentação do projeto na próxima reunião.,5,5,5,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,baseline,2,Agradeço o convite! Ficarei feliz em apresentar meu projeto na próxima reunião.,5,5,5,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,baseline,3,Obrigado pelo convite! Ficarei feliz em apresentar meu projeto na próxima reunião do grupo.,5,5,5,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,baseline,4,Agradeço o convite! Ficarei feliz em apresentar meu projeto na próxima reunião do grupo.,5,5,5,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,baseline,5,Agradeço o convite e confirmo minha participação na apresentação do projeto na reunião.,5,5,5,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,baseline,1,"Adorei o convite! Sexta está ótimo para mim, vamos sim. Confirmo mais perto!",5,5,5,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,baseline,2,Sexta está ótimo para mim! Vamos combinar o horário e o lugar mais perto do dia.,5,5,5,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,baseline,3,"Adorei o convite! Sexta está ótimo para mim, então vamos sim almoçar juntos.",5,5,5,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,baseline,4,"Sexta está ótimo para mim! Obrigado pelo convite, vou adorar almoçar juntos.",5,5,5,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,baseline,5,"Adorei o convite! Sexta está ótimo para mim, vamos combinar o horário então.",5,5,5,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,baseline,1,"Parece ótimo! Vou sim, assim aproveitamos para revisar juntos de forma leve. Obrigado!",3,5,3,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,baseline,2,"Parece ótimo! Vou participar sim, assim conseguimos revisar juntos e ficar mais preparados.",5,5,5,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,baseline,3,Parece ótimo! Vou participar para revisar juntos e tirar dúvidas de forma leve. Obrigado!,5,5,5,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,baseline,4,Parece ótimo! Vou participar para revisar juntos e tirar dúvidas. Obrigado pelo convite!,5,5,5,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,baseline,5,"Parece ótimo! Vou participar sim, assim podemos revisar juntos e tirar dúvidas. Obrigado pelo convite!",5,5,5,5,
+resultados_finais,pt_msg_016,openai_gpt41_mini,baseline,1,"O prazo final é segunda-feira. Assim, você terá tempo extra para revisar e enviar a atividade.",4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,openai_gpt41_mini,baseline,2,"O prazo final é segunda-feira. Assim, você tem o fim de semana para finalizar a atividade.",4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,openai_gpt41_mini,baseline,3,O prazo final é segunda-feira. Recomendo enviar a atividade até sexta para evitar imprevistos.,4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,openai_gpt41_mini,baseline,4,O prazo final é segunda-feira. Pode enviar até o fim do dia sem problemas.,4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,openai_gpt41_mini,baseline,5,"O prazo final é segunda-feira, assim você terá tempo extra para revisar e enviar a atividade.",4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_017,openai_gpt41_mini,baseline,1,"Claro! Os valores indicam o desempenho em cada categoria, mostrando tendências e comparações.",5,5,4,5,
+resultados_finais,pt_msg_017,openai_gpt41_mini,baseline,2,"Claro! Posso explicar cada eixo e o que os pontos representam no gráfico, sem problemas.",5,5,4,5,
+resultados_finais,pt_msg_017,openai_gpt41_mini,baseline,3,"Claro! Os valores indicam o desempenho em cada categoria, quanto maior, melhor o resultado.",5,5,4,5,
+resultados_finais,pt_msg_017,openai_gpt41_mini,baseline,4,"Claro! Os valores indicam o desempenho em cada categoria, quanto maior, melhor o resultado.",5,5,4,5,
+resultados_finais,pt_msg_017,openai_gpt41_mini,baseline,5,"Claro! Os valores indicam o desempenho em cada etapa, mostrando progresso e áreas para melhorar.",5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,baseline,1,"Claro! Usaremos clareza, originalidade, estrutura e cumprimento das normas como critérios principais.",5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,baseline,2,"Claro! Serão avaliados conteúdo, clareza, originalidade e cumprimento das normas estabelecidas no roteiro.",3,5,3,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,baseline,3,"Claro! Usaremos clareza, organização, conteúdo relevante e originalidade como principais critérios de avaliação.",5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,baseline,4,"Claro! Usaremos critérios de clareza, originalidade, fundamentação teórica e qualidade da escrita.",5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,baseline,5,"Claro! Usaremos clareza, originalidade, coerência e cumprimento das normas. Posso enviar o guia completo.",3,5,3,5,
+resultados_finais,pt_msg_019,openai_gpt41_mini,baseline,1,Confirmo minha participação na banca de avaliação do dia 12. Obrigado pelo aviso!,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,openai_gpt41_mini,baseline,2,Confirmo minha participação na banca de avaliação do dia 12. Obrigado pelo aviso.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,openai_gpt41_mini,baseline,3,Confirmo minha participação na banca de avaliação do dia 12. Obrigado pelo aviso!,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,openai_gpt41_mini,baseline,4,Confirmo minha participação na banca de avaliação do dia 12. Obrigado pelo aviso!,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,openai_gpt41_mini,baseline,5,Confirmo minha participação na banca de avaliação do dia 12. Obrigado pela organização!,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_020,openai_gpt41_mini,baseline,1,"Perfeito, combinado para as 15h na biblioteca. Aviso se houver qualquer mudança, obrigado!",5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,baseline,2,"Perfeito, combinado para as 15h na biblioteca. Aviso se houver qualquer alteração.",5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,baseline,3,"Perfeito, combinado às 15h na biblioteca. Se surgir alguma mudança, aviso você. Até lá!",5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,baseline,4,"Perfeito, nos vemos às 15h na biblioteca. Aviso se houver qualquer mudança.",5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,baseline,5,"Perfeito, combinado às 15h na biblioteca. Se houver alguma mudança, aviso você.",5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,baseline,1,Recebi o e-mail e confirmei as orientações anexadas. Estou à disposição para dúvidas.,5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,baseline,2,Recebi o e-mail e confirmei as orientações enviadas no anexo. Obrigado pelo envio.,5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,baseline,3,Recebi o e-mail e confirmei as orientações enviadas no anexo. Obrigado!,5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,baseline,4,Recebi o e-mail e confirmei as orientações no anexo. Obrigado pelo envio!,5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,baseline,5,Recebi o e-mail e confirmei as orientações enviadas em anexo. Obrigado pela informação.,5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,baseline,1,"Claro, podemos remarcar a entrega para a próxima semana. Por favor, informe o melhor dia.",5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,baseline,2,"Claro, sem problemas. Podemos remarcar a entrega para a próxima semana sem dificuldades. Obrigado!",5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,baseline,3,"Claro, sem problemas. Vamos remarcar a entrega para a próxima semana. Obrigado por avisar!",5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,baseline,4,"Claro, podemos remarcar para a próxima semana. Por favor, informe o dia que prefere.",5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,baseline,5,Entendo a situação. Podemos remarcar a entrega para a próxima semana sem problemas. Obrigado!,5,5,5,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,baseline,1,"Claro, vou garantir uma mesa para você. Fique tranquilo e chegue com calma!",3,5,3,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,baseline,2,"Claro, sem problemas! Vou pegando uma mesa e te espero aqui tranquilo. Até já!",5,5,5,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,baseline,3,"Claro, sem problemas! Vou pegar uma mesa para você enquanto espera. Até já!",5,5,5,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,baseline,4,"Claro, sem problema! Vou pegar uma mesa para você e te espero aqui tranquilo.",5,5,5,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,baseline,5,"Claro, vou pegar uma mesa para você. Te espero aqui quando chegar, sem problemas!",5,5,5,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,baseline,1,Entendo o conflito. Quinta-feira à tarde está ótimo para mim. Confirmo o novo horário.,3,5,2,5,"responde como confirmacao, nao adiamento"
+resultados_finais,pt_msg_024,openai_gpt41_mini,baseline,2,"Claro, sem problemas. Vamos remarcar para quinta-feira à tarde. Obrigado por avisar!",5,5,5,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,baseline,3,"Entendido, podemos remarcar para quinta-feira à tarde. Por favor, confirme o horário que preferir.",5,5,5,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,baseline,4,"Claro, sem problemas. Podemos remarcar para quinta-feira à tarde. Por favor, confirme o horário.",5,5,5,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,baseline,5,"Entendido, quinta-feira à tarde está ótimo. Confirmo o novo horário, obrigado por avisar.",3,5,2,5,"responde como confirmacao, nao adiamento"
+resultados_finais,pt_msg_001,openai_gpt41_mini,vs_intermediate,1,"Claro, posso revisar seu texto até amanhã cedo e garantir que o tom esteja adequado.",5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,vs_intermediate,2,"Sim, revisarei seu texto até amanhã de manhã para assegurar que o tom está correto.",5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,vs_intermediate,3,"Entendo a importância, vou revisar seu texto até amanhã para garantir que o tom esteja perfeito.",5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,vs_intermediate,4,"Pode deixar, vou dar uma olhada no seu texto até amanhã e ajustar o tom se precisar.",5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,vs_intermediate,5,"Confirmo que revisarei seu texto até amanhã de manhã, assegurando que o tom esteja apropriado.",5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,vs_intermediate,1,"Claro, vou separar o arquivo e te envio assim que possível, sem falta.",5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,vs_intermediate,2,Vou enviar o arquivo dentro de alguns minutos para você conseguir finalizar hoje.,5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,vs_intermediate,3,"Entendo a urgência, vou priorizar e te mando o arquivo rapidinho, pode deixar.",5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,vs_intermediate,4,"Beleza, já vou pegar o arquivo e te mando logo para não atrasar nada.",5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,vs_intermediate,5,Recebi seu pedido e encaminharei o arquivo solicitado assim que tiver um momento livre.,3,5,3,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,vs_intermediate,1,"Claro, vou atualizar o cronograma e enviar para você ainda hoje sem falta.",5,5,5,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,vs_intermediate,2,"Sim, enviarei a versão atualizada do cronograma até o final do dia, pode aguardar.",5,5,5,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,vs_intermediate,3,Entendo a urgência e farei o possível para enviar o cronograma atualizado hoje mesmo.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_003,openai_gpt41_mini,vs_intermediate,4,Confirmo que a versão atualizada do cronograma será encaminhada até o término do dia.,5,5,5,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,vs_intermediate,5,"Pode deixar, vou preparar o cronograma atualizado e te mando ainda hoje, tranquilo?",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_004,openai_gpt41_mini,vs_intermediate,1,"Olá, obrigado por lembrar. Estou revisando a proposta e devo dar um retorno até quarta-feira.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_004,openai_gpt41_mini,vs_intermediate,2,Ainda estou avaliando a proposta e espero finalizar a análise até o final desta semana.,5,5,4,5,
+resultados_finais,pt_msg_004,openai_gpt41_mini,vs_intermediate,3,Entendo a urgência e peço desculpas pela demora. Vou priorizar a avaliação e responder em breve.,5,5,4,5,
+resultados_finais,pt_msg_004,openai_gpt41_mini,vs_intermediate,4,"Oi! Ainda não consegui ver tudo, mas prometo que te retorno até sexta-feira, ok?",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_004,openai_gpt41_mini,vs_intermediate,5,Agradeço o contato. Informo que a análise está em andamento e a previsão é até quinta-feira.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_005,openai_gpt41_mini,vs_intermediate,1,"Oi! Vi sua mensagem sim, estou verificando e te respondo até o final do dia.",5,5,4,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,vs_intermediate,2,"Entendo a urgência, já estou cuidando disso e te atualizo em breve, sem pressão.",5,5,4,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,vs_intermediate,3,"Recebi sim, estou finalizando o que precisa e envio para você ainda hoje.",3,5,3,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,vs_intermediate,4,"Oi! Vi sim, tô correndo aqui pra resolver e te aviso ainda hoje, tá?",5,5,4,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,vs_intermediate,5,"Oi, obrigado por lembrar! Já estou cuidando disso e te retorno com uma resposta hoje.",5,5,4,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,vs_intermediate,1,"Por favor, envie os documentos pendentes o quanto antes para garantirmos a conclusão no prazo.",5,5,4,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,vs_intermediate,2,"Entendo a urgência e agradeço se puder encaminhar os documentos restantes rapidamente, obrigado.",3,5,3,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,vs_intermediate,3,"Precisamos dos documentos pendentes para finalizar a análise. Por favor, envie-os o mais breve possível.",5,5,4,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,vs_intermediate,4,"Sei que pode estar ocupado, mas enviar os documentos logo é essencial para o prazo final.",5,5,4,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,vs_intermediate,5,"Envie os documentos pendentes imediatamente para evitar atrasos na conclusão da análise, por favor.",5,5,4,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,vs_intermediate,1,"Agradeço o convite, mas infelizmente não poderei participar da reunião extra hoje às 18h.",5,5,5,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,vs_intermediate,2,"Entendo a importância, porém não conseguirei comparecer à reunião extra hoje às 18h.",5,5,5,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,vs_intermediate,3,"Lamento informar que, devido a compromissos prévios, não estarei disponível para a reunião extra hoje.",3,5,3,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,vs_intermediate,4,"Não poderei participar da reunião extra às 18h hoje, pois já tenho outro compromisso marcado.",5,5,5,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,vs_intermediate,5,"Obrigado pelo convite, mas não conseguirei estar presente na reunião extra hoje às 18h.",5,5,5,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,vs_intermediate,1,"Poxa, agradeço o convite, mas hoje não vou conseguir sair com vocês.",5,5,5,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,vs_intermediate,2,"Que legal o encontro, mas hoje vou precisar ficar em casa descansando mesmo.",3,5,3,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,vs_intermediate,3,"Hoje não vou poder ir, tenho alguns compromissos depois da aula, valeu!",3,5,3,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,vs_intermediate,4,"Ah, queria ir, mas hoje não rola pra mim, aproveitem bastante aí!",3,5,3,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,vs_intermediate,5,"Obrigada pelo convite, mas hoje vou passar, espero que vocês se divirtam muito.",3,5,3,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,vs_intermediate,1,"Agradeço a confiança, mas infelizmente não conseguirei assumir essa demanda extra esta semana.",5,5,5,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,vs_intermediate,2,"Entendo a importância, porém minha agenda está muito apertada para incluir mais tarefas agora.",3,5,3,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,vs_intermediate,3,Não poderei ajudar com essa demanda adicional nesta semana devido à minha carga atual.,5,5,5,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,vs_intermediate,4,"Gostaria de ajudar, mas meu tempo está comprometido; espero poder colaborar em outra oportunidade.",3,5,3,2,
+resultados_finais,pt_msg_009,openai_gpt41_mini,vs_intermediate,5,Minha agenda está realmente cheia e não consigo assumir mais tarefas sem comprometer a qualidade.,5,5,5,5,
+resultados_finais,pt_msg_010,openai_gpt41_mini,vs_intermediate,1,Obrigado por revisar o material e fazer os ajustes necessários para melhorar a clareza.,5,5,5,5,
+resultados_finais,pt_msg_010,openai_gpt41_mini,vs_intermediate,2,Agradeço pelo envio do material revisado e pelos ajustes realizados nos trechos problemáticos.,5,5,5,5,
+resultados_finais,pt_msg_010,openai_gpt41_mini,vs_intermediate,3,"Ótimo trabalho revisando e corrigindo os pontos de clareza, isso vai ajudar bastante.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_010,openai_gpt41_mini,vs_intermediate,4,Muito obrigado por cuidar dos detalhes e melhorar a clareza do material enviado.,5,5,5,5,
+resultados_finais,pt_msg_010,openai_gpt41_mini,vs_intermediate,5,"Recebi o material revisado com os ajustes de clareza, obrigado pelo empenho.",5,5,5,5,
+resultados_finais,pt_msg_011,openai_gpt41_mini,vs_intermediate,1,Fico muito feliz em saber que a dica ajudou e economizou seu tempo!,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,openai_gpt41_mini,vs_intermediate,2,Que ótimo! Saber que minha dica salvou seu tempo me deixa super satisfeito!,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,openai_gpt41_mini,vs_intermediate,3,"Que bom que funcionou! Se precisar de mais ajuda, é só me chamar, viu?",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,openai_gpt41_mini,vs_intermediate,4,"Perfeito, fico contente que a dica foi útil e agilizou seu processo de trabalho.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,openai_gpt41_mini,vs_intermediate,5,"Sei como é bom economizar tempo, fico feliz que minha dica tenha ajudado você.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,openai_gpt41_mini,vs_intermediate,1,Fico muito feliz em saber que pude contribuir para o sucesso do evento. Conte comigo sempre.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,openai_gpt41_mini,vs_intermediate,2,Agradeço a oportunidade de ajudar. Foi um prazer colaborar para que tudo saísse perfeito.,5,5,5,5,
+resultados_finais,pt_msg_012,openai_gpt41_mini,vs_intermediate,3,Agradeço o reconhecimento e estou à disposição para futuras ocasiões que precisem de apoio.,5,5,5,5,
+resultados_finais,pt_msg_012,openai_gpt41_mini,vs_intermediate,4,Que bom que tudo deu certo! Estou contente em ter contribuído para o evento ser um sucesso.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,openai_gpt41_mini,vs_intermediate,5,Muito obrigado pelo agradecimento. Fico satisfeito por ter ajudado e espero colaborar novamente.,5,5,5,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,vs_intermediate,1,Agradeço o convite! Ficarei feliz em apresentar meu projeto na próxima reunião do grupo.,5,5,5,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,vs_intermediate,2,Confirmo minha participação e prepararei uma apresentação objetiva de aproximadamente dez minutos.,3,5,3,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,vs_intermediate,3,Que ótimo convite! Será um prazer compartilhar meu projeto com todos na reunião.,5,5,5,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,vs_intermediate,4,Aceito o convite e organizarei uma apresentação breve para a próxima reunião do grupo.,5,5,5,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,vs_intermediate,5,Muito obrigado pelo convite! Prepararei uma apresentação concisa para contribuir com o grupo.,5,5,5,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,vs_intermediate,1,Sexta parece ótimo para mim! Onde e que você gostaria de ir almoçar?,3,5,3,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,vs_intermediate,2,"Adoraria almoçar juntos na sexta, mas se algo mudar, podemos remarcar sem problemas.",5,5,5,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,vs_intermediate,3,"Sexta está bom, confirmo o horário depois. Qual o plano para o almoço?",4,5,4,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,vs_intermediate,4,"Show, sexta tá ótimo! Me avisa o local e a hora certinho, beleza?",3,5,3,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,vs_intermediate,5,"Obrigada pelo convite! Sexta funciona para mim, mas aviso se precisar mudar o dia.",5,5,5,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,vs_intermediate,1,"Claro, parece ótimo revisar juntos de forma descontraída antes da prova na quarta!",3,5,3,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,vs_intermediate,2,Obrigado pelo convite! Vou me organizar para participar e revisar os exercícios com vocês.,5,5,5,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,vs_intermediate,3,"Topo sim! Vai ser bom dar aquela revisada leve antes da prova, tô dentro.",5,5,5,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,vs_intermediate,4,Confirmo presença na quarta. Revisar exercícios antes da prova assim é uma boa ideia.,3,5,3,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,vs_intermediate,5,Parece uma ótima forma de aliviar o estresse e revisar juntos antes da prova.,3,5,3,5,
+resultados_finais,pt_msg_016,openai_gpt41_mini,vs_intermediate,1,"O prazo final é segunda-feira, mas recomendo enviar até sexta para evitar imprevistos.",4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,openai_gpt41_mini,vs_intermediate,2,"O prazo final estipulado para entrega é segunda-feira, garantindo tempo adicional para revisão.",4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,openai_gpt41_mini,vs_intermediate,3,"O prazo final é segunda-feira, então pode enviar até esse dia sem problemas.",4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,openai_gpt41_mini,vs_intermediate,4,"Para evitar desencontros, sugiro considerar segunda-feira como prazo final para envio da atividade.",4,5,3,5,
+resultados_finais,pt_msg_016,openai_gpt41_mini,vs_intermediate,5,"Pode ficar tranquilo, o prazo é segunda-feira, mas enviar antes é sempre melhor.",4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_017,openai_gpt41_mini,vs_intermediate,1,"Claro, vou explicar como interpretar os valores do gráfico para facilitar seu entendimento.",5,5,4,5,
+resultados_finais,pt_msg_017,openai_gpt41_mini,vs_intermediate,2,Os valores no gráfico indicam a frequência dos resultados em cada categoria apresentada.,5,5,4,5,
+resultados_finais,pt_msg_017,openai_gpt41_mini,vs_intermediate,3,"Entendo que pode ser confuso, vou detalhar como os valores do gráfico funcionam.",5,5,4,5,
+resultados_finais,pt_msg_017,openai_gpt41_mini,vs_intermediate,4,Posso ajudar a interpretar os números do gráfico para que tudo fique mais claro.,5,5,4,5,
+resultados_finais,pt_msg_017,openai_gpt41_mini,vs_intermediate,5,"Os valores refletem a distribuição dos dados, indicando a magnitude de cada resultado exibido.",5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,vs_intermediate,1,"Claro, utilizaremos critérios de clareza, coerência, originalidade e aderência às normas estabelecidas.",5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,vs_intermediate,2,"Com certeza! Avaliaremos organização, conteúdo, criatividade e cumprimento dos prazos estipulados para o trabalho.",5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,vs_intermediate,3,"Os critérios são: qualidade do conteúdo, estrutura, relevância e conformidade com as instruções fornecidas.",5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,vs_intermediate,4,"Vou detalhar os critérios: coerência, profundidade, formato e originalidade para que possa ajustar seu trabalho.",5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,vs_intermediate,5,"Entendo sua preocupação! Avaliaremos clareza, argumentação, criatividade e aderência às orientações para ajudar você.",3,5,3,5,
+resultados_finais,pt_msg_019,openai_gpt41_mini,vs_intermediate,1,Confirmo minha participação na banca de avaliação do dia 12 conforme solicitado. Obrigado.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,openai_gpt41_mini,vs_intermediate,2,"Sim, confirmo minha presença na banca do dia 12 e agradeço pelo aviso.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,openai_gpt41_mini,vs_intermediate,3,"Confirmo minha participação na banca de avaliação no dia 12, conforme pedido.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,openai_gpt41_mini,vs_intermediate,4,"Com certeza, estarei presente na banca do dia 12. Obrigado pelo lembrete.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,openai_gpt41_mini,vs_intermediate,5,"Pode deixar, vou participar da banca no dia 12. Confirmado aqui!",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_020,openai_gpt41_mini,vs_intermediate,1,"Combinado, nos encontramos às 15h na biblioteca. Caso haja alguma mudança, aviso você.",5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,vs_intermediate,2,"Confirmado, às 15h na biblioteca. Avisarei se precisar alterar o horário ou local.",5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,vs_intermediate,3,"Beleza, 15h na biblioteca então. Se rolar alguma mudança, te falo rapidinho.",5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,vs_intermediate,4,"Tudo certo para às 15h na biblioteca. Se algo mudar, vou te avisar, pode deixar.",5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,vs_intermediate,5,"Perfeito, encontro você às 15h na biblioteca. Qualquer alteração, aviso imediatamente, combinado?",5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,vs_intermediate,1,"Confirmo o recebimento do e-mail e a leitura das orientações anexadas, obrigado.",5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,vs_intermediate,2,"Recebi seu e-mail e já revisei as orientações anexadas, muito obrigado pelo envio.",5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,vs_intermediate,3,E-mail recebido e orientações anexas conferidas. Estou ciente de todas as instruções.,5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,vs_intermediate,4,"Confirmo que recebi o e-mail e li as orientações enviadas em anexo, obrigado.",5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,vs_intermediate,5,"Oi, recebi o e-mail e já vi as orientações que você anexou, tudo certo.",5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,vs_intermediate,1,Entendo a situação. Podemos remarcar a entrega para a próxima semana sem problemas.,5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,vs_intermediate,2,"Ok, vamos ajustar o prazo para a próxima semana. Por favor, informe a nova data.",5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,vs_intermediate,3,Compreendo que imprevistos acontecem. Sem problemas em remarcar a entrega para a próxima semana.,5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,vs_intermediate,4,Agradecemos o aviso. Ficaremos no aguardo do relatório com a nova data na próxima semana.,5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,vs_intermediate,5,"Sem problemas! Podemos remarcar a entrega para a próxima semana, apenas confirme o dia, por favor.",5,5,5,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,vs_intermediate,1,"Claro, sem problema! Vou pegar uma mesa para a gente enquanto você chega.",5,5,5,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,vs_intermediate,2,"Tranquilo, vou garantir uma mesa confortável para nós enquanto você está a caminho.",3,5,3,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,vs_intermediate,3,"Beleza, vou chegando lá e pegando um lugar pra gente, fica tranquilo.",3,5,3,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,vs_intermediate,4,"Sem problemas, vou reservar uma mesa e te espero com calma, não se preocupe.",5,5,5,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,vs_intermediate,5,"Tudo certo, vou pegar uma mesa para você quando chegar, não se preocupe.",5,5,5,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,vs_intermediate,1,"Entendo o conflito e confirmo o adiamento da reunião para quinta-feira à tarde, conforme solicitado.",5,5,5,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,vs_intermediate,2,"Claro, sem problemas. Vamos remarcar para quinta-feira à tarde e agradeço por avisar com antecedência.",5,5,5,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,vs_intermediate,3,"Reunião adiada para quinta-feira à tarde. Por favor, confirme se esse horário está definitivamente bom.",5,5,5,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,vs_intermediate,4,"Compreendo perfeitamente o conflito. Quinta-feira à tarde está ótimo para nossa reunião, obrigado pelo aviso.",3,5,3,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,vs_intermediate,5,"Sem problemas, podemos remarcar para quinta-feira à tarde. Fico à disposição para qualquer ajuste.",5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,vs_aggressive,1,"Posso revisar sim, assim garantimos que o tom esteja alinhado para sua mensagem.",5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,vs_aggressive,2,"Tenho uma agenda apertada, mas tentarei revisar seu texto até amanhã cedo, sem prometer.",5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,vs_aggressive,3,"Confirmo que farei a revisão do texto até o prazo solicitado, assegurando a adequação do tom.",5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,vs_aggressive,4,Entendo a importância do tom; revisarei seu texto com cuidado para que fique perfeito.,5,5,5,5,
+resultados_finais,pt_msg_001,openai_gpt41_mini,vs_aggressive,5,"Recebido, revisarei seu texto até amanhã de manhã para garantir o tom apropriado.",5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,vs_aggressive,1,"Claro, vou organizar o arquivo e enviar para você antes do fim do expediente, sem falta.",5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,vs_aggressive,2,"Assim que possível, encaminharei o arquivo solicitado para que possa concluir sua tarefa hoje.",3,5,3,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,vs_aggressive,3,Vou priorizar o envio do arquivo para garantir que tenha tempo suficiente para finalizar.,5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,vs_aggressive,4,"Ótimo, vou providenciar o arquivo para que consiga terminar sua parte dentro do prazo.",5,5,5,5,
+resultados_finais,pt_msg_002,openai_gpt41_mini,vs_aggressive,5,"Estou finalizando alguns detalhes, mas envio o arquivo o quanto antes para facilitar seu trabalho.",5,5,5,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,vs_aggressive,1,"Entendo a urgência, vou revisar o cronograma e encaminhar a versão atualizada até o final do dia.",5,5,5,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,vs_aggressive,2,"Posso enviar o cronograma atualizado ainda hoje, mas preciso confirmar alguns detalhes antes para garantir precisão.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_003,openai_gpt41_mini,vs_aggressive,3,Vou priorizar a atualização do cronograma e garantir que você o receba hoje para seu alinhamento.,5,5,5,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,vs_aggressive,4,"Será providenciada a versão atualizada do cronograma até o fim do dia, para facilitar seu planejamento.",5,5,5,5,
+resultados_finais,pt_msg_003,openai_gpt41_mini,vs_aggressive,5,"Com certeza, enviarei o cronograma revisado hoje para que você possa organizar as próximas etapas tranquilamente.",5,5,5,5,
+resultados_finais,pt_msg_004,openai_gpt41_mini,vs_aggressive,1,"Compreendo sua urgência, estou revisando a proposta e espero fornecer um retorno até sexta-feira.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_004,openai_gpt41_mini,vs_aggressive,2,Agradeço a paciência; estou aguardando algumas informações internas para concluir a avaliação da proposta.,5,5,4,5,
+resultados_finais,pt_msg_004,openai_gpt41_mini,vs_aggressive,3,"Ainda não finalizei a análise, mas pretendo responder até o final da próxima semana.",5,5,4,5,
+resultados_finais,pt_msg_004,openai_gpt41_mini,vs_aggressive,4,"Houve um atraso inesperado em nossa equipe, mas espero revisar sua proposta até quarta-feira.",3,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_004,openai_gpt41_mini,vs_aggressive,5,Entendo a importância; farei o possível para avaliar a proposta e retornar ainda esta semana.,5,5,4,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,vs_aggressive,1,"Oi! Vi sim, estou revisando tudo para te dar uma resposta ainda hoje, obrigado pela paciência.",3,5,3,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,vs_aggressive,2,Recebi sua mensagem e estou trabalhando na solução. Confirmarei o andamento até o fim do dia.,3,5,3,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,vs_aggressive,3,"Desculpe a demora, estou aguardando alguns detalhes para garantir uma resposta completa até hoje.",3,5,3,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,vs_aggressive,4,Obrigado por avisar! Estou focado nisso e espero resolver tudo para você ainda hoje.,5,5,4,5,
+resultados_finais,pt_msg_005,openai_gpt41_mini,vs_aggressive,5,"Entendo a urgência, estou priorizando essa questão para que possamos fechar ainda hoje, sem pressa.",3,5,3,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,vs_aggressive,1,Entendo a urgência e agradeço se puder priorizar o envio dos documentos solicitados.,3,5,3,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,vs_aggressive,2,Reforçamos que o envio tempestivo dos documentos é crucial para o cumprimento dos prazos estabelecidos.,5,5,4,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,vs_aggressive,3,"Por favor, encaminhe os documentos pendentes o quanto antes para evitar atrasos na análise.",5,5,4,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,vs_aggressive,4,"Sem os documentos pendentes, não conseguiremos finalizar a análise dentro do prazo estipulado.",5,5,4,5,
+resultados_finais,pt_msg_006,openai_gpt41_mini,vs_aggressive,5,Agradecemos sua colaboração no envio dos documentos para que possamos concluir a análise rapidamente.,5,5,4,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,vs_aggressive,1,"Agradeço o convite, porém já possuo compromissos agendados para esse horário.",3,5,3,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,vs_aggressive,2,"Gostaria muito de ajudar, mas infelizmente não poderei comparecer hoje às 18h.",5,5,5,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,vs_aggressive,3,"Não conseguirei participar da reunião extra hoje, pois tenho outro compromisso urgente.",5,5,5,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,vs_aggressive,4,"Entendo a importância, mas não será possível estar presente na reunião hoje às 18h.",5,5,5,5,
+resultados_finais,pt_msg_007,openai_gpt41_mini,vs_aggressive,5,"Infelizmente, não poderei comparecer devido a um compromisso inadiável no mesmo horário.",5,5,5,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,vs_aggressive,1,"Agradeço o convite, mas hoje tenho compromissos que não poderei adiar. Espero que se divirtam.",5,5,5,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,vs_aggressive,2,"Poxa, adoraria ir, mas estou precisando descansar um pouco depois da aula. Aproveitem bastante!",3,5,3,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,vs_aggressive,3,"Infelizmente, preciso estudar para uma prova importante amanhã, então vou ficar de fora hoje.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_008,openai_gpt41_mini,vs_aggressive,4,"Obrigado pelo convite, mas vou passar dessa vez. Me avisem da próxima reunião, por favor.",3,5,3,5,
+resultados_finais,pt_msg_008,openai_gpt41_mini,vs_aggressive,5,"Hoje não vai dar, mas fico feliz que estejam se encontrando! Divirtam-se bastante!",5,5,5,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,vs_aggressive,1,"Agradeço a confiança, mas neste momento não consigo garantir qualidade com mais essa tarefa.",5,5,5,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,vs_aggressive,2,"Considerando os compromissos atuais, não poderei assumir essa demanda adicional nesta semana, infelizmente.",5,5,5,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,vs_aggressive,3,"Entendo a necessidade, porém minha agenda está realmente comprometida e não consigo assumir mais agora.",5,5,5,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,vs_aggressive,4,"No momento, não tenho disponibilidade para essa tarefa extra sem comprometer outras entregas importantes.",3,5,3,5,
+resultados_finais,pt_msg_009,openai_gpt41_mini,vs_aggressive,5,"Infelizmente, não poderei ajudar nesta semana, mas posso apoiar em outras oportunidades futuras.",5,5,5,5,
+resultados_finais,pt_msg_010,openai_gpt41_mini,vs_aggressive,1,Agradeço o cuidado na revisão e os ajustes feitos para melhorar a clareza do material.,5,5,5,5,
+resultados_finais,pt_msg_010,openai_gpt41_mini,vs_aggressive,2,Recebi o material revisado e valorizo os ajustes realizados para aprimorar a compreensão geral.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_010,openai_gpt41_mini,vs_aggressive,3,Ótimo trabalho na revisão! Os ajustes certamente deixarão o conteúdo mais acessível para todos.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_010,openai_gpt41_mini,vs_aggressive,4,Esses ajustes são essenciais para garantir que todos entendam claramente o conteúdo apresentado.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_010,openai_gpt41_mini,vs_aggressive,5,"Obrigado por revisar o material e melhorar os pontos confusos, isso facilita muito nosso trabalho.",5,5,5,5,
+resultados_finais,pt_msg_011,openai_gpt41_mini,vs_aggressive,1,"Fico feliz em saber que a dica ajudou a economizar seu tempo, conte comigo!",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,openai_gpt41_mini,vs_aggressive,2,É gratificante saber que minha sugestão foi útil para resolver seu problema rapidamente.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,openai_gpt41_mini,vs_aggressive,3,"Que ótimo que funcionou! Nada melhor do que ganhar tempo e resolver rápido, parabéns!",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,openai_gpt41_mini,vs_aggressive,4,"Fico contente que a dica tenha sido eficaz, pois busco sempre oferecer soluções práticas.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,openai_gpt41_mini,vs_aggressive,5,"Obrigado por compartilhar o resultado, saber que ajudou me motiva a continuar colaborando.",5,5,5,5,
+resultados_finais,pt_msg_012,openai_gpt41_mini,vs_aggressive,1,Fico feliz em saber que pude contribuir para o sucesso do evento. Conte comigo sempre.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,openai_gpt41_mini,vs_aggressive,2,"Foi um prazer ajudar, pois acredito que colaboração faz toda a diferença em projetos assim.",2,5,2,2,nao agradece explicitamente
+resultados_finais,pt_msg_012,openai_gpt41_mini,vs_aggressive,3,Agradeço a confiança e espero que possamos trabalhar juntos em futuras iniciativas igualmente produtivas.,5,5,5,5,
+resultados_finais,pt_msg_012,openai_gpt41_mini,vs_aggressive,4,Agradeço a consideração e reitero meu compromisso em apoiar eventos com a mesma dedicação.,5,5,5,5,
+resultados_finais,pt_msg_012,openai_gpt41_mini,vs_aggressive,5,Que bom que tudo deu certo! Estou animado para participar das próximas oportunidades assim.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_013,openai_gpt41_mini,vs_aggressive,1,Agradeço o convite e confirmo minha participação para apresentar o projeto na reunião agendada.,5,5,5,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,vs_aggressive,2,Fico honrado com o convite e prepararei uma apresentação concisa para a próxima reunião.,5,5,5,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,vs_aggressive,3,Confirmo minha presença e asseguro que a apresentação terá duração aproximada de dez minutos.,3,5,3,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,vs_aggressive,4,"Agradeço o convite, porém preciso verificar minha agenda antes de confirmar a apresentação.",5,5,5,5,
+resultados_finais,pt_msg_013,openai_gpt41_mini,vs_aggressive,5,"Legal, vou preparar algo bacana para mostrar rapidinho na reunião, obrigado pelo convite!",5,5,5,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,vs_aggressive,1,"Sexta está meio complicada para mim, mas posso tentar encaixar outro dia tranquilo.",3,5,3,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,vs_aggressive,2,"Sexta não vai dar por conta de compromissos, mas agradeço o convite e sugiro próxima semana.",5,5,5,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,vs_aggressive,3,"Adoraria almoçar, só preciso confirmar minha agenda para sexta e te aviso o quanto antes.",5,5,5,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,vs_aggressive,4,"Agradeço o convite para sexta; caso eu não possa, confirmarei uma data alternativa em breve.",5,5,5,5,
+resultados_finais,pt_msg_014,openai_gpt41_mini,vs_aggressive,5,"Que ótima ideia! Sexta parece ótimo, mas se não rolar, vamos achar outro dia com certeza!",5,5,5,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,vs_aggressive,1,"Parece uma ótima ideia para revisar juntos, vou tentar organizar meu horário para quarta.",4,5,4,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,vs_aggressive,2,"Quarta está meio complicada para mim, mas posso contribuir com dúvidas por mensagem, se quiser.",3,5,3,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,vs_aggressive,3,"Adorei a proposta descontraída para revisar exercícios, acredito que vai ajudar muito na prova.",3,5,3,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,vs_aggressive,4,"Agradeço o convite, porém precisarei confirmar minha disponibilidade para participar do grupo na quarta.",5,5,5,5,
+resultados_finais,pt_msg_015,openai_gpt41_mini,vs_aggressive,5,"Legal, gosto de estudar assim! Me avisa o horário certinho que eu tento colar.",4,5,4,5,
+resultados_finais,pt_msg_016,openai_gpt41_mini,vs_aggressive,1,"Gostaria de confirmar que o prazo final para envio da atividade é na segunda-feira, sem exceções.",4,5,3,5,
+resultados_finais,pt_msg_016,openai_gpt41_mini,vs_aggressive,2,"Para garantir seu planejamento, o envio deve ser feito até segunda-feira, evitando qualquer atraso.",3,5,3,5,
+resultados_finais,pt_msg_016,openai_gpt41_mini,vs_aggressive,3,"O prazo estabelecido para entrega da atividade é segunda-feira, por favor, organize-se conforme isso.",4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,openai_gpt41_mini,vs_aggressive,4,Entendo sua preocupação; o prazo correto é segunda-feira para evitar qualquer confusão no envio.,4,5,3,5,
+resultados_finais,pt_msg_016,openai_gpt41_mini,vs_aggressive,5,Boa iniciativa em confirmar! O prazo final é segunda-feira para que tudo saia conforme esperado.,4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_017,openai_gpt41_mini,vs_aggressive,1,"Claro, os valores no gráfico representam as métricas principais que indicam o desempenho do processo.",5,5,4,5,
+resultados_finais,pt_msg_017,openai_gpt41_mini,vs_aggressive,2,Com certeza! Cada ponto no gráfico mostra um resultado específico para facilitar a comparação visual.,5,5,4,5,
+resultados_finais,pt_msg_017,openai_gpt41_mini,vs_aggressive,3,"Esses valores ajudam a destacar variações importantes, por isso são essenciais para análise detalhada.",5,5,4,5,
+resultados_finais,pt_msg_017,openai_gpt41_mini,vs_aggressive,4,"Basicamente, os números indicam a frequência e intensidade dos resultados em diferentes condições testadas.",3,5,3,5,
+resultados_finais,pt_msg_017,openai_gpt41_mini,vs_aggressive,5,Posso explicar sim! O gráfico traduz dados complexos em informações visuais para facilitar sua compreensão.,5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,vs_aggressive,1,"Certamente, os critérios incluem originalidade, coerência, clareza e aderência às diretrizes fornecidas.",5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,vs_aggressive,2,Os critérios foram definidos para garantir justiça e objetividade na avaliação do seu trabalho final.,5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,vs_aggressive,3,"Claro, posso enviar uma lista detalhada dos critérios para que você possa ajustar seu trabalho.",5,5,4,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,vs_aggressive,4,"É ótimo que queira melhorar; focaremos em clareza, profundidade do conteúdo e apresentação geral.",3,5,3,5,
+resultados_finais,pt_msg_018,openai_gpt41_mini,vs_aggressive,5,"Fico feliz que pergunte; priorizamos relevância, metodologia e impacto para a avaliação final.",3,5,3,5,
+resultados_finais,pt_msg_019,openai_gpt41_mini,vs_aggressive,1,Agradeço o contato e confirmo minha participação na banca de avaliação no dia 12 conforme solicitado.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,openai_gpt41_mini,vs_aggressive,2,"Claro, vou verificar minha agenda e retorno até o final do dia com a confirmação, obrigado.",3,5,3,5,
+resultados_finais,pt_msg_019,openai_gpt41_mini,vs_aggressive,3,Confirmarei minha presença na banca até o final do dia para que possam organizar a programação.,5,5,5,5,
+resultados_finais,pt_msg_019,openai_gpt41_mini,vs_aggressive,4,Estou verificando compromissos conflitantes e confirmarei minha participação na banca até o fim do dia.,5,5,5,5,
+resultados_finais,pt_msg_019,openai_gpt41_mini,vs_aggressive,5,"Fico feliz em participar, confirmarei minha presença na banca até o final do dia, obrigado pela lembrança.",5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,vs_aggressive,1,"Combinado, 15h na biblioteca. Caso precise alterar algo, aviso com antecedência, pode deixar.",5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,vs_aggressive,2,Confirmo nosso encontro às 15h na biblioteca. Informarei prontamente se houver alguma mudança.,5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,vs_aggressive,3,"Beleza, às 15h na biblioteca então. Se rolar alguma mudança, te aviso rapidinho.",5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,vs_aggressive,4,Encontro confirmado para 15h na biblioteca. Avisarei caso haja qualquer alteração no horário.,5,5,5,5,
+resultados_finais,pt_msg_020,openai_gpt41_mini,vs_aggressive,5,"Perfeito, vou te encontrar às 15h na biblioteca. Qualquer novidade, te aviso sem falta.",5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,vs_aggressive,1,Confirmo o recebimento do e-mail e a leitura atenta das orientações anexadas.,5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,vs_aggressive,2,"Recebi seu e-mail e revisei as orientações com atenção, obrigado pelo envio.",5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,vs_aggressive,3,"E-mail recebido e instruções conferidas conforme solicitado, permanecendo à disposição para dúvidas.",5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,vs_aggressive,4,Entendi as orientações enviadas no anexo e confirmo o recebimento do seu e-mail.,5,5,5,5,
+resultados_finais,pt_msg_021,openai_gpt41_mini,vs_aggressive,5,"Recebido o e-mail, estou analisando as orientações e retornarei com dúvidas, se necessário.",5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,vs_aggressive,1,"Entendo a situação, podemos ajustar o prazo para a próxima semana sem problemas.",5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,vs_aggressive,2,"Considerando o atraso, sugiro definirmos nova data de entrega para a próxima semana.",5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,vs_aggressive,3,"Remarcar para a próxima semana parece razoável, assim você terá tempo suficiente para qualidade.",5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,vs_aggressive,4,Aproveite esse prazo extra para aprimorar o relatório; podemos reprogramar para a próxima semana.,5,5,5,5,
+resultados_finais,pt_msg_022,openai_gpt41_mini,vs_aggressive,5,"Claro, compreendo perfeitamente. Vamos combinar a entrega para a semana que vem, sem pressa.",3,5,3,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,vs_aggressive,1,"Claro, vou escolher uma mesa confortável para você assim que chegar, sem pressa.",3,5,3,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,vs_aggressive,2,"Sem problemas, aproveite para vir com calma. Já vou garantir um bom lugar aqui.",5,5,5,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,vs_aggressive,3,"Compreendo o atraso. Reservarei uma mesa para quando você chegar, fique tranquilo.",5,5,5,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,vs_aggressive,4,"Tranquilo, vou pegando uma mesa e te aviso quando estiver tudo certo aqui.",3,5,3,5,
+resultados_finais,pt_msg_023,openai_gpt41_mini,vs_aggressive,5,"Tudo bem, vou escolher uma mesa para evitar espera, assim aproveitamos melhor o tempo.",3,5,3,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,vs_aggressive,1,"Entendo o conflito e confirmo a alteração para quinta-feira à tarde, conforme solicitado.",3,5,2,5,"responde como confirmacao, nao adiamento"
+resultados_finais,pt_msg_024,openai_gpt41_mini,vs_aggressive,2,"Claro, podemos remarcar para quinta-feira à tarde sem problemas, obrigado por avisar com antecedência.",5,5,5,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,vs_aggressive,3,"Considerando seu conflito, quinta-feira à tarde é viável; caso precise, posso sugerir outro horário.",3,5,3,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,vs_aggressive,4,"Sem problema, vou ajustar nossa reunião para quinta-feira à tarde e avisar os envolvidos.",5,5,5,5,
+resultados_finais,pt_msg_024,openai_gpt41_mini,vs_aggressive,5,Aproveito para confirmar quinta-feira à tarde e fico à disposição para quaisquer ajustes necessários.,5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,baseline,1,"Claro, posso revisar seu texto até amanhã de manhã. Mande quando puder!",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,baseline,2,"Claro, posso revisar seu texto até amanhã de manhã. Mande quando puder!",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,baseline,3,"Claro, posso revisar seu texto até amanhã de manhã. Mande quando puder!",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,baseline,4,"Claro, posso revisar seu texto até amanhã de manhã. Mande quando puder!",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,baseline,5,"Claro, posso revisar seu texto até amanhã de manhã. Mande quando puder!",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,baseline,1,"Claro, envio o arquivo assim que possível. Vou priorizar para você terminar hoje.",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,baseline,2,"Claro, te envio o arquivo assim que puder. Vou priorizar para você terminar hoje!",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,baseline,3,"Claro, envio o arquivo assim que possível. Vou te avisar quando estiver pronto.",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,baseline,4,"Claro, te envio o arquivo assim que possível. Vou priorizar para você terminar hoje!",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,baseline,5,"Claro, envio o arquivo assim que possível. Vou verificar a disponibilidade agora.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,baseline,1,"Claro, farei o possível para enviar a versão atualizada do cronograma ainda hoje.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,baseline,2,"Claro, farei o possível para enviar a versão atualizada do cronograma ainda hoje.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,baseline,3,"Claro, envio a versão atualizada do cronograma ainda hoje para você alinhar.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,baseline,4,"Claro, posso enviar a versão atualizada do cronograma ainda hoje.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,baseline,5,"Claro, farei o possível para enviar a versão atualizada do cronograma ainda hoje.",5,5,5,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,baseline,1,Vou verificar e retorno a proposta até o final do dia. Agradeço a paciência.,5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,baseline,2,Verifiquei e darei um retorno até o final do dia. Agradeço a paciência.,5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,baseline,3,Vou verificar e te dar um retorno em breve. Agradeço a paciência!,5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,baseline,4,Verifiquei e já estou analisando. Darei um retorno até o final do dia.,5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,baseline,5,"Verifiquei e já estou analisando. Retorno em breve, por favor aguarde.",5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,baseline,1,"Vi sim. Vou resolver o quanto antes, sem pressão. Te aviso assim que possível.",5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,baseline,2,Vi a mensagem. Vou verificar e te retorno o mais rápido possível para resolvermos isso.,5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,baseline,3,Vi a mensagem. Vou resolver o quanto antes para você.,5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,baseline,4,"Vi a mensagem. Vou resolver isso hoje mesmo, sem pressa.",5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,baseline,5,Vi sim! Vou verificar e te retorno o mais rápido possível.,5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,baseline,1,"Por favor, envie os documentos pendentes o quanto antes para não perdermos o prazo.",5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,baseline,2,"Por favor, envie os documentos pendentes o quanto antes para não perdermos o prazo.",5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,baseline,3,"Por favor, envie os documentos pendentes o quanto antes para não perdermos o prazo.",5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,baseline,4,"Por favor, envie os documentos pendentes o quanto antes para não perdermos o prazo.",5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,baseline,5,"Por favor, envie os documentos pendentes o quanto antes para não perdermos o prazo.",5,5,4,5,
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,baseline,1,"Infelizmente, não poderei participar da reunião hoje à noite. Espero que corra bem!",5,5,5,5,
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,baseline,2,"Infelizmente, não poderei participar da reunião hoje à noite. Espero que corra bem!",5,5,5,5,
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,baseline,3,"Infelizmente, não poderei participar da reunião hoje às 18h. Sinto muito pelo imprevisto.",5,5,5,5,
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,baseline,4,"Infelizmente, não poderei participar da reunião hoje. Sinto muito pelo imprevisto.",5,5,5,5,
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,baseline,5,"Infelizmente, não poderei participar da reunião hoje à noite. Sinto muito pelo imprevisto.",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,baseline,1,"Infelizmente, não posso sair hoje. Tenha um ótimo encontro!",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,baseline,2,"Não posso sair hoje, mas adorei o convite! Que tal outro dia?",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,baseline,3,"Infelizmente não posso sair hoje, mas adorei o convite! 😊",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,baseline,4,"Infelizmente não posso sair hoje, mas adorei o convite! Que tal outro dia?",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,baseline,5,"Infelizmente não posso sair hoje, mas adorei o convite! Que tal outro dia?",5,5,5,5,
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,baseline,1,"Infelizmente, não consigo assumir essa demanda adicional nesta semana devido à minha agenda atual.",5,5,5,5,
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,baseline,2,"Infelizmente, não poderei assumir essa demanda adicional esta semana devido à minha agenda cheia.",5,5,5,5,
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,baseline,3,"Infelizmente, não conseguirei assumir essa demanda adicional nesta semana. Desculpe o imprevisto.",5,5,5,5,
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,baseline,4,"Infelizmente, não conseguirei assumir a demanda adicional esta semana devido à minha agenda cheia.",5,5,5,5,
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,baseline,5,"Infelizmente, não poderei assumir essa demanda adicional nesta semana devido à minha agenda cheia.",5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,baseline,1,Obrigado por revisar! Os ajustes melhoraram bastante a clareza do material.,5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,baseline,2,Obrigado pelo material revisado. Os ajustes melhoraram bastante a clareza!,5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,baseline,3,Obrigado por enviar a versão revisada. Vou analisar os ajustes agora mesmo.,5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,baseline,4,Recebi o material revisado. Muito obrigado pela atenção e pelos ajustes!,5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,baseline,5,Obrigado por revisar! O material revisado está ótimo e bem claro agora.,5,5,5,5,
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,baseline,1,Fico feliz em ajudar! Que bom que funcionou e economizou seu tempo.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,baseline,2,Que bom que funcionou! Fico feliz em ajudar sempre. 😊,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,baseline,3,Que bom que funcionou! Fico feliz em ajudar sempre que precisar.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,baseline,4,Que ótimo que funcionou! Fico feliz em ajudar sempre.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,baseline,5,Fico feliz em ajudar! Que bom que a dica funcionou e economizou seu tempo.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,baseline,1,Fico feliz em ajudar! Foi um prazer colaborar com a organização do evento.,2,5,2,2,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,baseline,2,Fico feliz em ajudar! Foi um prazer colaborar para o sucesso do evento.,2,5,2,2,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,baseline,3,Fico feliz em ajudar! Foi um prazer colaborar para o sucesso do evento.,2,5,2,2,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,baseline,4,Fico feliz em ajudar! Foi um prazer colaborar para o sucesso do evento.,2,5,2,2,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,baseline,5,Fico feliz em ajudar! Foi um prazer colaborar para o sucesso do evento.,2,5,2,2,nao agradece explicitamente
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,baseline,1,Com certeza! Aceito o convite para apresentar meu projeto na reunião.,5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,baseline,2,Com certeza! Fico feliz em apresentar meu projeto na reunião. Aguardo detalhes.,4,5,4,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,baseline,3,Com certeza! Fico feliz em apresentar meu projeto na reunião. Aguardo detalhes.,4,5,4,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,baseline,4,Com certeza! Fico feliz em apresentar meu projeto na reunião. Aguardo detalhes.,4,5,4,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,baseline,5,Com certeza! Fico feliz em apresentar meu projeto na reunião. Aguardo mais detalhes.,4,5,4,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,baseline,1,Que ótima ideia! Sexta-feira funciona perfeitamente para mim. 😊,3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,baseline,2,Que ótima ideia! Sexta-feira funciona perfeitamente para mim.,3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,baseline,3,"Claro, adoraria! Sexta-feira funciona para mim. Me avise o local.",5,5,5,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,baseline,4,Que ótima ideia! Sexta-feira funciona bem para mim. Me avise o que fica melhor.,3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,baseline,5,Claro! Adoraria muito almoçar com você na sexta. Me avise o que fica melhor.,5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,baseline,1,Claro! Adoraria participar. Quarta-feira funciona bem para mim.,5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,baseline,2,Claro! Adoraria participar. Quarta-feira funciona bem para mim.,5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,baseline,3,Claro! Adoraria participar. Quarta-feira funciona bem para mim.,5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,baseline,4,Claro! Adoraria participar da revisão na quarta-feira. Me avise os detalhes.,5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,baseline,5,Claro! Adoraria participar. Quarta-feira funciona bem para mim.,5,5,5,5,
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,baseline,1,O prazo final é sexta-feira. Confirme para garantir o envio correto da atividade.,4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,baseline,2,O prazo final é sexta-feira. Confirme para garantir o envio correto da atividade.,4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,baseline,3,"O prazo final é na sexta-feira, por favor confirme para evitar problemas.",4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,baseline,4,"O prazo final é sexta-feira, por favor, para garantir o envio sem problemas.",4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,baseline,5,"O prazo final é sexta-feira, por favor, para não haver problemas no envio.",4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,baseline,1,"Claro, me diga qual parte específica está confusa para eu explicar melhor.",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,baseline,2,"Claro, posso explicar cada ponto do gráfico para você entender melhor os resultados.",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,baseline,3,"Claro, posso explicar cada valor do gráfico para você entender melhor os resultados.",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,baseline,4,"Claro, me diga qual parte específica você tem dúvidas para eu explicar melhor.",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,baseline,5,Claro! Posso detalhar cada ponto do gráfico para você entender melhor os resultados.,5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,baseline,1,"Claro, posso detalhar os critérios para você ajustar seu trabalho com precisão.",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,baseline,2,"Claro, posso detalhar os critérios para você ajustar seu trabalho com precisão.",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,baseline,3,"Claro, detalharei os critérios para você ajustar seu trabalho com precisão antes da entrega final.",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,baseline,4,"Claro, posso detalhar os critérios para você ajustar seu trabalho com precisão antes da entrega.",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,baseline,5,"Claro, posso detalhar os critérios para você ajustar seu trabalho com precisão.",5,5,4,5,
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,baseline,1,"Confirmo minha participação na banca de avaliação no dia 12, até o final do dia.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,baseline,2,"Confirmo minha participação na banca de avaliação no dia 12, até o final do dia.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,baseline,3,"Confirmo minha participação na banca de avaliação no dia 12, até o final do dia.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,baseline,4,"Confirmo minha participação na banca de avaliação no dia 12, até o final do dia.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,baseline,5,"Confirmo minha participação na banca de avaliação no dia 12, até o final do dia.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,baseline,1,"Combinado! Nos vemos às 15h na biblioteca. Qualquer coisa, me avise.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,baseline,2,"Combinado! Nos vemos às 15h na biblioteca, sem problemas.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,baseline,3,"Combinado! Nos vemos às 15h na biblioteca. Qualquer mudança, me avise.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,baseline,4,"Combinado! Nos vemos às 15h na biblioteca, sem problemas.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,baseline,5,"Combinado! Nos vemos às 15h na biblioteca, sem problemas.",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,baseline,1,Recebi o e-mail e as orientações anexas. Tudo certo por aqui!,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,baseline,2,Recebido e lido. Confirmo que li todas as orientações enviadas no anexo.,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,baseline,3,Recebido e lido. Confirmo que entendi todas as orientações enviadas no anexo.,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,baseline,4,Recebido e lido. Todas as orientações foram devidamente compreendidas.,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,baseline,5,Recebido e lido. As orientações foram todas compreendidas com sucesso.,5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,baseline,1,"Compreendo. Podemos remarcar a entrega para a próxima semana, por favor?",5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,baseline,2,"Compreendo. Podemos remarcar a entrega para a próxima semana, por favor?",5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,baseline,3,"Compreendo. Podemos remarcar a entrega para a próxima semana, por favor?",5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,baseline,4,"Compreendo. Podemos remarcar a entrega para a próxima semana, por favor?",5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,baseline,5,"Claro, podemos remarcar. Qual dia e horário seriam melhores para você na próxima semana?",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,baseline,1,"Sem problemas, pode pegar a mesa. Estou aguardando você.",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,baseline,2,"Sem problemas, pode pegar a mesa. Vou aguardar você.",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,baseline,3,"Sem problemas, fique à vontade. Vou cuidar da mesa enquanto isso.",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,baseline,4,"Sem problemas, pode pegar a mesa. A gente se fala depois.",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,baseline,5,"Sem problemas, pode pegar a mesa. Estarei esperando você.",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,baseline,1,"Claro, podemos remarcar para quinta à tarde. Qual horário seria melhor para você?",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,baseline,2,"Claro, podemos remarcar para quinta à tarde. Qual horário seria melhor para você?",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,baseline,3,"Claro, podemos remarcar para quinta à tarde. Qual horário seria melhor para você?",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,baseline,4,"Claro, podemos remarcar para quinta à tarde. Qual horário seria melhor para você?",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,baseline,5,"Claro, podemos remarcar para quinta à tarde. Qual horário seria melhor para você?",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,vs_intermediate,1,Claro! Posso revisar seu texto até amanhã de manhã. Fico à disposição para ajudar com o tom.,5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,vs_intermediate,2,"Entendido. Revisão do texto concluída para amanhã pela manhã, focando no tom.",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,vs_intermediate,3,"Com certeza, entendo a necessidade de ajustar o tom. Vou dedicar meu tempo para isso amanhã.",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,vs_intermediate,4,"Sim, consigo. Revisão do texto curta para amanhã de manhã. Sem problemas.",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,vs_intermediate,5,Pode deixar! Revisar seu texto é ótimo. Vou garantir que o tom fique perfeito para você!,5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,vs_intermediate,1,"Claro, farei o possível para enviar assim que puder. Agradeço a compreensão com o prazo.",3,5,3,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,vs_intermediate,2,Entendido. Vou priorizar o envio para garantir que você tenha o arquivo hoje.,5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,vs_intermediate,3,"Ok, me avise o horário exato para eu enviar. Preciso desse arquivo urgentemente.",4,5,4,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,vs_intermediate,4,Compreendo a urgência. Vou organizar meu tempo para te entregar o material o quanto antes.,5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,vs_intermediate,5,"Pode deixar! Vou mandar rapidinho, para você conseguir finalizar sua parte hoje mesmo!",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,vs_intermediate,1,"Claro, vou verificar a disponibilidade para enviar o cronograma atualizado hoje. Aguarde um retorno.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,vs_intermediate,2,Com certeza! Farei o meu melhor para enviar a versão atualizada do cronograma ainda hoje.,5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,vs_intermediate,3,Entendo a urgência. Vou priorizar e garantir que você receba o cronograma atualizado hoje mesmo.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,vs_intermediate,4,"Consigo enviar a atualização do cronograma hoje. Confirme o canal de envio, por favor.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,vs_intermediate,5,"Pode deixar! Vou correr para atualizar e enviar o cronograma rapidinho, sem problemas!",5,5,5,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,vs_intermediate,1,Entendo a sua ansiedade. Vou verificar imediatamente e te dou um retorno concreto ainda hoje.,5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,vs_intermediate,2,"A avaliação será concluída até o final do dia de amanhã, por favor.",5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,vs_intermediate,3,Peço desculpas pela demora. Estou priorizando isso e prometo uma atualização breve logo.,5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,vs_intermediate,4,"Preciso de mais tempo. Retorno definitivo sobre a proposta em breve, ok?",5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,vs_intermediate,5,"Quero resolver isso rápido! Vou dar um retorno exato em uma hora, pode esperar.",5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,vs_intermediate,1,Entendo a urgência. Me desculpe se demorei; vou verificar imediatamente para resolvermos isso.,5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,vs_intermediate,2,"Recebi. Vou priorizar a resolução para que fique solucionado ainda hoje, sem atrasos.",3,5,3,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,vs_intermediate,3,"Claro, estou olhando agora mesmo. Não se preocupe com a pressão, vamos resolver juntos.",5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,vs_intermediate,4,"Sim, vi. Vou focar nisso agora para garantir que a pendência seja resolvida hoje.",5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,vs_intermediate,5,Pode contar comigo! Vou dar um gás nisso agora mesmo para resolvermos tudo rapidinho.,5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,vs_intermediate,1,Entendido. Reforço a urgência; os documentos são cruciais para mantermos o cronograma estipulado.,3,5,3,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,vs_intermediate,2,Compreendo a pressão. Vamos priorizar o envio para garantir que tudo seja concluído no prazo.,5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,vs_intermediate,3,Atenção: o envio imediato dos documentos é fundamental para cumprirmos o prazo final.,5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,vs_intermediate,4,"Agradeço o lembrete. Por favor, envie o material o quanto antes para seguirmos bem.",3,5,3,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,vs_intermediate,5,É imprescindível enviar os documentos agora. O prazo é rígido e não podemos atrasar a análise.,5,5,4,5,
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,vs_intermediate,1,"Claro, vou verificar minha disponibilidade para essa reunião. Deixe-me confirmar os detalhes.",2,5,2,5,nao recusa claramente
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,vs_intermediate,2,Preciso checar minha agenda imediatamente. Retorno com a confirmação sobre a reunião.,3,5,2,5,adiou a decisao em vez de recusar
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,vs_intermediate,3,Entendo a urgência. Vou analisar meu compromisso e te dou um retorno o quanto antes.,3,5,3,5,
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,vs_intermediate,4,Não consigo participar. Minha agenda está totalmente comprometida neste horário.,5,5,5,5,
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,vs_intermediate,5,"Infelizmente, não poderei comparecer. Tenha um ótimo encontro sem mim.",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,vs_intermediate,1,"Claro que sim! Adoraria sair com vocês depois da aula, parece ótimo!",2,5,2,5,nao recusa claramente
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,vs_intermediate,2,"Infelizmente não consigo hoje, tenho outro compromisso marcado para a tarde.",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,vs_intermediate,3,Não posso ir hoje. Minha agenda está cheia com outras obrigações.,5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,vs_intermediate,4,"Que pena, não vou conseguir acompanhar. Espero que vocês se divirtam muito!",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,vs_intermediate,5,"Poxa, hoje não rola pra mim. Deixem a gente para outro dia então?",3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,vs_intermediate,1,Com certeza! Vou verificar minha disponibilidade e te retorno em breve sobre essa demanda extra.,2,5,2,5,nao recusa claramente
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,vs_intermediate,2,Recebi a solicitação. Preciso confirmar os detalhes exatos desta demanda adicional para eu avaliar.,3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,vs_intermediate,3,Entendo perfeitamente a correria. Vou analisar meu lado e te dou um retorno o quanto antes.,3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,vs_intermediate,4,Depende da prioridade. Me diga o prazo exato para eu poder confirmar se consigo ajudar.,3,5,2,5,adiou a decisao em vez de recusar
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,vs_intermediate,5,Minha capacidade é limitada. Precisamos alinhar o escopo para eu poder assumir essa tarefa.,3,5,3,5,
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,vs_intermediate,1,Recebi o material revisado. Agradeço muito por fazer esses ajustes importantes na clareza.,5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,vs_intermediate,2,O material revisado foi recebido. Os ajustes de clareza foram considerados e estão ok.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,vs_intermediate,3,Material revisado recebido. Os ajustes de clareza foram feitos conforme combinado.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,vs_intermediate,4,"Obrigado por revisar. Entendo que alguns trechos precisaram de mais clareza, ótimo trabalho.",5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,vs_intermediate,5,"Excelente! O material revisado está ótimo agora, os ajustes melhoraram bastante a clareza.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,vs_intermediate,1,Que ótimo que funcionou! Fico muito feliz em saber que a dica ajudou bastante seu tempo.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,vs_intermediate,2,Maravilhoso! Resolver foi a melhor notícia. Conte comigo sempre que precisar de algo.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,vs_intermediate,3,"Entendido. A dica foi eficaz e economizou tempo, o que é excelente.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,vs_intermediate,4,Fico contente demais por ter sido útil. A troca de dicas sempre rende bons resultados.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,vs_intermediate,5,Que bom! Fico feliz em ter ajudado a resolver isso rapidamente para você.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,vs_intermediate,1,Fico muito grato por reconhecerem meu apoio. Foi um prazer colaborar com o evento.,5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,vs_intermediate,2,"Que bom que funcionou tão bem! A colaboração de todos fez toda a diferença, de verdade.",2,5,2,2,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,vs_intermediate,3,Agradeço o feedback. Conte sempre que estou à disposição para futuras colaborações.,5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,vs_intermediate,4,Obrigado pelo reconhecimento. A organização foi um sucesso graças ao esforço conjunto.,5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,vs_intermediate,5,Sinto que a parceria valeu muito. Foi um momento incrível de trabalho em equipe.,5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,vs_intermediate,1,Que ótima oportunidade! Ficarei muito feliz em apresentar meu projeto brevemente na reunião.,3,5,3,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,vs_intermediate,2,"Entendido. Apresentarei o projeto em dez minutos, como solicitado para a reunião.",3,5,3,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,vs_intermediate,3,Recebi o convite. Confirmo que farei a apresentação de dez minutos na reunião.,5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,vs_intermediate,4,Maravilhoso! Adoro o convite. Estou super animado para compartilhar meu trabalho com o grupo!,5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,vs_intermediate,5,Agradeço a chance. Vou preparar o material para essa apresentação de dez minutos.,3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,vs_intermediate,1,"Que ótima ideia! Adoraria muito almoçar com você na sexta-feira, vamos verificar a agenda.",5,5,5,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,vs_intermediate,2,Confirmo o interesse no almoço de sexta. Me avise sua disponibilidade para acertarmos a data.,5,5,5,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,vs_intermediate,3,"Claro, podemos almoçar sexta. Se não der, combinamos para outra data logo.",3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,vs_intermediate,4,"Entendo perfeitamente. Se sexta for complicado, sem problemas, vamos remarcar.",5,5,5,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,vs_intermediate,5,"Sexta é perfeito! Mal posso esperar para almoçar. Se não rolar, a gente busca outro dia!",3,5,3,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,vs_intermediate,1,Com certeza! Adoraria participar. Revisar os exercícios juntos vai ser super produtivo para a prova.,5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,vs_intermediate,2,Fechado! Quarta está ótimo. Vamos deixar tudo bem tranquilo e focado na revisão.,5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,vs_intermediate,3,Aceito o convite. Quarta-feira funciona perfeitamente para a revisão dos exercícios.,5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,vs_intermediate,4,Que ótima ideia! Estou totalmente a favor de revisarmos o material juntos na quarta-feira.,3,5,3,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,vs_intermediate,5,"Sim, topo demais! Quarta-feira é perfeito para turbinar a revisão e gabaritar essa prova!",5,5,5,5,
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,vs_intermediate,1,"Confirme o dia exato, por favor. Preciso dessa informação para organizar o envio corretamente.",3,5,3,5,
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,vs_intermediate,2,"O prazo é na sexta-feira, para garantir que tudo corra bem.",4,5,3,5,assume resposta para informacao nao explicitada
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,vs_intermediate,3,Entendo a preocupação. Vamos checar o calendário juntos para acertar o prazo.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,vs_intermediate,4,Solicito a confirmação formal da data limite para evitar qualquer imprevisto.,3,5,3,5,
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,vs_intermediate,5,"Relaxa, vamos resolver isso rapidinho. Me diga qual dia que eu confirmo para você.",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,vs_intermediate,1,Claro! Posso detalhar cada eixo e a tendência principal para você entender melhor esses dados.,5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,vs_intermediate,2,Com certeza! Me diga qual seção específica está gerando dúvidas para eu esclarecer.,5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,vs_intermediate,3,"Para explicar, preciso saber qual parte do gráfico você gostaria de analisar.",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,vs_intermediate,4,"Entendo a dificuldade. Vamos revisar juntos, vou simplificar essa interpretação para você.",3,5,3,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,vs_intermediate,5,"Pode me enviar o gráfico, então eu explico a leitura dos valores imediatamente.",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,vs_intermediate,1,"Claro, posso detalhar os critérios. Por favor, me diga qual é o escopo exato que você precisa ajustar.",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,vs_intermediate,2,Com certeza! Ficarei feliz em detalhar os critérios. Me passe o contexto para eu ajudar bem.,5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,vs_intermediate,3,Entendo perfeitamente a necessidade de ajuste. Vamos revisar juntos os critérios para garantir.,5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,vs_intermediate,4,Envie a mensagem. Vou listar os critérios de avaliação imediatamente para você.,5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,vs_intermediate,5,Ótima ideia! Detalharemos tudo com clareza para que seu trabalho fique perfeito.,5,5,4,5,
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,vs_intermediate,1,"Confirmo minha participação na banca de avaliação, de 12h até o final do dia. Tudo certo para a programação.",5,5,5,5,
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,vs_intermediate,2,"Claro, confirmo minha participação na banca. Pode considerar meu nome fechado para o dia 12.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,vs_intermediate,3,"Sim, confirmo. Estarei presente na banca de avaliação no dia 12, como combinado.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,vs_intermediate,4,Entendido. Confirmo minha presença na banca. Agradeço o aviso para fecharmos a programação.,5,5,5,5,
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,vs_intermediate,5,Com certeza! Confirmo minha participação na banca. Vamos garantir que tudo corra perfeitamente.,5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,vs_intermediate,1,"Combinado! Nos vemos às quinze na biblioteca. Qualquer imprevisto, me avise com antecedência.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,vs_intermediate,2,Confirmo o encontro às 15h na biblioteca. Mantenha a comunicação sobre qualquer alteração.,5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,vs_intermediate,3,"Perfeito, então a gente se vê lá às 15h na biblioteca. Fico no aguardo!",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,vs_intermediate,4,"Ok, às 15h na biblioteca. Por favor, me avise se precisar reagendar algo.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,vs_intermediate,5,Maravilha! Até às 15h na biblioteca. Estou super animado para o nosso encontro!,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,vs_intermediate,1,"Recebi o e-mail e as orientações anexas. Tudo claro e anotado por aqui, obrigado pela atenção.",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,vs_intermediate,2,Confirmo o recebimento. As orientações foram devidamente lidas e compreendidas.,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,vs_intermediate,3,Recebido. Confirmado que li e entendi todas as orientações enviadas no anexo.,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,vs_intermediate,4,"Recebi! Vou revisar tudo com calma e retorno qualquer dúvida, se necessário.",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,vs_intermediate,5,Recebido com sucesso! As orientações são muito úteis e vamos seguir o plano.,5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,vs_intermediate,1,"Entendo a situação. Vamos buscar uma nova data que funcione melhor para ambos, sem problemas.",5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,vs_intermediate,2,"Ok, remarcar para a próxima semana é viável. Por favor, me confirme o dia exato.",5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,vs_intermediate,3,Compreendo o imprevisto. Sugiro que definamos um novo prazo formalmente na próxima semana.,5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,vs_intermediate,4,Sem problemas! A próxima semana funciona bem para mim. Podemos alinhar os detalhes então.,5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,vs_intermediate,5,Claro que sim! A próxima semana será perfeita para concluirmos tudo com sucesso.,5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,vs_intermediate,1,"Sem problemas! Pode pegar a mesa com calma, sem pressa alguma. A gente se fala aí.",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,vs_intermediate,2,Entendido. Vou sinalizar que vou atrasar cerca de vinte minutos. Pode começar a usar o espaço.,5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,vs_intermediate,3,"Compreendo perfeitamente. Não se preocupe com o atraso, aproveite a sua chegada.",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,vs_intermediate,4,"Ok, considere os vinte minutos de atraso. Vou providenciar o local para você.",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,vs_intermediate,5,Combinado! A gente se organiza. Aproveite esse tempo extra para se preparar bem.,3,5,3,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,vs_intermediate,1,"Claro, sem problemas. Quinta à tarde funciona bem para mim. Vamos confirmar os detalhes então.",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,vs_intermediate,2,"Entendido. Podemos remarcar para quinta à tarde. Por favor, me envie a nova sugestão.",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,vs_intermediate,3,Sinto muito pelo imprevisto. Quinta à tarde deve ser possível. Vamos encontrar um melhor momento.,3,5,3,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,vs_intermediate,4,Adiar para quinta à tarde está confirmado. Confirme o novo horário para alinharmos a agenda.,5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,vs_intermediate,5,Perfeito! Quinta à tarde é uma ótima opção. Fico no aguardo para ajustarmos tudo perfeitamente.,5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,vs_aggressive,1,"Com certeza, farei a revisão com carinho. Por favor, me envie o material para eu poder organizar meu cronograma.",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,vs_aggressive,2,Depende da urgência; me diga o prazo exato para eu avaliar a viabilidade dessa entrega.,4,5,4,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,vs_aggressive,3,"Para garantir a qualidade, preciso saber o conteúdo completo para estimar o tempo real de revisão.",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,vs_aggressive,4,"Seria um prazer ajudar. Assim que receber, verifico a disponibilidade e te dou um retorno.",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_gemma_e2b,vs_aggressive,5,"Adoraria ajudar! Manda o texto, farei a checagem com muita atenção e agilidade.",3,5,3,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,vs_aggressive,1,"Claro, farei o possível para enviar assim que eu puder. Agradeço a compreensão pelo prazo apertado.",3,5,3,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,vs_aggressive,2,Entendido. Vou priorizar o envio deste arquivo para garantir a conclusão da sua tarefa hoje.,5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,vs_aggressive,3,"Devido ao prazo final, peço que aguarde um breve momento; isso otimizará a entrega imediata.",3,5,3,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,vs_aggressive,4,"Com certeza! Vou reservar um tempinho especial para te passar esse material com carinho, viu?",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_gemma_e2b,vs_aggressive,5,Compreendo a urgência. O envio será feito assim que eu conseguir liberar o arquivo necessário.,5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,vs_aggressive,1,Posso verificar a disponibilidade para envio do cronograma atualizado hoje. Aguarde um retorno breve.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,vs_aggressive,2,"Com certeza, farei o possível para enviar a versão atualizada dentro do prazo solicitado hoje.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,vs_aggressive,3,"Para garantir o alinhamento, preciso de um pequeno prazo extra para consolidar as informações finais.",4,5,4,5,
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,vs_aggressive,4,Entendo a urgência. Vou priorizar essa atualização para que você possa seguir com sua equipe sem problemas.,5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_gemma_e2b,vs_aggressive,5,"Se for viável, farei o envio. Se houver algum obstáculo, me avise para reavaliarmos juntos.",5,5,5,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,vs_aggressive,1,Entendo a ansiedade. Gostaria de verificar se houve algum imprevisto com a análise da proposta enviada.,5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,vs_aggressive,2,"Por favor, me informe o status exato da avaliação para que eu possa atualizar meu planejamento.",5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,vs_aggressive,3,É crucial definir um prazo. Aguardo uma resposta concreta sobre a avaliação da proposta enviada.,5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,vs_aggressive,4,"Fico à disposição. Se precisar de mais tempo, me avise para ajustarmos a expectativa.",3,5,3,5,
+resultados_finais,pt_msg_004,lmstudio_gemma_e2b,vs_aggressive,5,Agradeceria um retorno breve. Isso ajudará muito a organização do nosso cronograma atual.,5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,vs_aggressive,1,Entendo a urgência. Me diga qual é o ponto crítico para eu poder ajudar com prioridade máxima agora.,3,5,3,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,vs_aggressive,2,"Confirmo o recebimento. Por favor, detalhe o que precisa ser resolvido para eu avaliar o impacto.",5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,vs_aggressive,3,"Claro que vi. Estou à disposição para colaborar, me passe o contexto para darmos andamento.",3,5,3,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,vs_aggressive,4,"Entendo a pressão, mas preciso de um plano claro e imediato para endereçar essa pendência hoje.",3,5,3,5,
+resultados_finais,pt_msg_005,lmstudio_gemma_e2b,vs_aggressive,5,"Pode contar comigo. Vamos organizar essa resolução juntos, me conte o que está acontecendo.",3,5,3,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,vs_aggressive,1,"Compreendo a urgência. Por favor, me informe qual é o prazo exato para garantir a entrega pontual.",5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,vs_aggressive,2,A pendência é crítica. Qual o impacto real do atraso no cronograma estabelecido?,3,5,3,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,vs_aggressive,3,"Para otimizar a análise, precisamos desses dados; o atraso compromete a validação final.",5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,vs_aggressive,4,Entendo a pressão. Vamos juntas resolver isso rapidamente para que tudo corra bem.,5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_gemma_e2b,vs_aggressive,5,A prioridade é o envio imediato. A conclusão da análise depende diretamente dessa documentação.,5,5,4,5,
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,vs_aggressive,1,Agradeço o convite. Verificarei minha disponibilidade e confirmo em breve se consigo comparecer.,3,5,2,5,adiou a decisao em vez de recusar
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,vs_aggressive,2,"Minha agenda atual exige uma checagem; posso verificar um encaixe posterior, por favor?",3,5,2,5,adiou a decisao em vez de recusar
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,vs_aggressive,3,Entendido o pedido. Preciso analisar os conflitos de agenda para definir a participação.,3,5,3,5,
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,vs_aggressive,4,Que gentileza! Vou checar meus compromissos e farei o melhor para estar presente.,2,5,2,5,nao recusa claramente
+resultados_finais,pt_msg_007,lmstudio_gemma_e2b,vs_aggressive,5,Ajustarei minha agenda. A confirmação dependerá da real viabilidade do meu compromisso.,2,5,2,5,nao recusa claramente
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,vs_aggressive,1,"Que ideia bacana! Depende da minha disponibilidade exata, vamos checar a agenda de todos.",3,5,2,5,adiou a decisao em vez de recusar
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,vs_aggressive,2,"A proposta é interessante, mas preciso verificar o horário para não comprometer meus estudos.",3,5,2,5,adiou a decisao em vez de recusar
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,vs_aggressive,3,"Minha agenda atual é apertada, então talvez seja melhor planejarmos algo diferente por enquanto.",3,5,2,5,adiou a decisao em vez de recusar
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,vs_aggressive,4,"Adoraria muito, mas hoje estou com um compromisso inadiável que não consigo mudar.",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_gemma_e2b,vs_aggressive,5,"Não será possível hoje, mas podemos combinar para a próxima oportunidade disponível.",5,5,5,5,
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,vs_aggressive,1,"Com certeza, farei o meu melhor para encaixar isso. Vou verificar a disponibilidade e retorno em breve.",3,5,2,5,adiou a decisao em vez de recusar
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,vs_aggressive,2,A demanda adicional será avaliada. Preciso revisar o cronograma atual para confirmar a viabilidade.,3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,vs_aggressive,3,Minha capacidade atual exige uma análise detalhada. Gostaria de discutir os prazos envolvidos.,3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,vs_aggressive,4,Agradeço a confiança. Vou reorganizar meus compromissos para garantir que isso seja feito com excelência.,3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_gemma_e2b,vs_aggressive,5,A responsabilidade é importante. Preciso de clareza sobre a prioridade dessa nova tarefa imediatamente.,3,5,3,5,
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,vs_aggressive,1,"Recebi a versão revisada. A atenção aos ajustes de clareza foi muito bem aplicada, obrigado.",5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,vs_aggressive,2,Material recebido e analisado. Os ajustes de clareza foram implementados conforme o esperado.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,vs_aggressive,3,A revisão focou exatamente onde a clareza estava comprometida. Isso garante maior precisão.,2,5,2,2,nao agradece explicitamente
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,vs_aggressive,4,Que bom que conseguimos alinhar isso! Os ajustes trouxeram uma melhoria significativa na leitura.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_010,lmstudio_gemma_e2b,vs_aggressive,5,Agradeço o envio. Os pequenos ajustes fizeram toda a diferença para a compreensão do conteúdo.,5,5,5,5,
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,vs_aggressive,1,Fico muito feliz em saber que a dica foi eficaz. Sua satisfação é minha maior recompensa.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,vs_aggressive,2,Que ótimo resultado! Ver que ajudou a economizar tempo é extremamente gratificante para mim.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,vs_aggressive,3,Que bom que funcionou perfeitamente. Estou à disposição para qualquer outra necessidade futura.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,vs_aggressive,4,"Entendido. A solução funcionou, o que confirma a eficácia da orientação fornecida.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_gemma_e2b,vs_aggressive,5,A dica se mostrou útil justamente por ser a abordagem mais eficiente para este cenário específico.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,vs_aggressive,1,Fico muito feliz em saber que minha colaboração foi valiosa para o sucesso do evento. Foi um prazer ajudar.,2,5,2,2,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,vs_aggressive,2,Agradeço o reconhecimento. O suporte prestado foi fundamental para atingirmos os objetivos propostos com sucesso.,5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,vs_aggressive,3,Minha disponibilidade se justificou pela necessidade de garantir a fluidez operacional do cronograma estabelecido.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,vs_aggressive,4,Sinto gratidão profunda por essa lembrança. A parceria foi essencial para construirmos algo memorável.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_gemma_e2b,vs_aggressive,5,Que ótimo que funcionou perfeitamente! Contar com o apoio de todos foi uma experiência extremamente gratificante.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,vs_aggressive,1,Seria uma grande honra! Fico à disposição para organizar os detalhes dessa apresentação breve.,4,5,4,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,vs_aggressive,2,Entendido. Confirmo a disponibilidade para apresentar o projeto dentro do limite de dez minutos.,3,5,3,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,vs_aggressive,3,A brevidade é crucial para otimizar o tempo da reunião; podemos alinhar o escopo.,3,5,3,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,vs_aggressive,4,Que excelente oportunidade! Mal posso esperar para compartilhar o projeto com o grupo.,3,5,3,5,
+resultados_finais,pt_msg_013,lmstudio_gemma_e2b,vs_aggressive,5,Agradeço o convite. Estou animado para contribuir com a visão do meu projeto na reunião.,5,5,5,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,vs_aggressive,1,Que ótima ideia! Sexta-feira parece perfeita para mim. Me avise o que funciona melhor para você.,3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,vs_aggressive,2,"Confirmo o interesse no almoço de sexta. Por favor, sugira uma alternativa se necessário.",5,5,5,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,vs_aggressive,3,"Tenho um compromisso inadiável na sexta, mas adoraria remarcar para outro momento.",5,5,5,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,vs_aggressive,4,Claro que sim! Mal posso esperar para almoçar. Sexta-feira será um sucesso garantido!,3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_gemma_e2b,vs_aggressive,5,"Seria um prazer. Se sexta não rolar, vamos encontrar um dia que seja realmente bom para nós.",5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,vs_aggressive,1,Com certeza! Adoraria contribuir com a revisão. Podemos alinhar melhor o cronograma de estudos então?,5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,vs_aggressive,2,"A participação na revisão é viável. Por favor, me envie o material inicial para organização.",3,5,3,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,vs_aggressive,3,Participar é importante para otimizar a revisão. Isso garante que cobriremos os pontos cruciais da prova.,5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,vs_aggressive,4,"Quarta funciona perfeitamente. Vamos deixar a revisão bem descontraída, como combinamos?",5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_gemma_e2b,vs_aggressive,5,Que ótima ideia! Estou super animado para revisar juntos e garantir essa aprovação na prova!,3,5,3,5,
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,vs_aggressive,1,"Para garantir, preciso confirmar a data exata, sexta ou segunda. Isso é crucial para o planejamento.",3,5,3,5,
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,vs_aggressive,2,Com certeza! Deixe-me verificar a informação exata para que não haja confusão no envio.,3,5,3,5,
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,vs_aggressive,3,A distinção entre sexta e segunda é vital; esclarecer isso evita atrasos no processo.,4,5,3,5,
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,vs_aggressive,4,Entendo a preocupação. Vamos checar juntos qual é o dia correto para evitar qualquer imprevisto.,3,5,3,5,
+resultados_finais,pt_msg_016,lmstudio_gemma_e2b,vs_aggressive,5,"Por favor, confirme qual é o dia definitivo, sexta ou segunda, para seguirmos corretamente.",3,5,3,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,vs_aggressive,1,"Com certeza! Para esclarecer, preciso saber qual seção específica do gráfico está gerando dúvidas.",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,vs_aggressive,2,"Por favor, indique o intervalo exato do gráfico para que eu possa fornecer a interpretação técnica.",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,vs_aggressive,3,"Entendo a confusão. Me diga qual é o ponto exato, e eu detalho a leitura dos dados para você.",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,vs_aggressive,4,A interpretação depende do contexto; me forneça o eixo ou a legenda para contextualizar.,5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_gemma_e2b,vs_aggressive,5,"Vamos olhar juntos. Me mostre o gráfico, e eu explico cada valor com muita atenção.",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,vs_aggressive,1,Os critérios envolverão a aderência aos requisitos técnicos definidos no escopo inicial.,5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,vs_aggressive,2,Com certeza. Posso enviar um documento detalhando a métrica de avaliação para sua revisão.,5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,vs_aggressive,3,"Para garantir a precisão, os critérios são baseados na especificação V2.1 para validação.",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,vs_aggressive,4,Entendo sua necessidade de ajuste. Vamos alinhar os parâmetros com carinho e atenção total.,3,5,3,5,
+resultados_finais,pt_msg_018,lmstudio_gemma_e2b,vs_aggressive,5,Que ótimo que quer refinar! Vamos mapear esses pontos juntos para um resultado impecável.,3,5,3,5,
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,vs_aggressive,1,"Confirmo minha disponibilidade para a banca de avaliação no dia 12, até o final do expediente.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,vs_aggressive,2,"Com certeza, confirmo minha participação na banca. Aguardo os detalhes finais da programação.",5,5,5,5,
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,vs_aggressive,3,"Minha participação é garantida, pois tenho compromissos prévios que exigem este período.",3,5,3,5,
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,vs_aggressive,4,Fico feliz em confirmar! Conto com a colaboração de todos para essa importante avaliação.,5,5,5,5,
+resultados_finais,pt_msg_019,lmstudio_gemma_e2b,vs_aggressive,5,Recebido. Confirmo minha presença na banca conforme o cronograma estabelecido para o dia 12.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,vs_aggressive,1,"Confirmo o encontro às 15h na biblioteca. Qualquer alteração, por favor, sinalize com antecedência.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,vs_aggressive,2,Combinado! Estarei lá na biblioteca às quinze. Mantenha-me informado caso haja imprevistos.,5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,vs_aggressive,3,"Para garantir a fluidez, o horário das 15h na biblioteca é o ideal. Avisa se precisar ajustar.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,vs_aggressive,4,"Que ótimo! Conto com a presença às 15h na biblioteca. Se precisar de algo, me avise.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_gemma_e2b,vs_aggressive,5,"Entendido. Nos vemos às 15h na biblioteca. Se algo mudar, só me dê um toque, por gentileza.",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,vs_aggressive,1,Confirmo o recebimento do e-mail e a ciência integral das orientações anexadas.,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,vs_aggressive,2,"Recebi com sucesso, agradeço o envio. As orientações foram devidamente analisadas.",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,vs_aggressive,3,Recebi com muita atenção. Estou ciente de todos os pontos detalhados no anexo.,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,vs_aggressive,4,A confirmação é enviada para garantir que todas as orientações foram compreendidas.,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_gemma_e2b,vs_aggressive,5,Recebido e confirmado. As orientações estão claras e serão seguidas rigorosamente.,5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,vs_aggressive,1,Compreendo a dificuldade. Podemos discutir opções de ajuste para garantir que o relatório seja entregue com qualidade.,5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,vs_aggressive,2,"A remarcação é viável. Por favor, sugira três datas alternativas para alinharmos a nova entrega.",5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,vs_aggressive,3,Entendo o imprevisto. Gostaria de saber qual seria o melhor momento para reagendarmos essa entrega importante.,3,5,3,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,vs_aggressive,4,"Devido a imprevistos técnicos, peço um prazo extra. Podemos ajustar o cronograma para a semana seguinte?",5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_gemma_e2b,vs_aggressive,5,Não se preocupe. Vamos encontrar uma solução juntos para que o relatório fique perfeito na próxima semana.,5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,vs_aggressive,1,"Sem problemas, aproveite o tempo. Eu cuido da mesa e aguardo sua chegada com tranquilidade.",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,vs_aggressive,2,"Entendido. Vou preparar o espaço; por favor, me avise assim que puder se ajustar.",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,vs_aggressive,3,Atrasos são compreensíveis. Vou organizar tudo para que você não perca o fluxo.,5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,vs_aggressive,4,Fique à vontade. Já vou posicionando tudo para garantir sua melhor experiência.,3,5,3,5,
+resultados_finais,pt_msg_023,lmstudio_gemma_e2b,vs_aggressive,5,"Pode atrasar um pouco. Estarei aqui esperando, sem pressa alguma para você.",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,vs_aggressive,1,Compreendo perfeitamente. Que tal explorarmos a quinta-feira à tarde? Estou aberto a novas sugestões.,3,5,3,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,vs_aggressive,2,"Entendido o conflito. Por favor, me informe sua disponibilidade exata para quinta à tarde.",3,5,3,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,vs_aggressive,3,"Devido a um imprevisto, sugiro quinta à tarde. Isso garante que ambos estejamos mais presentes.",3,5,3,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,vs_aggressive,4,Seria possível remarcarmos? Quinta à tarde seria uma ótima alternativa para nós dois.,5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_gemma_e2b,vs_aggressive,5,Não se preocupe com o ajuste. Quinta à tarde parece uma excelente opção para seguirmos.,5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,baseline,1,"Claro! Envio a revisão até amanhã, com foco no tom e clareza.",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,baseline,2,"Claro! Envio a revisão até amanhã de manhã, com atenção ao tom.",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,baseline,3,Claro! Mando a revisão com o tom ajustado até amanhã pela manhã.,5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,baseline,4,"Claro! Envie quando estiver pronto e aviso assim que verificar, ok?",3,5,3,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,baseline,5,"Claro! Mando uma revisão com o tom ajustado até amanhã mesmo, tudo certo?",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,baseline,1,"Claro! Já envio assim que estiver disponível, ok?",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,baseline,2,"Claro! Já te envio assim que possível, ok? Estou aqui se precisar de ajuda.",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,baseline,3,"Claro! Já envio assim que possível, ok? Fica tranquilo.",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,baseline,4,"Claro! Já te envio assim que puder, ok? Avise se precisar com urgência.",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,baseline,5,"Claro! Já envio assim que puder, tá? Fica ligado.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,baseline,1,Claro! Vou te enviar assim que tiver pronto. Fico de olho no prazo.,5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,baseline,2,"Claro! Vou te enviar assim que tiver a versão atualizada, ok?",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,baseline,3,"Claro! Envio agora mesmo, já informo à equipe também.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,baseline,4,"Entendido! Vou verificar e te envio assim que possível, ok?",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,baseline,5,"Claro! Já envio uma versão atualizada até o final do expediente, ok?",5,5,5,5,
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,baseline,1,"Peço desculpas pelo atraso! Estou finalizando a análise e envio resposta até **amanhã**.
+
+*(15 palavras exatas)*",3,3,4,5,marcas de markdown ou meta-texto
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,baseline,2,"Entendemos a demora e estamos finalizando a análise.
+A resposta deve ser enviada até **quinta-feira**.
+Agradecemos sua paciência!",3,3,3,5,marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,baseline,3,"Ainda não temos prazo fechado, mas assim que tivermos novidades, aviso imediatamente.",4,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,baseline,4,Peço desculpas pelo atraso! Estamos finalizando a análise e devemos responder até o fim desta semana.,5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,baseline,5,Peço desculpas pela demora. Analisaremos até o final da semana e retorno assim que possível!,5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,baseline,1,"Entendi! Resolvo com urgência hoje mesmo, sem problema. Fica tranquilo.",5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,baseline,2,Claro! Resolvi agora mesmo. Pode me mandar os detalhes pra finalizarmos.,5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,baseline,3,"Claro! Estou aqui para ajudar — me avise o que precisa, combinado?",3,5,3,5,
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,baseline,4,"Entendi, já vi! Vamos resolver o assunto hoje mesmo, combinado?",5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,baseline,5,Claro! Resolvi o assunto agora e já encaminhei tudo. Pode conferir quando puder.,5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,baseline,1,"Entendo, agradeço pela paciência. Os documentos já foram enviados ontem pela manhã, por favor, confiram.",3,5,3,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,baseline,2,"Entendido! Por favor, me envie os documentos o quanto antes para agilizarmos a análise.",5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,baseline,3,"Entendo! Por favor, me avise assim que enviá-los para seguirmos com agilidade.",3,5,3,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,baseline,4,"Entendemos, já estamos enviando os documentos o quanto antes. Obrigado!",3,5,3,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,baseline,5,"Entendido! Por favor, me avise assim que os enviarem para agilizarmos aqui.",3,5,3,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,baseline,1,"Infelizmente não consegui disponibilidade hoje, mas ficarei atento para a próxima oportunidade.",5,5,5,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,baseline,2,"Infelizmente não poderei participar hoje, mas agradeço o convite e apoio.",5,5,5,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,baseline,3,"Infelizmente não consigo hoje, obrigado pelo convite.",5,5,5,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,baseline,4,"Infelizmente não poderei hoje, mas agradeço o convite e fico à disposição se precisarem depois.",5,5,5,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,baseline,5,"Infelizmente não posso hoje, obrigada pelo convite.",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,baseline,1,"Hoje não vou poder, mas obrigado pelo convite! Outra vez, seguro.",3,5,3,5,
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,baseline,2,"Hoje não vai dar, mas quem sabe outro dia? Ficou de olho nas datas!",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,baseline,3,"Hoje eu não vou conseguir, mas obrigado pelo convite!",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,baseline,4,"Hoje não vai dar, infelizmente. Outra vez?
+(Se quiser ser mais direto: ""Não, hoje não estou disponível."")",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,baseline,5,"Hoje não vai dar, mas obrigado pelo convite! Outra vez, tá?",5,5,5,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,baseline,1,"Sinto muito, não consigo assumir agora por conta da agenda apertada. Obrigado pela confiança!",5,5,5,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,baseline,2,"Entendo a correria, mas infelizmente não dá nesta semana.",5,5,5,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,baseline,3,"Gostaria de ajudar, mas minha agenda já está muito apertada esta semana.",3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,baseline,4,"Agradeço a confiança, mas minha agenda está realmente muito apertada neste momento.",3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,baseline,5,"Ficarei de olho, mas minha agenda está bem apertada esta semana.",3,5,3,5,
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,baseline,1,Muito obrigado pelo material revisado e pelos ajustes! Ficou perfeito.,5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,baseline,2,"""Obrigado pela revisão e pelos ajustes! Ficou ótimo!""",5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,baseline,3,"""Obrigado pela dedicação! Os ajustes ficaram ótimos, o material ficou muito melhor.
+Aprecio seu empenho.""",5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,baseline,4,"Muito obrigado pela revisão e pelos ajustes! Ficou perfeito, valeu mesmo!",5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,baseline,5,"""Muito obrigado pela atenção! Os ajustes ficarão ótimos.""",5,5,5,5,
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,baseline,1,Fico feliz em saber que ajudou! Estava ansioso para o feedback. 😊,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,baseline,2,Fico feliz em ajudar! Compartilhe sua vitória quando quiser. 😊,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,baseline,3,"Que bom saber, fico feliz em ajudar! 😊",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,baseline,4,"Fico feliz em ajudar! Sua dedicação também fez a diferença, parabéns.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,baseline,5,Fico feliz em saber que ajudou e que valeu a pena! 😊,5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,baseline,1,Todo apoio faz a diferença! Obrigado pela confiança e pelo carinho.,5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,baseline,2,Ficamos muito gratos pelo seu apoio e pela disponibilidade! Foi um prazer contribuir.,5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,baseline,3,"Sua gentileza fez toda a diferença, muito obrigado!",5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,baseline,4,Fico feliz em ter ajudado! Obrigado pelo reconhecimento e pela oportunidade.,5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,baseline,5,Ficamos muito felizes em ajudar! Obrigado pela confiança.,5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,baseline,1,Ficarei feliz em apresentar meu projeto! Confirma dia e hora?,3,5,3,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,baseline,2,Ficaria feliz! Quando e onde será a reunião? Posso me preparar melhor.,3,5,3,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,baseline,3,"Claro! Será um prazer apresentar meu projeto na reunião, obrigado pelo convite.",5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,baseline,4,Aceitamos com prazer! Valeu pelo convite e fica combinado os dez minutos.,5,5,5,2,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,baseline,5,Claro! Contem comigo para a apresentação – aviso quando precisar de detalhes. 😊,4,5,4,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,baseline,1,Claro! Ficaria feliz em almoçar contigo na sexta.,3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,baseline,2,Claro! Ficaria feliz em almoçar contigo sexta. Combina no mesmo lugar?,3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,baseline,3,"Claro! Ficaria ótimo, sexta às 12h, no mesmo lugar?",3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,baseline,4,"Ficaria adorando! Conta comigo sexta, ótimo almoço. 😊",3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,baseline,5,Claro! Ficaria ótimo almoçar contigo sexta. Vou me organizar para estar disponível.,3,5,3,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,baseline,1,"Claro! Na quarta eu tô disponível, vamos que é bom.",5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,baseline,2,"Claro! Topo sim, só me avisa o horário e local pra confirmar.",5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,baseline,3,"Claro! Conte comigo para a revisão na quarta, tudo bem informal.",3,5,3,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,baseline,4,Claro! Na quarta estou disponível e adoraria ajudar. Vamos lá!,5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,baseline,5,"Topo sim! Vamos combinar um horário e local, combinado?",5,5,5,5,
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,baseline,1,"Claro! O prazo final é **segunda-feira**, sempre até as 18h.",3,3,3,5,assume resposta para informacao nao explicitada; marcas de markdown ou meta-texto
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,baseline,2,"O prazo final é **segunda-feira, dia 20**. Confirmo para evitar qualquer dúvida. Grato!",3,3,2,5,assume resposta para informacao nao explicitada; marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,baseline,3,"O prazo final é **segunda-feira**, dia **XX/XX**. Confirma o envio até lá, por favor!",2,2,2,5,assume resposta para informacao nao explicitada; marcas de markdown ou meta-texto; placeholder nao resolvido
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,baseline,4,"O prazo final é **segunda-feira**, dia 28. Confirmei com a coordenação! Fica tranquilo.",3,3,2,5,assume resposta para informacao nao explicitada; marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,baseline,5,"O prazo final é **segunda-feira, dia 25**. Confirmei com a coordenação.",3,3,2,5,assume resposta para informacao nao explicitada; marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_017,lmstudio_ministral_14b,baseline,1,"Claro! Os números mostram [exemplo: desempenho/metas] por período. Quero que veja [destaque-chave, como ""a linha azul""]. Fica mais claro?",2,2,2,5,placeholder nao resolvido
+resultados_finais,pt_msg_017,lmstudio_ministral_14b,baseline,2,"Claro! Os valores mostram [métrica] em cada fase – maiores são melhores/normais, menores indicam problemas. Exemplos: [descrever 1-2 casos]. Dúvidas, avise!",2,2,2,5,placeholder nao resolvido
+resultados_finais,pt_msg_017,lmstudio_ministral_14b,baseline,3,Claro! Os números representam resultados por período (exemplo: mês ou ano) e a linha mostra a tendência. Fica fácil ver crescimento ou queda. Quer que detalhe algo específico?,5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_ministral_14b,baseline,4,"Claro! Os números no eixo Y mostram os resultados; cada ponto representa uma amostra.
+A linha é a média. Fica à vontade para perguntar se precisar de mais detalhes!",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_ministral_14b,baseline,5,"Claro! Os números no gráfico representam resultado em cada período, enquanto as cores mostram melhoria ou queda. Fica fácil comparar evoluções direto no gráfico.",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,baseline,1,"Claro! Vou te passar os critérios assim que possível, para ajudar no ajuste. Obrigado pela atenção!",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,baseline,2,"Ficarei feliz em detalhar os critérios: objetivos, metodologia e clareza. Aguardo seu trabalho!",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,baseline,3,"Claro! Os critérios são: **originalidade (30%)**, **estrutura e clareza (40%)** e **aplicação prática (30%)**.",3,3,4,5,marcas de markdown ou meta-texto
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,baseline,4,"Claro! Os critérios incluem: clareza, originalidade, profundidade e coerência com o tema. Ajuste conforme esses pontos!",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,baseline,5,"Claro! Vou enviar os critérios por e-mail assim que possível—fique atento. Dúvidas, aqui estou!",5,5,4,5,
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,baseline,1,Claro! Estarei presente na banca do dia 12. Aguardo mais detalhes.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,baseline,2,Claro! Estarei presente na banca do dia 12. A programação pode ser fechada tranquilamente.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,baseline,3,"Claro, confirmo presença na banca do dia 12. Agradeço a organização!",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,baseline,4,"Claro, confirmo presença na banca do dia 12.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,baseline,5,Claro! Estou confirmado para o dia 12 até às 18h.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,baseline,1,"Chegou! Estou aqui às 15h mesmo. Avisa se precisar alterar algo, tá bom?",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,baseline,2,"Perfeito! Estou aqui às 15h mesmo, na biblioteca. Abraço!",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,baseline,3,"Confirma! Estarei lá às 15h. Qualquer mudança, aviso logo, tudo bem?",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,baseline,4,"Perfeito! Estou aqui às 15h mesmo. Qualquer mudança, te aviso na hora.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,baseline,5,"Sim! Estou aqui. Se houver alteração, aviso na hora mesmo.",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,baseline,1,"Recebido, confirmo e agradeço pela orientação. Aguardo retorno se necessário!",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,baseline,2,"Recebi, confirmação e ciência das orientações. Favor informar se precisarem de algo mais.",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,baseline,3,"Recebemos, confirmamos e agradecemos pelo envio! Estamos à disposição para dúvidas.",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,baseline,4,Confirmamos o recebimento e a ciência das orientações enviadas em anexo.,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,baseline,5,"Confirmado! Recebi e li todas as orientações com atenção, obrigado.",5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,baseline,1,"Claro, podemos ajustar o prazo! Avise-me a nova data que preferir.",5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,baseline,2,Claro! Podemos marcar pra segunda ou terça da semana que vem?,3,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,baseline,3,Sem problema! Remarque tranquilo para o dia **x/xx** – aviso assim que pronto.,2,2,2,5,marcas de markdown ou meta-texto; placeholder nao resolvido
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,baseline,4,"Compreendo perfeitamente, vamos ajustar o prazo para a próxima semana então.",5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,baseline,5,"Entendido, vamos ajustar o prazo então! Fica combinado para a próxima semana.",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,baseline,1,"Sem problema, reservo sua mesa e te espero com um café. 😊",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,baseline,2,Tranquilo! Vou reservar uma mesa e te aguardo sem pressa.,5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,baseline,3,"Claro, te espero aqui! Vou reservar uma mesinha com meu nome. 😊",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,baseline,4,"Claro, reservo uma aqui e te espero! 😊",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,baseline,5,"Claro, vou reservar uma mesa com seu nome!",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,baseline,1,"Claro! Podemos marcar para quinta à tarde, então. Qual horário te atende melhor?",3,5,3,5,
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,baseline,2,"Claro! Quinta-feira à tarde fica ótimo para mim, sem problema algum.",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,baseline,3,"Ficou notado! Sem problema, confirmo quinta à tarde. Aguardo mais detalhes para agendar.",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,baseline,4,"Claro! Sem problema, podemos marcar para quinta-feira à tarde. Fica combinado então?",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,baseline,5,Claro! Quinta-feira à tarde funciona bem para mim. Confirma a hora que preferir?,3,5,3,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,vs_intermediate,1,Claro! Eu reviso seu texto até amanhã de manhã e ajusto o tom conforme necessário.,5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,vs_intermediate,2,Sim. Envie o texto até às 12h e eu verifico o tom rapidamente.,5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,vs_intermediate,3,Entendo como é importante isso! Vou revisar com cuidado e devolver até amanhã.,5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,vs_intermediate,4,"Ficarei à disposição para revisar seu material até as 12h de amanhã, confirmando o tom adequado.",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,vs_intermediate,5,Feito! Só manda o texto aí e eu dou uma olhada pra você correr tranquilo.,3,5,3,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,vs_intermediate,1,"Já te envio assim que terminar o que estou fazendo, tá? Acho que em 1h.",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,vs_intermediate,2,"Entendi, fico de olho aqui! Sem pressa, mas aviso assim que tiver pronto pra você.",3,5,3,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,vs_intermediate,3,"Recebi seu pedido. Estou organizando e enviarei assim que disponível, priorizando seu prazo.",3,5,3,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,vs_intermediate,4,"Claro! Vou já, te mando rapidinho pra não atrapalhar seu projeto aí.",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,vs_intermediate,5,"Preciso finalizar um relatório rápido, mas te aviso assim que tiver pronto. Não vai demorar muito.",4,5,4,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,vs_intermediate,1,"Enviarei uma versão atualizada até as 18h, para que possam alinhar os próximos passos.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,vs_intermediate,2,"Claro! Vou verificar e te mandar até o final do expediente, tá bom?",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,vs_intermediate,3,"Sim, tenho atualizado aqui. Será enviado em 1 hora para análise imediata da equipe.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,vs_intermediate,4,"Entendo a urgência, já estou finalizando! Assim que ficar pronto, te aviso aqui mesmo.",3,5,3,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,vs_intermediate,5,"Com certeza! Vou priorizar e te atualizo já, cara — vai ficar tudo certo pra vocês!",5,5,5,5,
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,vs_intermediate,1,"Solicitarei atualização ao setor responsável até o final desta semana, com previsão de retorno em **3 a 5 dias úteis**. Agradeço sua compreensão.",3,3,3,5,marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,vs_intermediate,2,"Entendo sua preocupação! Estamos finalizando a análise, mas o prazo deve se estender um pouco além do esperado. Tenho como priorizar?",5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,vs_intermediate,3,"A proposta está em revisão interna. Retorno confirmado para **segunda-feira, dia 20**. Precisa de algo específico enquanto isso?",3,3,3,5,marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,vs_intermediate,4,"*Suspira* Desculpa o atraso... Hoje mesmo peço uma resposta pro cliente. Vou te mandar um lembrete se passar do dia 25, tá bom?",3,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,vs_intermediate,5,"**Ótima pergunta!** Já tenho a resposta na gaveta: **6 dias úteis**, mas vou acelerar o processo hoje mesmo para te surpreender antes!",3,3,3,5,marcas de markdown ou meta-texto
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,vs_intermediate,1,"Desculpa a demora, meu amigo! Ontem eu estava fora do ar por um imprevisto. Vamos resolver isso agora, tá?",3,5,3,2,assume detalhe relevante nao dado; estilo excessivo/deslocado
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,vs_intermediate,2,"Recebi sim, mas só agora vi. Qual o prazo exato? Vou organizar para te ajudar hoje mesmo.",5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,vs_intermediate,3,"Não foi intencional, mas está resolvido. Preciso de mais detalhes para prosseguir hoje? Tem pressa?",5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,vs_intermediate,4,"Claro que vi! Peço desculpas pela lentidão, mas estou contigo. O que precisa ser feito primeiro?",3,5,3,5,
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,vs_intermediate,5,"Sim, aqui está. Vou te passar as opções agora mesmo para fecharmos rápido.",3,5,3,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,vs_intermediate,1,Agradecemos a compreensão. Os documentos estão em análise interna e serão encaminhados assim que disponíveis.,5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,vs_intermediate,2,"Confirmamos o recebimento e já trabalhamos para enviá-los hoje mesmo, ok?",3,5,3,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,vs_intermediate,3,"Entendemos a urgência, mas temos um pequeno atraso. Vamos resolver isso rapidamente para você.",5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,vs_intermediate,4,"Os documentos estão em processo, mas precisamos de mais 2 dias para finalizá-los adequadamente.",3,5,3,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,vs_intermediate,5,"Ótimo que está nos acompanhando! Eles já estão sendo preparados e chegam antes do prazo, prometo!",5,5,4,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,vs_intermediate,1,"Infelizmente, não poderei comparecer hoje devido a um compromisso pré-agendado. Agradeço o convite.",5,5,5,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,vs_intermediate,2,"Entendo a importância, mas estou com a agenda cheia hoje. Fico à disposição em outra oportunidade, certo?",3,5,3,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,vs_intermediate,3,"Não dá pra hoje. Mas posso sugerir uma alternativa, se quiserem outra data?",5,5,5,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,vs_intermediate,4,"Que pena! Hoje não vai rolar, mas obrigado por contar comigo. Vamos marcar outra vez?",3,5,3,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,vs_intermediate,5,"Lamento, mas tenho um compromisso familiar às 18h. Ficarei atento a futuros convites, ok?",3,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,vs_intermediate,1,"Hoje não vai rolar, já tenho compromisso marcado desde ontem.",3,5,3,5,
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,vs_intermediate,2,"Infelizmente, não poderei comparecer devido a um compromisso pré-agendado.",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,vs_intermediate,3,"Que pena, mas estou exausto hoje e preciso descansar um pouco.",3,5,3,5,
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,vs_intermediate,4,"Gostaria de ir, mas tenho que resolver um assunto em casa hoje. Outro dia, certo?",3,5,3,5,
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,vs_intermediate,5,"Nossa, hoje não vai dar... Mas já falo com a galera para a próxima!",5,5,5,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,vs_intermediate,1,"Lamento não conseguir, minha agenda está mesmo muito apertada. Que tal conversar com [X]?",3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,vs_intermediate,2,"Infelizmente, não poderei assumir essa demanda neste momento devido a prioridades já estabelecidas.",5,5,5,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,vs_intermediate,3,Não dá. Vou precisar me focar em [tarefa Y] essa semana. Obrigado pelo apoio!,3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,vs_intermediate,4,"Que pena! Estou no limite, mas obrigado por pensar em mim. Vou te ajudar quando puder.",3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,vs_intermediate,5,"Minhas metasuais não permitem assumir mais agora. Entendo a importância, mas não será possível.",5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,vs_intermediate,1,"Obrigado pelo empenho! Os ajustes deixaram o material muito mais claro, excelente trabalho.",5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,vs_intermediate,2,"Parabéns pelos ajustes. A clareza ficou melhor, tudo pronto para prosseguir?",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,vs_intermediate,3,"Uau, ficou ótimo! Os ajustes ajudaram muito, valeu pela dedicação!",5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,vs_intermediate,4,Recebi o material revisado. Os ajustes realizados atendem aos objetivos de clareza mencionados.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,vs_intermediate,5,"Que ótimo! Você notou exatamente onde precisava de melhoria, agora o material brilha!",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,vs_intermediate,1,"Que ótimo que deu certo! Fiquei super feliz em ajudar, valeu pela confiança!",5,5,5,5,
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,vs_intermediate,2,"Fico satisfeito por minha orientação ter contribuído positivamente para sua resolução, senhor(a).",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,vs_intermediate,3,Me emociona saber que ajudou! Isso me motiva a continuar dando dicas. Obrigado pelo retorno!,5,5,5,5,
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,vs_intermediate,4,"Ótimo. Se precisar de mais algo, é só chamar — sempre que puder ajudar.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,vs_intermediate,5,"Fico feliz que tenha funcionado! Às vezes são detalhes simples, mas fazem toda a diferença, não é?",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,vs_intermediate,1,Foi um prazer contribuir. Agradeço pelo reconhecimento e pela oportunidade de colaborar.,5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,vs_intermediate,2,Que legal saber que fizemos a diferença! Obrigado pela parceria e pelo carinho!,5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,vs_intermediate,3,Disponibilidade e apoio foram essenciais. Obrigado pela mensagem e pelo trabalho em equipe.,5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,vs_intermediate,4,"Ah, que bom saber que tudo deu certo! Foi um prazer ajudar, mesmo sendo pouco.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,vs_intermediate,5,Agradeço pelo reconhecimento. Trabalhar junto é sempre mais fácil e gratificante para todos.,5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,vs_intermediate,1,Agradeço o convite! Contarei com prazer na reunião para apresentar meu projeto em dez minutos.,5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,vs_intermediate,2,"Conto com o convite. Estarei preparado para os dez minutos, quando a reunião for marcada.",5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,vs_intermediate,3,Fico muito honrado com o convite! Agradeço a oportunidade e já começo a me organizar.,5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,vs_intermediate,4,"Legal! Vou me empenhar para deixar a apresentação bem rápida, em dez minutos no máximo.",3,5,3,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,vs_intermediate,5,"Aceito com alegria! Assim que souber da data, confirmarei presença para os dez minutos de apresentação.",5,5,5,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,vs_intermediate,1,Sexta-feira dá! Podemos combinar algum horário para você? Almoço por aqui ou prefere outro lugar?,4,5,4,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,vs_intermediate,2,"Sexta não vai dar, mas terça ou quinta tenho disponibilidade. Que tal tentar esses dias?",3,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,vs_intermediate,3,"Que bom a gente se ver! Sexta seria ótimo, mas se não der, outro dia sem problema nenhum.",3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,vs_intermediate,4,"Agradeço o convite. Infelizmente não poderei na sexta, mas ficarei à disposição para outro horário.",5,5,5,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,vs_intermediate,5,Sexta perfeito! Vamos fazer algo legal? Tem um novo lugar de sushi que estou querendo testar.,5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,vs_intermediate,1,"Claro! Gosto de revisar em grupo, ajuda muito a fixar o conteúdo. Na quarta então?",3,5,3,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,vs_intermediate,2,Posso ir sim. Que horas começam? Vou me organizar para não faltar.,3,5,3,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,vs_intermediate,3,"Adoro a ideia, às vezes fica até mais divertido com os exercícios. Contem comigo!",3,5,3,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,vs_intermediate,4,"Sim, mas só se não passar das 20h. Preciso ter um tempo para relaxar depois.",3,5,3,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,vs_intermediate,5,Topo e já comecei a estudar um pouco antes! Vamos fazer uma maratona de exercícios?,5,5,5,5,
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,vs_intermediate,1,"O prazo final para entrega é **segunda-feira**, conforme definido no edital. Confirmei com a coordenação para evitar dúvidas.",3,3,2,5,marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,vs_intermediate,2,"**Segunda-feira, sem exceção.** Verifique o e-mail de confirmação para detalhes adicionais. Preciso da atividade até às 18h.",3,3,3,5,marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,vs_intermediate,3,"Não tem problema! O prazo é **segunda-feira, dia 15**, mas aviso: o sistema fecha às 23h59. Fica tranquilo que te ajudo se precisar.",3,3,2,5,assume resposta para informacao nao explicitada; marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,vs_intermediate,4,"Confirmação: **segunda-feira, dia 20**, até o horário de fechamento das 17h. Salve a data para não perder.",3,3,2,5,marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,vs_intermediate,5,**Segunda-feira mesmo!** Que tal eu te lembro no WhatsApp no final de semana? Assim você não esquece e seu envio fica tranquilo.,3,3,3,5,marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_017,lmstudio_ministral_14b,vs_intermediate,1,"```json
+{
+  ""responses"": [
+    {
+      ""tone"": ""formal"",
+      ""text"": ""Claro! Cada eixo representa uma variável, enquanto os valores no gráfico indicam a relação entre elas. Os números são métricas diretas do estudo."",
+      ""probability"": 0.18
+    },
+    {
+      ""tone"": ""empático"",
+      ""text"": ""Ah, entendo sua dúvida! Os valores no gráfico mostram frequências ou intensidades; por exemplo, o eixo Y pode ser a taxa de ocorrência."",
+      ""probability"": 0.25
+    },
+    {
+      ""tone"": ""direto"",
+      ""text"": ""Os valores são dados brutos. O eixo X é tempo/método, Y é resultado. Cores ou linhas indicam comparações diretas entre grupos."",
+      ""probability"": 0.22
+    },
+    {
+      ""tone"": ""animado"",
+      ""text"": ""Uau, ótima pergunta! Os valores são como pontinhos: quanto maior o número, mais forte é a relação ou resultado apresentado no gráfico!"",
+      ""probability"": 0.15
+    },
+    {
+      ""tone"": ""caloroso"",
+      ""text"": ""Fácil assim: os valores são como uma ""nota"" de cada situação. Por exemplo, 0.5 em um gráfico significa metade da amostra teve esse resultado."",
+      ""probability"": 0.2
+    }
+  ]
+}
+```",1,1,1,1,falha de parse; nao gera resposta pronta para avaliacao
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,vs_intermediate,1,"Os critérios incluem coerência, profundidade e alinhamento com os objetivos do projeto. Confira o edital para detalhes específicos.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,vs_intermediate,2,"Claro! Vou enviar os critérios por e-mail: clareza, criatividade e aderência às diretrizes. Vou te ajudar a ajustar tudo com calma.",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,vs_intermediate,3,"Critérios: originalidade (50%), estrutura (30%) e uso de dados (20%). Verifique o documento 'Avaliação' no drive.",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,vs_intermediate,4,"Ótima iniciativa! Os critérios são: equilíbrio, inovação e aplicabilidade. Posso te dar um modelo de referência também!",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,vs_intermediate,5,"Adoro seu empenho! Os critérios são: profundidade de análise, clareza na escrita e impacto prático. Vamos ajustar juntos?",5,5,4,5,
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,vs_intermediate,1,"Confirmo minha participação na banca do dia 12 até o horário combinado, conforme solicitado.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,vs_intermediate,2,"Sim, vou estar disponível na banca no dia 12 até o fim do expediente.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,vs_intermediate,3,"Claro! Estarei lá no dia 12 para ajudar, conta com meu compromisso até o final.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,vs_intermediate,4,"Tá confirmado, galera! Vou estar na banca amanhã até fechar o dia.",5,5,5,5,
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,vs_intermediate,5,"Participação confirmada para o dia 12 até o limite do horário estabelecido, sem exceções.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,vs_intermediate,1,"**Confirma-se as 15h na biblioteca, conforme combinado. Aguardo eventual ajuste.**",3,3,5,5,marcas de markdown ou meta-texto
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,vs_intermediate,2,"**15h na biblioteca, certo. Qualquer alteração me avisa logo.**",3,3,5,5,marcas de markdown ou meta-texto
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,vs_intermediate,3,"**Perfeito! Estarei lá às 15h. Se precisar mudar, é só me chamar.**",3,3,5,5,marcas de markdown ou meta-texto
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,vs_intermediate,4,"**Legal, te espero às 15h na biblioteca! Se der qualquer coisa, me fala.**",3,3,5,5,marcas de markdown ou meta-texto
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,vs_intermediate,5,"**Sim, combinado. Prefiro confirmar: 15h na biblioteca? Se tiver imprevisto, me avise assim que puder.**",3,3,5,5,marcas de markdown ou meta-texto
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,vs_intermediate,1,"Confirmamos o recebimento do e-mail, bem como a ciência integral das orientações no anexo. Aguardamos seu retorno para eventuais dúvidas.",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,vs_intermediate,2,Recebido. Anexos conferidos. Próximos passos dependem de sua ação.,3,5,3,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,vs_intermediate,3,"Entendido! Tudo chegou seguro, inclusive o material em anexo. Ficamos à disposição para ajudar com qualquer questão que surgir, tá bom?",3,5,3,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,vs_intermediate,4,Recebido. Anexos visualizados.,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,vs_intermediate,5,"Ótimo! Tudo está aqui, inclusive o anexo com as orientações. Vamos seguir em frente, combinado?",5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,vs_intermediate,1,"Entendo perfeitamente. Vamos agendar a nova data para próxima semana, dia 15/06?",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,vs_intermediate,2,"Fico triste em saber disso, mas sem problemas! Vamos ajustar para o dia 21/06?",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,vs_intermediate,3,Confirma o dia 23/06 como nova data? Preciso organizar minha agenda.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,vs_intermediate,4,"Claro, meu amigo! Vamos remarcar tranquilamente. Que dia funciona melhor para você?",3,5,5,2,estilo excessivo/deslocado
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,vs_intermediate,5,A nova entrega deverá ser no dia 25/06. Está de acordo? Ou prefere outra data?,3,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,vs_intermediate,1,"Claro, aqui fica esperando ou já vou reservando uma mesa. Aproveita o tempo, hein?",3,5,3,5,
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,vs_intermediate,2,"Não há problema. Posso aguardar aqui ou reservar uma mesa à sua chegada, conforme preferir.",5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,vs_intermediate,3,Sua mesa tá livre. Vou deixar seu nome na recepção pra quando chegar.,3,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,vs_intermediate,4,"Sem pressa! Vou só deixar seu nome na lista. Melhor assim, né? Sem correria depois.",3,5,3,5,
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,vs_intermediate,5,"Legal, então vou pegar uma mesa ali na entrada pra você. Não tem pressa não!",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,vs_intermediate,1,"Claro, tudo bem adiar para quinta à tarde. Por favor, confirme o horário exato para anotar.",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,vs_intermediate,2,"O adiamento para quinta-feira está aprovado. Aproveite o tempo livre, mas avise se precisar de apoio.",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,vs_intermediate,3,"Entendo perfeitamente, conflitos de agenda acontecem. Quinta à tarde funciona bem para mim também!",3,5,3,5,
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,vs_intermediate,4,"Confirmado o adiamento até quinta, 14h? É necessário ajustar a pauta ou segue igual?",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,vs_intermediate,5,"Ótima ideia! Quinta à tarde combina mais, né? Vou preparar um café especial para a reunião. 😊",3,5,3,2,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,vs_aggressive,1,"Claro, envio sua versão revisada — com foco no tom — até às 9h amanhã.",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,vs_aggressive,2,"Confirmo: revisão pronta até amanhã, com sugestões de ajustes no tom. Preciso de prazo para outros detalhes?",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,vs_aggressive,3,"Adoro ajudar com isso! Vou passar os olhos agora mesmo e te mandar depois do almoço, ok?",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,vs_aggressive,4,"Posso revisar até amanhã, mas como é um texto curto, vou priorizar coerência e tom ao mesmo tempo.",5,5,5,5,
+resultados_finais,pt_msg_001,lmstudio_ministral_14b,vs_aggressive,5,"Mal posso esperar para ler seu texto! Deixa eu dar uma olhada agora e te devolvo supercaprichado amanhã, combinado?",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,vs_aggressive,1,"Certamente! Aguarde alguns minutos, pois finalizo este relatório antes de enviá-lo.",3,5,3,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,vs_aggressive,2,"Já comecei, mas só depois do almoço! Pode ser às 14h?",3,5,3,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,vs_aggressive,3,Vou enviá-lo em 10 minutos. Preciso ajustar uma informação rápida antes.,5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,vs_aggressive,4,"Agora estou em uma reunião, mas o envio sai assim que liberar, prometo!",5,5,5,5,
+resultados_finais,pt_msg_002,lmstudio_ministral_14b,vs_aggressive,5,"Tão importante pra você? Já comecei a preparar, então aqui vai em 5 minutinhos, ok?",3,5,3,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,vs_aggressive,1,"Enviarei a versão atualizada assim que confirmadas as alterações em andamento, até o final do expediente.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,vs_aggressive,2,"O cronograma atualizado está sendo finalizado, mas alguns ajustes ainda exigem validação com áreas dependentes. Aguarde até 18h.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,vs_aggressive,3,"Claro! Já comecei a revisão e envio assim que tiver tudo pronto. Contem com o suporte, pessoal!",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,vs_aggressive,4,"Atualizado está pronto. Verifique seu e-mail em 10 minutos, com todas as mudanças necessárias.",5,5,5,5,
+resultados_finais,pt_msg_003,lmstudio_ministral_14b,vs_aggressive,5,"Entendo a urgência! Se precisarem, vamos discutir o cronograma em uma reunião rápida amanhã para alinhar as ações.",3,5,3,5,
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,vs_aggressive,1,"Lamentamos o atraso. Estamos finalizando a análise interna e retornaremos até sexta-feira, 18/05.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,vs_aggressive,2,"Desculpe a espera! Nossa equipe está revisando os documentos, mas ainda não temos prazo exato para te responder.",4,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,vs_aggressive,3,"Não há atualização. A proposta ainda está na fila de prioridades, mas não temos previsão confirmada.",4,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,vs_aggressive,4,"Entendemos sua preocupação. A avaliação está em processo, mas posso te avisar assim que houver novidades?",5,5,4,5,
+resultados_finais,pt_msg_004,lmstudio_ministral_14b,vs_aggressive,5,"A proposta foi recebida, mas ainda não há cronograma definido. Recomendo aguardar nosso contato oficial.",3,5,3,5,
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,vs_aggressive,1,Desculpe a demora. Minha agenda estava bastante apertada ontem; resolverei o seu pedido até as 18h.,5,5,4,5,
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,vs_aggressive,2,Não vi ontem por estarmos em um período de integração. Verei agora mesmo e te atualizo com um prazo.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,vs_aggressive,3,"Ah, meu Deus, que negligência! Vou resolver isso já, com prioridade máxima. Um café da sua parte ajuda?",3,5,3,2,assume detalhe relevante nao dado; estilo excessivo/deslocado
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,vs_aggressive,4,Mensagem ignorada por erro de notificação. Ajustando status para 'em andamento' neste momento.,3,5,3,5,
+resultados_finais,pt_msg_005,lmstudio_ministral_14b,vs_aggressive,5,"Não, desculpe! Ontem não estava online. Você poderia detalhar mais o que precisa pra eu agilizar?",3,5,3,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,vs_aggressive,1,Confirmei o recebimento e verifico que os documentos estão pendentes. Envie-os até [data] para evitar atrasos na análise.,5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,vs_aggressive,2,"Entendo a urgência; caso precise de ajuda para organizar os documentos, estou à disposição. Basta solicitar.",3,5,3,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,vs_aggressive,3,Os documentos devem ser entregues em até 48h. Verifique o prazo e envie-os conforme anexado no último contato.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,vs_aggressive,4,"Esses documentos garantem a precisão da análise, evitando correções futuras. Enviá-los agora acelera o processo para todos.",5,5,4,5,
+resultados_finais,pt_msg_006,lmstudio_ministral_14b,vs_aggressive,5,"*Enviamos um lembrete amigável!* A equipe aguarda os documentos para fechar o caso. Qualquer dúvida, é só chamar.",3,3,3,5,marcas de markdown ou meta-texto
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,vs_aggressive,1,"Infelizmente não poderei comparecer esta vez, mas valoro muito a oportunidade de contribuir no futuro.",5,5,5,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,vs_aggressive,2,"Fico triste por não poder ir, mas preciso organizar melhor meu horário hoje. Obrigado pelo convite!",3,5,3,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,vs_aggressive,3,"Terei um compromisso inadiável nesse horário, mas peço desculpas pela indisponibilidade e espero os resultados.",3,5,3,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,vs_aggressive,4,"Entendo a importância, mas estou exausto hoje. Que tal adiar para amanhã ou discutirmos em outro momento?",3,5,3,5,
+resultados_finais,pt_msg_007,lmstudio_ministral_14b,vs_aggressive,5,"Não vou conseguir participar desta vez, mas fico à disposição para revisar os pontos depois.",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,vs_aggressive,1,"Lamento, mas hoje não conseguirei. Tenho um compromisso marcado previamente que não posso adiar.",5,5,5,5,
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,vs_aggressive,2,"Adoraria ir, mas estou meio doente e preciso me recuperar para não prejudicar os estudos amanhã.",3,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,vs_aggressive,3,"Que legal a galera se encontrar! Infelizmente, preciso ficar em casa para ajudar meu irmão com uma viagem.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,vs_aggressive,4,"Arrasou a ideia, mas hoje não rola. Vou tentar outra vez amanhã, tá?",3,5,3,5,
+resultados_finais,pt_msg_008,lmstudio_ministral_14b,vs_aggressive,5,"Não, obrigado. Preciso me organizar para um projeto importante e não vou conseguir sair hoje.",5,5,5,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,vs_aggressive,1,"Agradeço a confiança, mas minha agenda atual não permite assumir novas demandas nesta semana.",3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,vs_aggressive,2,Prefiro focar em prioridades para não comprometer minha entrega. Que tal revisitarmos depois?,3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,vs_aggressive,3,Não. Preciso manter meu ritmo atual para evitar sobrecarga. Obrigado pela consideração.,3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,vs_aggressive,4,"Estou com prazos apertados em outros projetos, mas posso ajudar a analisar requisitos para delegar.",3,5,3,5,
+resultados_finais,pt_msg_009,lmstudio_ministral_14b,vs_aggressive,5,"Adoro contribuir, mas agora estou no limite. Vamos combinar algo mais flexível para outra oportunidade?",3,5,3,5,
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,vs_aggressive,1,Agradecemos os ajustes e aprovamos as alterações. Favor prosseguir com a revisão final antes do envio.,5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,vs_aggressive,2,"Perfeito! Os ajustes ajudam muito. Só queria confirmar: as partes marcadas foram revisadas por mim, certo?",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,vs_aggressive,3,Obrigado pelo cuidado. Os ajustes nos trechos de clareza são essenciais; podemos discutir outros pontos críticos agora?,5,5,5,5,
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,vs_aggressive,4,Material pronto. Verifiquei os ajustes e aprovo. Envie assim que confirmar a revisão integral.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_010,lmstudio_ministral_14b,vs_aggressive,5,"Uau, já está ótimo! Os ajustes de clareza fazem toda a diferença. Quero ver o resultado final já, parabéns!",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,vs_aggressive,1,"Fico feliz por ter ajudado! Sua dedicação é inspiradora, e o tempo economizado merece ser comemorado.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,vs_aggressive,2,"Boa notícia. Caso precise de mais dicas técnicas, estarei à disposição para novos insights práticos.",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,vs_aggressive,3,"Uau, que ótimo resultado! Essa resolução abre caminho para mais desafios – o seu projeto está só começando!",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,vs_aggressive,4,"Agradeço pelo retorno. A solução foi desenvolvida com base em conhecimentos consolidados, e seu feedback valida o método.",5,5,5,5,
+resultados_finais,pt_msg_011,lmstudio_ministral_14b,vs_aggressive,5,"Que bom saber que funcionou! Agora é só aproveitar o tempo livre pra tomar um café aí, hein? 😄",2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,vs_aggressive,1,Fica registrado o nosso sincero agradecimento pela contribuição estratégica e pelo comprometimento exemplar.,5,5,5,5,
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,vs_aggressive,2,Ficamos muito felizes pela sua dedicação! Isso fez toda a diferença na qualidade final do evento.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,vs_aggressive,3,O apoio foi crucial. O evento não teria o mesmo impacto sem sua participação ativa.,2,5,2,5,nao agradece explicitamente
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,vs_aggressive,4,*Uau!* Não temos palavras suficientes para agradecer… Você foi uma peça-chave nesse sucesso! 🎉,3,3,5,5,marcas de markdown ou meta-texto
+resultados_finais,pt_msg_012,lmstudio_ministral_14b,vs_aggressive,5,"Agradecemos não só pelo tempo, mas pela competência técnica que aplicou em cada detalhe logístico.",5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,vs_aggressive,1,"Agradecemos o convite! Será uma honra compartilhar insights sobre meu projeto em dez minutos; por favor, me informe detalhes logísticos.",5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,vs_aggressive,2,"Confirmo interesse. Apresentarei estrutura, desafios e principais resultados no tempo estipulado. Preciso do material de apoio disponível até quando?",5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,vs_aggressive,3,"Que legal participar! Vou me organizar para deixar a apresentação clara, direta e inspiradora. Conte comigo para ajudar com dinâmicas também depois!",5,5,5,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,vs_aggressive,4,"Como a apresentação é técnica, priorizarei três aspectos-chave: metodologia, dados críticos e impacto futuro, garantindo clareza em dez minutos. Aguardo feedback prévio se necessário.",3,5,3,5,
+resultados_finais,pt_msg_013,lmstudio_ministral_14b,vs_aggressive,5,"Top! Vou preparar algo dinâmico, com slides curtos e uma demo rápida pra não perder tempo. Só me avisa se precisar trocar o formato ou hora.",3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,vs_aggressive,1,"Ficaria feliz! Sexta é perfeito, mas se der algum imprevisto aviso antes mesmo. Combinado?",3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,vs_aggressive,2,"Agradeço o convite. Infelizmente, sexta tenho compromisso agendado desde mês passado, mas indico segunda ou quarta.",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,vs_aggressive,3,Sim. Qual restaurante? Vou reservar já pra não perder vaga. Ou prefere decidir no local?,3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,vs_aggressive,4,"Não seria ideal sexta, mas tenho uma proposta: que tal almoço de trabalho no próximo mês? Compensa mais.",3,5,3,5,
+resultados_finais,pt_msg_014,lmstudio_ministral_14b,vs_aggressive,5,"Adorei a ideia! Sexta tá ótimo pra mim, mas se precisar mudar... até domingo dá. Vamos aproveitar!",5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,vs_aggressive,1,"Claro, seria ótimo participar! Só me avisa os horários e o local para organizar minha agenda.",5,5,5,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,vs_aggressive,2,"Sim, vou comparecer. Preciso saber onde e como será o material compartilhado para me preparar.",3,5,3,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,vs_aggressive,3,Que legal! Vou me organizar para ir e trago alguns exercícios extras que tenho para dividir com o grupo.,3,5,3,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,vs_aggressive,4,"Acho que sim, mas preciso confirmar um compromisso anterior. Caso não dê certo, aviso com antecedência.",4,5,4,5,
+resultados_finais,pt_msg_015,lmstudio_ministral_14b,vs_aggressive,5,"Como está, eu topa! Revisar juntos sempre ajuda mais e é bem menos estressante sozinho, né?",3,5,3,5,
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,vs_aggressive,1,"Confirmei com a equipe: o prazo é **quinta-feira**, dia 25. Por favor, me avise se precisar de ajuste.",3,3,2,5,assume resposta para informacao nao explicitada; marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,vs_aggressive,2,"Ah, quase esqueço! O prazo foi adiado para **terça-feira**, dia 30, devido a ajustes internos. Legal você querer confirmar!",3,3,2,5,marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,vs_aggressive,3,"**Fim de semana não**: o prazo é **segunda-feira, 29**, às 17h. Salvei no calendário pra você.",3,3,3,5,assume resposta para informacao nao explicitada; marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,vs_aggressive,4,"O prazo **oficialmente é sexta-feira, 26**, mas há exceção para sua área: **segunda, dia 30**. Preciso só do seu e-mail confirmando?",3,3,2,5,marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_016,lmstudio_ministral_14b,vs_aggressive,5,"*Abre um sorriso virtual* Não tem problema, claro! Ficou em **segunda-feira**, mas e se mandar até sexta? Assim eu dou um feedback extra pra você.",3,3,3,2,marcas de markdown ou meta-texto; estilo excessivo/deslocado
+resultados_finais,pt_msg_017,lmstudio_ministral_14b,vs_aggressive,1,"Os valores no gráfico representam métricas específicas, como percentuais ou índices. Verifique a legenda para entender cada eixo.",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_ministral_14b,vs_aggressive,2,"Claro! Os números são resultados brutos ou processados. O eixo vertical mostra, por exemplo, valores de performance; o horizontal, categorias comparativas.",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_ministral_14b,vs_aggressive,3,Cada ponto no gráfico é uma medida. Confira a descrição abaixo dele para saber qual valor corresponde a cada categoria.,5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_ministral_14b,vs_aggressive,4,"A interpretação depende do contexto: se são dados de venda, os valores podem ser quantitativos; se são pesquisas, percentuais. Ajuste a análise ao tema.",5,5,4,5,
+resultados_finais,pt_msg_017,lmstudio_ministral_14b,vs_aggressive,5,"Sem problema! Vamos juntos: *eixo Y* é o que medimos (ex.: satisfação); *eixo X*, as opções. Os pontos são resultados por categoria.",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,vs_aggressive,1,"Os critérios incluem originalidade (30%), metodologia (25%), clareza de apresentação e fundamentação teórica (20%). Espero que ajude!",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,vs_aggressive,2,"Claro! Temos rubricas de profundidade, criatividade e alinhamento com os objetivos. Que parte você gostaria de rever primeiro?",3,5,3,5,
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,vs_aggressive,3,"Critérios: coerência (40%), uso de fontes atualizadas, estrutura lógica. Quais dúvidas específicas você tem?",5,5,4,5,
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,vs_aggressive,4,"Avaliaremos precisão técnica (35%), impacto prático da proposta e como ela resolve desafios reais, além de formato. Precisa de ajuda?",3,5,3,5,
+resultados_finais,pt_msg_018,lmstudio_ministral_14b,vs_aggressive,5,"Ótimo que você queira ajustar! Pensamos em clareza (50%), inovação e como o trabalho se conecta à discussão atual. Vamos juntos!",3,5,3,5,
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,vs_aggressive,1,"Confirmo minha presença na banca em 12, até as 18h. Por favor, avise caso haja alterações na agenda.",5,5,5,5,
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,vs_aggressive,2,"Sim! Estou confirmado e já organizei minha agenda para o dia 12. Qualquer dúvida, é só chamar!",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,vs_aggressive,3,"Confirmado. Porém, preciso adiar até o dia 13 se possível. É crítico?",4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,vs_aggressive,4,"Pode contar: confirmo minha participação, mas aviso que não poderei passar do meio-dia devido a outro compromisso pré-agendado.",5,5,5,5,
+resultados_finais,pt_msg_019,lmstudio_ministral_14b,vs_aggressive,5,"*emoji de palmas* Óbvio, tava esperando esse! Vou garantir que chegue pontual. Obrigado pela paciência enquanto confirmo os detalhes.",3,3,5,2,marcas de markdown ou meta-texto; estilo excessivo/deslocado
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,vs_aggressive,1,"Entendido. Confirmo presença às 15h na biblioteca, conforme combinado.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,vs_aggressive,2,"Ótimo! Estarei lá às 15h pontualmente. Qualquer alteração, aviso logo.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,vs_aggressive,3,15h na biblioteca está confirmado. Aguardo comunicação se houver ajustes.,5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,vs_aggressive,4,"Valeu! Só não esqueço: 15h na biblioteca. Se rolar qualquer coisa, manda um oi.",5,5,5,5,
+resultados_finais,pt_msg_020,lmstudio_ministral_14b,vs_aggressive,5,"Que legal! Estarei lá às 15h, com um sorriso e disposição. Qualquer coisa, me avisam, sim?",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,vs_aggressive,1,"Confirmamos o recebimento deste e-mail, assim como a ciência integral de suas orientações anexas. Agradecemos.",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,vs_aggressive,2,Recebemos seu e-mail com os anexos. As instruções foram revisadas e estão alinhadas aos nossos procedimentos internos.,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,vs_aggressive,3,"Olá! Tudo certo por aqui, recebemos sim e já estamos conferindo tudo. Obrigado pela mensagem!",5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,vs_aggressive,4,Confirmado. Anexo revisado. Aguardamos retorno ou ação necessária de sua parte para prosseguirmos.,5,5,5,5,
+resultados_finais,pt_msg_021,lmstudio_ministral_14b,vs_aggressive,5,"Ótimo, já está aqui! Vimos tudo e estamos preparados para seguir com o que foi solicitado. Legal, né?",3,5,3,5,
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,vs_aggressive,1,"Agradeço o entendimento. Proponho a entrega no dia 15/07, às 16h.",3,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,vs_aggressive,2,Claro! Preciso apenas confirmar se a próxima semana funciona para seu cronograma interno.,5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,vs_aggressive,3,*Anexado cronograma atualizado.* Preciso de até 25/06. Possível?,3,3,3,5,marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,vs_aggressive,4,Fico aliviado(a) por avisar! Vamos ajustar juntos para não atrapalhar seu fluxo.,5,5,5,5,
+resultados_finais,pt_msg_022,lmstudio_ministral_14b,vs_aggressive,5,Remarcar para dia 21/06. Sem flexibilidade — estou focado(a) em outros prazos.,4,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,vs_aggressive,1,"Tá bom, vou reservando uma mesa com seu nome. Chego em 20 e a gente almoça.",3,5,3,5,
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,vs_aggressive,2,Sem problemas. Aguardo sua chegada para garantir a mesa esteja pronta conforme combinado.,5,5,5,5,
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,vs_aggressive,3,"Claro, meu amigo! Vou deixar a mesa de canto com seu nome para quando você chegar.",3,5,3,2,estilo excessivo/deslocado
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,vs_aggressive,4,"Nenhum problema, mas se quiser, posso avisar o garçom para preparar sua mesa assim que possível.",3,5,3,5,assume detalhe relevante nao dado
+resultados_finais,pt_msg_023,lmstudio_ministral_14b,vs_aggressive,5,*Fica tranquilo! Vou só dar uma olhada nas opções do cardápio pra já escolher o que a gente vai pedir.*,3,3,3,5,marcas de markdown ou meta-texto; assume detalhe relevante nao dado
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,vs_aggressive,1,"Entendo perfeitamente. Por favor, confirme a nova data e hora para que possamos agendar formalmente.",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,vs_aggressive,2,"*Suspiro de alívio* Ótimo! Vamos só ajustar os detalhes, tudo bem? Conte com a gente nesta quinta!",3,3,5,2,marcas de markdown ou meta-texto
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,vs_aggressive,3,"Poderemos avaliar um novo horário no mesmo dia ou ajustar para quinta, 14h, por exemplo?",5,5,5,5,
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,vs_aggressive,4,"Que nada! Vamos lá pro Whats do grupo marcar outro horário que caiba pra todo mundo, tá?",3,5,3,2,estilo excessivo/deslocado
+resultados_finais,pt_msg_024,lmstudio_ministral_14b,vs_aggressive,5,"Fico à disposição para analisar alternativas. Apenas confirme se quinta, 15h, é viável ou prefere outra proposta.",3,5,3,5,

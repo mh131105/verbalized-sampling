@@ -1,0 +1,61 @@
+{
+  "run_id": "resultados_finais",
+  "message_id": "pt_msg_014",
+  "model_id": "openai_gpt41_mini",
+  "condition": "vs_intermediate",
+  "call_index": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "Voce e um assistente de escrita cuidadoso. Retorne um objeto JSON que siga o schema solicitado."
+    },
+    {
+      "role": "user",
+      "content": "Gere uma distribuicao verbalizada de 5 respostas plausiveis para a mensagem abaixo.\n\nCada resposta deve estar pronta para envio e soar natural em uma conversa cotidiana.\nCada resposta deve ter aproximadamente 15 palavras.\nPriorize adequacao e utilidade, sem forcar contagem exata.\nVarie tom, estrutura e nivel de detalhe preservando a situacao.\n\nSignificado de probability:\n\"probability\" e sua estimativa, de 0.0 a 1.0, da probabilidade desta resposta dada a mensagem recebida, relativa a distribuicao completa de respostas plausiveis.\nOs valores nao precisam somar 1.\nUse probabilidades diferentes quando as respostas nao forem igualmente tipicas.\n\nEscolha cada \"tone\" desta lista:\nformal, cordial, objetivo, direto, empatico, informal, firme, agradecido, positivo, justificativo, curto, gentil, entusiasmado, caloroso, animado.\n\nRetorne um objeto JSON valido usando exatamente esta estrutura:\n{\n  \"responses\": [\n    {\n      \"tone\": \"cordial\",\n      \"text\": \"texto da resposta\",\n      \"probability\": 0.24\n    }\n  ]\n}\n\nAlvos de geracao:\n- gere exatamente 5 respostas;\n- mantenha cada \"text\" com aproximadamente 15 palavras e pronto para envio;\n- torne as respostas significativamente diferentes em tom ou estrategia comunicativa;\n- mantenha cada resposta ancorada na mensagem recebida;\n- preserve a situacao, a cortesia e a utilidade pratica.\n\nCategoria da situacao: convite\n\nMensagem recebida:\nVamos almoçar juntos sexta? Se você não puder, a gente tenta combinar outro dia.\n"
+    }
+  ],
+  "params": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "max_tokens": 700,
+    "seed": 101,
+    "n_candidates": 5
+  },
+  "response": {
+    "id": "chatcmpl-DktZyPhixc32dmMXoLIpXdfqVqin0",
+    "object": "chat.completion",
+    "created": 1780069106,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"responses\": [\n    {\n      \"tone\": \"cordial\",\n      \"text\": \"Sexta parece ótimo para mim! Onde e que você gostaria de ir almoçar?\",\n      \"probability\": 0.28\n    },\n    {\n      \"tone\": \"empatico\",\n      \"text\": \"Adoraria almoçar juntos na sexta, mas se algo mudar, podemos remarcar sem problemas.\",\n      \"probability\": 0.22\n    },\n    {\n      \"tone\": \"objetivo\",\n      \"text\": \"Sexta está bom, confirmo o horário depois. Qual o plano para o almoço?\",\n      \"probability\": 0.20\n    },\n    {\n      \"tone\": \"informal\",\n      \"text\": \"Show, sexta tá ótimo! Me avisa o local e a hora certinho, beleza?\",\n      \"probability\": 0.18\n    },\n    {\n      \"tone\": \"gentil\",\n      \"text\": \"Obrigada pelo convite! Sexta funciona para mim, mas aviso se precisar mudar o dia.\",\n      \"probability\": 0.12\n    }\n  ]\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 374,
+      "completion_tokens": 241,
+      "total_tokens": 615,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_2b1324456b"
+  },
+  "text": "{\n  \"responses\": [\n    {\n      \"tone\": \"cordial\",\n      \"text\": \"Sexta parece ótimo para mim! Onde e que você gostaria de ir almoçar?\",\n      \"probability\": 0.28\n    },\n    {\n      \"tone\": \"empatico\",\n      \"text\": \"Adoraria almoçar juntos na sexta, mas se algo mudar, podemos remarcar sem problemas.\",\n      \"probability\": 0.22\n    },\n    {\n      \"tone\": \"objetivo\",\n      \"text\": \"Sexta está bom, confirmo o horário depois. Qual o plano para o almoço?\",\n      \"probability\": 0.20\n    },\n    {\n      \"tone\": \"informal\",\n      \"text\": \"Show, sexta tá ótimo! Me avisa o local e a hora certinho, beleza?\",\n      \"probability\": 0.18\n    },\n    {\n      \"tone\": \"gentil\",\n      \"text\": \"Obrigada pelo convite! Sexta funciona para mim, mas aviso se precisar mudar o dia.\",\n      \"probability\": 0.12\n    }\n  ]\n}"
+}

@@ -200,6 +200,7 @@ class MetricRecord:
     direction: str
     level: str
     category: str | None = None
+    formality: str | None = None
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -212,5 +213,5 @@ class MetricRecord:
             "direction": self.direction,
             "level": self.level,
             "category": self.category,
+            "formality": self.formality,
         }
-

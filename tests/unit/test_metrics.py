@@ -10,6 +10,7 @@ from tp1_nlp.metrics.lexical import distinct_n, mean_pairwise_jaccard
 from tp1_nlp.metrics.summary import (
     _threshold_violation_rate,
     _tone_coverage,
+    _tone_diversity_ratio,
     _valid_tone_rate,
     compute_metrics_for_run,
 )
@@ -34,11 +35,14 @@ def test_tone_metrics_use_canonical_allowed_tones() -> None:
     items = [
         {"declared_tone": "formal"},
         {"declared_tone": "Empatico"},
+        {"declared_tone": "polite"},
         {"declared_tone": "formal_e_cooperativo"},
     ]
 
     assert _tone_coverage(["formal", "empatico"], ["formal", "empatico"]) == 1.0
-    assert _valid_tone_rate(items) == 2 / 3
+    assert _tone_coverage(["formal", "polite"], ["formal", "polite"]) == 1.0
+    assert _tone_diversity_ratio(items) == 3 / 4
+    assert _valid_tone_rate(items) == 3 / 4
 
 
 def test_threshold_violation_rate_counts_tail_failures() -> None:
@@ -104,5 +108,6 @@ def test_compute_metrics_writes_vs_operational_metrics(tmp_path: Path) -> None:
     metrics = {row["metric"]: float(row["value"]) for row in rows if row["value"]}
 
     assert metrics["parse_success_rate"] == 1.0
+    assert metrics["tone_diversity_ratio"] == 4 / 5
     assert metrics["valid_tone_rate"] == 4 / 5
     assert metrics["threshold_violation_rate"] == 2 / 5

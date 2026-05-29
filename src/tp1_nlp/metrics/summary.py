@@ -23,6 +23,7 @@ DIRECTIONS = {
     "distinct_2": "higher_is_better",
     "perplexity": "lower_is_better",
     "tone_coverage": "higher_is_better",
+    "tone_diversity_ratio": "higher_is_better",
     "parse_success_rate": "higher_is_better",
     "valid_tone_rate": "higher_is_better",
     "threshold_violation_rate": "lower_is_better",
@@ -47,6 +48,7 @@ ALLOWED_TONES = {
     "objective",
     "direct",
     "empathetic",
+    "polite",
     "firm",
     "grateful",
     "explanatory",
@@ -125,6 +127,7 @@ def _message_level_metrics(
                 [item.get("declared_tone") for item in items],
                 messages[message_id].expected_tones,
             ),
+            "tone_diversity_ratio": _tone_diversity_ratio(items),
         }
         if evaluator is not None:
             values["perplexity"] = _mean_perplexity(texts, evaluator)
@@ -143,6 +146,7 @@ def _message_level_metrics(
                     direction=DIRECTIONS[metric],
                     level="message",
                     category=messages[message_id].category,
+                    formality=messages[message_id].formality,
                 )
             )
     return output
@@ -169,6 +173,7 @@ def _operational_metrics(
             continue
         message = messages.get(message_id)
         category = message.category if message is not None else None
+        formality = message.formality if message is not None else None
         success_items = [
             item for item in items if item.get("status") == "success" and item.get("text")
         ]
@@ -196,6 +201,7 @@ def _operational_metrics(
                     direction=DIRECTIONS[metric],
                     level="message",
                     category=category,
+                    formality=formality,
                 )
             )
     return output
@@ -204,13 +210,20 @@ def _operational_metrics(
 def summarize_metrics(
     records: list[MetricRecord], messages: dict[str, Any]
 ) -> list[dict[str, Any]]:
-    grouped: dict[tuple[str, str, str, str, str], list[float]] = defaultdict(list)
+    grouped: dict[tuple[str, str, str, str, str, str], list[float]] = defaultdict(list)
     for record in records:
         if record.value is None:
             continue
         run_id = record.run_id
         grouped[
-            (run_id, record.model_id, record.condition, record.metric, "__all__")
+            (
+                run_id,
+                record.model_id,
+                record.condition,
+                record.metric,
+                "__all__",
+                "__all__",
+            )
         ].append(record.value)
         grouped[
             (
@@ -219,11 +232,29 @@ def summarize_metrics(
                 record.condition,
                 record.metric,
                 record.category or "__unknown__",
+                "__all__",
+            )
+        ].append(record.value)
+        grouped[
+            (
+                run_id,
+                record.model_id,
+                record.condition,
+                record.metric,
+                "__all__",
+                record.formality or "__unknown__",
             )
         ].append(record.value)
 
     summaries: list[dict[str, Any]] = []
-    for (run_id, model_id, condition, metric, category), values in sorted(grouped.items()):
+    for (
+        run_id,
+        model_id,
+        condition,
+        metric,
+        category,
+        formality,
+    ), values in sorted(grouped.items()):
         summaries.append(
             {
                 "run_id": run_id,
@@ -231,6 +262,7 @@ def summarize_metrics(
                 "condition": condition,
                 "metric": metric,
                 "category": category,
+                "formality": formality,
                 "value": sum(values) / len(values),
                 "count": len(values),
                 "direction": DIRECTIONS[metric],
@@ -260,6 +292,20 @@ def _tone_coverage(
     if not declared:
         return 0.0
     return len(declared & expected) / len(expected)
+
+
+def _tone_diversity_ratio(items: list[dict[str, Any]]) -> float:
+    if not items:
+        return 0.0
+    distinct_valid_tones = {
+        normalized
+        for item in items
+        if (
+            normalized := _normalize_tone(str(item.get("declared_tone") or ""))
+        )
+        in ALLOWED_TONES
+    }
+    return len(distinct_valid_tones) / len(items)
 
 
 def _valid_tone_rate(items: list[dict[str, Any]]) -> float:
@@ -330,6 +376,7 @@ def _write_metric_records(path: Path, records: list[MetricRecord]) -> None:
         "direction",
         "level",
         "category",
+        "formality",
     ]
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as fh:
@@ -350,6 +397,7 @@ def _write_summary_records(path: Path, records: list[dict[str, Any]]) -> None:
         "count",
         "direction",
         "level",
+        "formality",
     ]
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as fh:

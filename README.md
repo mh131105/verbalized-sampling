@@ -3,17 +3,17 @@
 
 # TP1 NLP - Assistente de Rascunho com Verbalized Sampling
 
-Pipeline experimental em Python para comparar geracao direta (`baseline`) contra Verbalized Sampling (`VS`) em mensagens cotidianas. A entrega oficial usa **dois modelos locais via LM Studio** e **um modelo fechado via OpenAI API**, com 3 condicoes experimentais por modelo.
+Pipeline experimental em Python para comparar geracao direta (`baseline`) contra Verbalized Sampling (`VS`) em mensagens cotidianas em portugues. A entrega oficial usa dois modelos locais via LM Studio e um modelo fechado via OpenAI API, com tres condicoes experimentais por modelo.
 
 ## Estrutura
 
 ```text
 configs/              Configuracao oficial do experimento
-data/                 Dataset e templates de prompt versionados
+data/                 Dataset em portugues e templates de prompt
 scripts/              CLIs de execucao, validacao e analise
 src/tp1_nlp/          Codigo modular do pipeline
-results/runs/         Artefatos brutos de cada execucao
-results/final/        Artefatos finais selecionados para entrega
+results/runs/         Artefatos brutos de novas execucoes
+results/final/        Run final selecionada para entrega
 tests/                Testes com pytest
 ```
 
@@ -25,68 +25,60 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-O fluxo oficial calcula perplexity por padrao. Por isso, `requirements.txt` inclui `transformers` e `torch`, usados pelos avaliadores fixos de perplexity.
+O fluxo oficial calcula perplexity por padrao. Por isso, `requirements.txt` inclui `transformers` e `torch`, usados pelo avaliador fixo de perplexity.
 
-Se o objetivo for apenas fazer um teste rapido do pipeline, as metricas podem ser calculadas sem perplexity usando `--skip-perplexity`. Esse modo e util para desenvolvimento, mas nao corresponde ao fluxo completo usado nos resultados finais.
-
-## Ambiente Compativel
+## Ambiente
 
 As runs finais foram geradas em macOS Apple Silicon usando LM Studio como servidor local OpenAI-compatible para os modelos abertos e OpenAI API para o modelo fechado.
 
-O projeto pode rodar em outro computador compativel, desde que:
+Para reproduzir em outro computador, e necessario:
 
-- Python 3.11 ou superior esteja disponivel;
-- as dependencias em `requirements.txt` sejam instaladas;
-- o LM Studio esteja instalado e com o servidor local ativo em `http://localhost:1234/v1`;
-- os modelos locais configurados estejam disponiveis no LM Studio;
-- `OPENAI_API_KEY` esteja configurada para executar o modelo `gpt-4.1-mini`.
+- Python 3.11 ou superior;
+- dependencias instaladas via `requirements.txt`;
+- LM Studio ativo em `http://localhost:1234/v1`;
+- modelos locais configurados disponiveis no LM Studio;
+- variavel `OPENAI_API_KEY` configurada para executar `gpt-4.1-mini`.
 
-Em Windows, Linux ou outro Mac, os modelos baixados no LM Studio podem aparecer com IDs diferentes. Nesse caso, rode o checker, veja os nomes disponiveis e ajuste o campo `model_name` em `configs/experiment.lmstudio.yaml` e `configs/experiment.lmstudio.en.yaml`.
+Se os modelos aparecerem com IDs diferentes no LM Studio, rode o checker e ajuste o campo `model_name` em `configs/experiment.lmstudio.yaml`.
 
-## Modelos
-
-O experimento oficial espera o servidor local de chat do LM Studio ativo para os modelos abertos:
-
-```text
-http://localhost:1234/v1
-```
+## Modelos Oficiais
 
 Modelos configurados em `configs/experiment.lmstudio.yaml`:
 
 ```text
 openai_gpt41_mini     -> gpt-4.1-mini
-lmstudio_gemma_e2b     -> gemma-4-e2b-it-mlx
-lmstudio_ministral_3b  -> ministral-3-3b-instruct-2512
+lmstudio_gemma_e2b     -> mlx-community/gemma-4-e2b-it
+lmstudio_ministral_14b -> ministral-3-14b-instruct-2512
 ```
 
-Antes de rodar o experimento:
+Antes de rodar:
 
 1. Abra o LM Studio.
 2. Baixe ou selecione modelos equivalentes a Gemma e Ministral.
 3. Inicie o servidor local em `http://localhost:1234/v1`.
-4. Rode `python3 scripts/check_lmstudio.py --config configs/experiment.lmstudio.yaml`.
-5. Se algum modelo aparecer como `MISSING`, copie o ID listado pelo checker e atualize o campo `model_name` nos arquivos de configuracao.
+4. Rode:
 
-Para o modelo OpenAI, defina `OPENAI_API_KEY` no ambiente:
+```bash
+python3 scripts/check_lmstudio.py --config configs/experiment.lmstudio.yaml
+```
+
+Para o modelo OpenAI, defina:
 
 ```bash
 export OPENAI_API_KEY="sua-chave"
 ```
 
-Ou crie um arquivo `.env` local:
+Ou crie um `.env` local a partir do exemplo:
 
 ```bash
 cp .env.example .env
-# edite .env e preencha OPENAI_API_KEY
 ```
 
 O arquivo `.env` e ignorado pelo Git e nao deve ser entregue com chave real.
 
-O repositório também inclui um fluxo paralelo em inglês em `configs/experiment.lmstudio.en.yaml`. Ele usa os mesmos modelos e parâmetros, mas lê `data/messages_en.jsonl`, usa prompts em inglês e calcula perplexity com `gpt2`.
-
 ## Configuracao Experimental
 
-A configuracao oficial usa a comparacao controlada como resultado principal: `temperature` e `top_p` ficam iguais nas tres condicoes para isolar o efeito do prompt de Verbalized Sampling.
+A configuracao oficial usa comparacao controlada: `temperature` e `top_p` ficam iguais nas tres condicoes para isolar o efeito do prompt de VS.
 
 ```text
 baseline         temperature=0.6  top_p=0.95  max_tokens=220
@@ -94,58 +86,46 @@ vs_intermediate  temperature=0.6  top_p=0.95  max_tokens=700
 vs_aggressive    temperature=0.6  top_p=0.95  max_tokens=700  probability_threshold=0.10
 ```
 
-O limite de tokens e maior nas condicoes VS porque elas precisam retornar JSON com 5 alternativas. As metricas sao calculadas sobre os textos extraidos de cada alternativa, nao sobre o JSON bruto.
+O baseline usa prompt direto, mas e repetido `baseline_repetitions=5` vezes por mensagem. Isso preserva a condicao baseline e permite calcular metricas de diversidade como Jaccard par-a-par e Self-BLEU de forma comparavel ao VS, que gera cinco alternativas.
 
-Os prompts VS usam uma lista fechada de tons para facilitar a avaliacao automatica:
+Os prompts oficiais usam templates `v3`, com mensagens curtas e alvo aproximado de 15 palavras por resposta, inspirado nos prompts do paper de Verbalized Sampling. A mensagem enviada ao modelo contem a mensagem de entrada e a categoria da situacao. Os campos `formality` e `expected_tones` permanecem no dataset como labels ocultos para avaliacao e agrupamento, mas nao sao passados ao modelo.
 
-```text
-formal, cordial, objetivo, direto, empatico, informal, firme, agradecido, positivo, justificativo, curto, gentil, entusiasmado, caloroso, animado
+O VS retorna uma distribuicao verbalizada em JSON com:
+
+```json
+{
+  "responses": [
+    {
+      "tone": "cordial",
+      "text": "texto da resposta",
+      "probability": 0.24
+    }
+  ]
+}
 ```
 
-No fluxo em ingles, a lista equivalente e:
-
-```text
-formal, cordial, objective, direct, empathetic, informal, firm, grateful, positive, justified, short, gentle, enthusiastic, warm
-```
+O campo `probability` representa a probabilidade estimada da resposta, relativa a distribuicao completa de respostas plausiveis. O campo `tone` e a categoria da situacao sao adaptacoes ao enunciado do TP.
 
 ## Validacao
 
 Validar estrutura, dataset e prompts:
 
 ```bash
-python3 scripts/validate_project.py
+python3 scripts/validate_project.py --config configs/experiment.lmstudio.yaml
 ```
 
-Validar se o LM Studio esta ativo e expondo os 2 modelos locais:
+Validar se o LM Studio esta ativo e expondo os modelos locais:
 
 ```bash
 python3 scripts/check_lmstudio.py --config configs/experiment.lmstudio.yaml
 ```
 
-Validar o fluxo em ingles:
-
-```bash
-python3 scripts/validate_project.py --config configs/experiment.lmstudio.en.yaml
-python3 scripts/check_lmstudio.py --config configs/experiment.lmstudio.en.yaml
-```
-
-Executar smoke test por modelo:
+Executar smoke test por modelo local:
 
 ```bash
 python3 scripts/smoke_lmstudio.py --model gemma
 python3 scripts/smoke_lmstudio.py --model ministral
 ```
-
-Cada smoke gera um `run_id` automatico e roda apenas a condicao `baseline` para o modelo local escolhido.
-
-Os arquivos oficiais de configuracao sao:
-
-```text
-configs/experiment.lmstudio.yaml
-configs/experiment.lmstudio.en.yaml
-```
-
-O arquivo `configs/experiment.yaml` usa clientes fake e serve apenas para testes internos do pipeline. Ele nao representa o experimento final.
 
 ## Execucao Oficial
 
@@ -157,14 +137,6 @@ Rodar o experimento completo:
   --run-id lmstudio_pt_final
 ```
 
-Rodar o experimento completo em ingles:
-
-```bash
-.venv/bin/python scripts/run_experiment.py \
-  --config configs/experiment.lmstudio.en.yaml \
-  --run-id lmstudio_en_final
-```
-
 Cada execucao cria:
 
 ```text
@@ -173,12 +145,9 @@ results/runs/<run_id>/
   run.log
   generations.jsonl
   raw_responses/
-  figures/
 ```
 
 O `manifest.json` registra dataset, hash do dataset, modelos, parametros, prompts, ambiente e caminhos dos arquivos gerados.
-
-O pipeline nao sobrescreve uma run existente. Se `results/runs/<run_id>/` ja existir, use outro `--run-id` ou remova a pasta antiga antes de repetir a execucao.
 
 ## Metricas e Graficos
 
@@ -188,14 +157,6 @@ Calcular metricas automaticas completas, incluindo perplexity:
 .venv/bin/python scripts/compute_metrics.py \
   --config configs/experiment.lmstudio.yaml \
   --run-id lmstudio_pt_final
-```
-
-Para calcular metricas do fluxo em ingles com perplexity:
-
-```bash
-.venv/bin/python scripts/compute_metrics.py \
-  --config configs/experiment.lmstudio.en.yaml \
-  --run-id lmstudio_en_final
 ```
 
 Para desenvolvimento rapido, e possivel pular perplexity:
@@ -211,7 +172,6 @@ Gerar graficos e exemplos:
 
 ```bash
 python3 scripts/make_plots.py --run-id lmstudio_pt_final
-python3 scripts/make_plots.py --run-id lmstudio_en_final
 ```
 
 Saidas principais:
@@ -221,11 +181,6 @@ results/runs/lmstudio_pt_final/metrics_long.csv
 results/runs/lmstudio_pt_final/metrics_summary.csv
 results/runs/lmstudio_pt_final/figures/
 results/runs/lmstudio_pt_final/response_examples.csv
-
-results/runs/lmstudio_en_final/metrics_long.csv
-results/runs/lmstudio_en_final/metrics_summary.csv
-results/runs/lmstudio_en_final/figures/
-results/runs/lmstudio_en_final/response_examples.csv
 ```
 
 Metricas automaticas implementadas:
@@ -233,20 +188,12 @@ Metricas automaticas implementadas:
 - `jaccard`: sobreposicao lexical media par-a-par; menor tende a indicar maior diversidade.
 - `self_bleu`: repeticao entre respostas; menor tende a indicar maior diversidade.
 - `distinct_1` e `distinct_2`: variedade lexical; maior tende a indicar maior diversidade.
-- `tone_coverage`: cobertura dos tons esperados por mensagem.
+- `tone_diversity_ratio`: tons validos distintos divididos pelo numero de respostas validas.
+- `tone_coverage`: cobertura dos tons esperados ocultos por mensagem; metrica auxiliar.
 - `parse_success_rate`: taxa de grupos VS com JSON parseado em respostas validas.
 - `valid_tone_rate`: proporcao de alternativas VS cujo `tone` pertence a lista fechada.
 - `threshold_violation_rate`: proporcao de respostas do VS agressivo com probabilidade maior ou igual ao limite configurado.
-- `perplexity`: fluencia estimada com modelo avaliador fixo via `transformers`.
-
-A perplexity usa avaliadores diferentes por idioma:
-
-```text
-PT: pierreguillou/gpt2-small-portuguese
-EN: gpt2
-```
-
-Por isso, os valores absolutos de perplexity nao devem ser comparados diretamente entre portugues e ingles. A comparacao mais apropriada e dentro do mesmo idioma, entre modelos e condicoes.
+- `perplexity`: fluencia estimada com `pierreguillou/gpt2-small-portuguese`.
 
 ## Avaliacao Manual
 
@@ -254,7 +201,6 @@ Exportar planilha:
 
 ```bash
 python3 scripts/export_manual_eval.py --run-id lmstudio_pt_final
-python3 scripts/export_manual_eval.py --run-id lmstudio_en_final
 ```
 
 Depois de preencher notas de 1 a 5:
@@ -270,20 +216,36 @@ Campos avaliados:
 - utilidade;
 - coerencia;
 - fidelidade a mensagem original;
-- adequacao ao tom pedido.
+- adequacao ao tom declarado.
 
-## Politica de Resultados
-
-`results/runs/*` e ignorado por padrao para evitar versionar execucoes intermediarias, logs grandes e tentativas quebradas.
-
-Para a entrega, use apenas as duas runs finais:
+Escala usada na avaliacao manual:
 
 ```text
-results/final/lmstudio_pt_final/
-results/final/lmstudio_en_final/
+5 = excelente, pronta para envio.
+4 = boa, com pequeno ajuste possivel.
+3 = aceitavel, mas precisa edicao.
+2 = fraca, com problema relevante.
+1 = inadequada.
 ```
 
-Artefatos recomendados para entrega:
+Interpretacao dos campos:
+
+- `utility`: mede se a resposta seria util em uma conversa real. Pequenas inferencias plausiveis sao permitidas.
+- `coherence`: mede se o texto e claro, natural e bem formado.
+- `fidelity`: mede se a resposta respeita a intencao central da mensagem. Inferencias leves sao aceitaveis, mas mudancas de intencao devem ser penalizadas.
+- `tone_adequacy`: mede se a resposta combina com a formalidade e os tons esperados.
+
+Diversidade nao foi tratada como melhoria automatica: uma resposta diferente so e boa se continuar util, coerente e adequada.
+
+## Resultado Final Entregue
+
+A run oficial selecionada para entrega esta em:
+
+```text
+results/final/resultados_finais/
+```
+
+Artefatos incluidos:
 
 ```text
 manifest.json
@@ -293,16 +255,13 @@ metrics_summary.csv
 figures/
 response_examples.csv
 manual_eval_template.csv
-manual_metrics_summary.csv, se houver avaliacao manual preenchida
+manual_eval_completed.csv
+manual_metrics_summary.csv
+manual_metrics_by_category.csv
+observações.md
 ```
 
-Nao use runs antigos de debug, smoke tests, runs com Qwen/Phi ou execucoes falhas como resultado oficial.
-
-Importante: os scripts leem e escrevem por padrao em `results/runs/<run_id>/`. A pasta `results/final/` contem copias selecionadas dos resultados oficiais para entrega e auditoria. Para reproduzir do zero, execute novamente os comandos oficiais e gere novas pastas em `results/runs/`. Para apenas inspecionar os resultados ja obtidos, use os arquivos em `results/final/`.
-
-## Decisao sobre Baseline
-
-O baseline usa prompt direto, mas e repetido `baseline_repetitions` vezes por mensagem. Isso preserva a condicao baseline e permite calcular metricas de diversidade como Jaccard par-a-par e Self-BLEU de forma comparavel ao VS, que gera 5 alternativas.
+`results/runs/*` e ignorado por padrao para evitar versionar execucoes intermediarias, logs grandes e tentativas descartadas. Para reproduzir do zero, execute os comandos oficiais e gere uma nova pasta em `results/runs/`.
 
 ## Testes
 
@@ -310,4 +269,4 @@ O baseline usa prompt direto, mas e repetido `baseline_repetitions` vezes por me
 pytest
 ```
 
-Os testes automatizados usam `FakeLLMClient` internamente para validar o pipeline sem depender do LM Studio ou da OpenAI API. O experimento oficial usa Gemma e Ministral pelo LM Studio e `gpt-4.1-mini` pela OpenAI API.
+Os testes automatizados usam `FakeLLMClient` internamente para validar o pipeline sem depender do LM Studio ou da OpenAI API.

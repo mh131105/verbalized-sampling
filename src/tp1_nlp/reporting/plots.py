@@ -15,7 +15,11 @@ def make_plots_for_run(run_dir: Path) -> list[Path]:
     rows = [
         row
         for row in csv.DictReader(summary_path.open("r", encoding="utf-8"))
-        if row.get("category") == "__all__" and row.get("value") not in {"", None}
+        if (
+            row.get("category") == "__all__"
+            and row.get("formality", "__all__") == "__all__"
+            and row.get("value") not in {"", None}
+        )
     ]
     figures_dir = run_dir / "figures"
     figures_dir.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,19 @@
+model_id,condition,message_id,sample_index,declared_tone,verbalized_probability,text
+openai_gpt41_mini,baseline,pt_msg_001,1,,,"Claro, posso revisar seu texto até amanhã de manhã e ajustar o tom para você."
+openai_gpt41_mini,baseline,pt_msg_001,2,,,"Claro, posso revisar seu texto até amanhã de manhã e ajustar o tom para você."
+openai_gpt41_mini,vs_intermediate,pt_msg_001,1,cordial,0.3,"Claro, posso revisar seu texto até amanhã cedo e garantir que o tom esteja adequado."
+openai_gpt41_mini,vs_intermediate,pt_msg_001,2,objetivo,0.25,"Sim, revisarei seu texto até amanhã de manhã para assegurar que o tom está correto."
+openai_gpt41_mini,vs_aggressive,pt_msg_001,1,gentil,0.08,"Posso revisar sim, assim garantimos que o tom esteja alinhado para sua mensagem."
+openai_gpt41_mini,vs_aggressive,pt_msg_001,2,justificativo,0.07,"Tenho uma agenda apertada, mas tentarei revisar seu texto até amanhã cedo, sem prometer."
+lmstudio_gemma_e2b,baseline,pt_msg_001,1,,,"Claro, posso revisar seu texto até amanhã de manhã. Mande quando puder!"
+lmstudio_gemma_e2b,baseline,pt_msg_001,2,,,"Claro, posso revisar seu texto até amanhã de manhã. Mande quando puder!"
+lmstudio_gemma_e2b,vs_intermediate,pt_msg_001,1,cordial,0.25,Claro! Posso revisar seu texto até amanhã de manhã. Fico à disposição para ajudar com o tom.
+lmstudio_gemma_e2b,vs_intermediate,pt_msg_001,2,objetivo,0.2,"Entendido. Revisão do texto concluída para amanhã pela manhã, focando no tom."
+lmstudio_gemma_e2b,vs_aggressive,pt_msg_001,1,cordial,0.075,"Com certeza, farei a revisão com carinho. Por favor, me envie o material para eu poder organizar meu cronograma."
+lmstudio_gemma_e2b,vs_aggressive,pt_msg_001,2,objetivo,0.055,Depende da urgência; me diga o prazo exato para eu avaliar a viabilidade dessa entrega.
+lmstudio_ministral_14b,baseline,pt_msg_001,1,,,"Claro! Envio a revisão até amanhã, com foco no tom e clareza."
+lmstudio_ministral_14b,baseline,pt_msg_001,2,,,"Claro! Envio a revisão até amanhã de manhã, com atenção ao tom."
+lmstudio_ministral_14b,vs_intermediate,pt_msg_001,1,cordial,0.28,Claro! Eu reviso seu texto até amanhã de manhã e ajusto o tom conforme necessário.
+lmstudio_ministral_14b,vs_intermediate,pt_msg_001,2,direto,0.3,Sim. Envie o texto até às 12h e eu verifico o tom rapidamente.
+lmstudio_ministral_14b,vs_aggressive,pt_msg_001,1,formal,0.08,"Claro, envio sua versão revisada — com foco no tom — até às 9h amanhã."
+lmstudio_ministral_14b,vs_aggressive,pt_msg_001,2,objecutivo,0.06,"Confirmo: revisão pronta até amanhã, com sugestões de ajustes no tom. Preciso de prazo para outros detalhes?"

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import time
 from dataclasses import asdict
 from pathlib import Path
 from typing import Any
@@ -26,6 +27,10 @@ from tp1_nlp.storage.paths import ProjectPaths, validate_project_contract
 from tp1_nlp.utils.hashing import file_sha256
 from tp1_nlp.utils.logging import append_event
 from tp1_nlp.utils.time import make_run_id, utc_now_iso
+
+
+MAX_GENERATION_ATTEMPTS = 3
+RETRY_DELAYS_SECONDS = (5, 15)
 
 
 def run_experiment(
@@ -183,7 +188,16 @@ def _run_message_condition(
             call_index=call_index,
         )
         try:
-            result = client.generate(rendered_messages, params)
+            result = _generate_with_retries(
+                client=client,
+                rendered_messages=rendered_messages,
+                params=params,
+                model=model,
+                condition=condition,
+                message=message,
+                call_index=call_index,
+                log_path=log_path,
+            )
             raw_payload = {
                 "run_id": run_id,
                 "message_id": message.message_id,
@@ -258,6 +272,44 @@ def _run_message_condition(
                 call_index=call_index,
                 error=str(exc),
             )
+
+
+def _generate_with_retries(
+    *,
+    client: Any,
+    rendered_messages: list[dict[str, str]],
+    params: GenerationParams,
+    model: ModelConfig,
+    condition: ConditionConfig,
+    message: MessageExample,
+    call_index: int,
+    log_path: Path,
+) -> Any:
+    for attempt in range(1, MAX_GENERATION_ATTEMPTS + 1):
+        try:
+            return client.generate(rendered_messages, params)
+        except Exception as exc:
+            if (
+                attempt >= MAX_GENERATION_ATTEMPTS
+                or not _is_retryable_generation_error(exc)
+            ):
+                raise
+            delay = RETRY_DELAYS_SECONDS[min(attempt - 1, len(RETRY_DELAYS_SECONDS) - 1)]
+            append_event(
+                log_path,
+                "generation_retry",
+                model_id=model.model_id,
+                condition=condition.condition_id,
+                message_id=message.message_id,
+                call_index=call_index,
+                attempt=attempt,
+                max_attempts=MAX_GENERATION_ATTEMPTS,
+                delay_seconds=delay,
+                error=str(exc),
+                error_code=_error_code(exc),
+            )
+            time.sleep(delay)
+    raise RuntimeError("Generation retry loop exhausted without returning or raising")
 
 
 def _params_for_call(
@@ -427,3 +479,35 @@ def _error_code(exc: Exception) -> str:
         return "PARSE_ERROR"
     return "LLM_RESPONSE_ERROR"
 
+
+def _is_retryable_generation_error(exc: Exception) -> bool:
+    status_code = _http_status_code(exc)
+    if status_code == 429 or (status_code is not None and 500 <= status_code <= 599):
+        return True
+
+    name = exc.__class__.__name__.lower()
+    message = str(exc).lower()
+    retryable_fragments = [
+        "timeout",
+        "connection refused",
+        "remote disconnected",
+        "connection reset",
+        "connection aborted",
+        "newconnectionerror",
+        "max retries exceeded",
+        "temporarily unavailable",
+        "service unavailable",
+    ]
+    haystack = f"{name} {message}"
+    return any(fragment in haystack for fragment in retryable_fragments)
+
+
+def _http_status_code(exc: Exception) -> int | None:
+    response = getattr(exc, "response", None)
+    status_code = getattr(response, "status_code", None)
+    if status_code is None:
+        return None
+    try:
+        return int(status_code)
+    except (TypeError, ValueError):
+        return None

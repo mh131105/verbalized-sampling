@@ -1,0 +1,54 @@
+{
+  "run_id": "resultados_finais",
+  "message_id": "pt_msg_014",
+  "model_id": "lmstudio_ministral_14b",
+  "condition": "baseline",
+  "call_index": 1,
+  "prompt": [
+    {
+      "role": "system",
+      "content": "Voce e um assistente de escrita cuidadoso para mensagens cotidianas. Escreva apenas a resposta final."
+    },
+    {
+      "role": "user",
+      "content": "Gere uma resposta para a mensagem recebida.\nA resposta deve ter aproximadamente 15 palavras.\nPriorize adequacao e utilidade, sem forcar contagem exata.\nRetorne SOMENTE a resposta, sem explicacoes ou texto extra.\nMantenha a resposta natural, adequada a situacao e util para quem vai receber.\n\nCategoria da situacao: convite\n\nMensagem recebida:\nVamos almoçar juntos sexta? Se você não puder, a gente tenta combinar outro dia.\n\nResposta:\n"
+    }
+  ],
+  "params": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "max_tokens": 220,
+    "seed": 303,
+    "n_candidates": 1
+  },
+  "response": {
+    "id": "chatcmpl-fefi0mquhjba8l4mhpo9w",
+    "object": "chat.completion",
+    "created": 1780069619,
+    "model": "ministral-3-14b-instruct-2512",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Claro! Ficaria feliz em almoçar contigo na sexta.",
+          "reasoning_content": "",
+          "tool_calls": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 139,
+      "completion_tokens": 16,
+      "total_tokens": 155,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "stats": {},
+    "system_fingerprint": "ministral-3-14b-instruct-2512"
+  },
+  "text": "Claro! Ficaria feliz em almoçar contigo na sexta."
+}

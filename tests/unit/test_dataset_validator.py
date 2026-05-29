@@ -26,3 +26,5 @@ def test_project_dataset_matches_required_contract() -> None:
     )
 
     assert errors == []
+    for message in messages:
+        assert "response_length" not in message.metadata

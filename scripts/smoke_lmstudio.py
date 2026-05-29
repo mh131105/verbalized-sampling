@@ -13,7 +13,7 @@ from tp1_nlp.storage.paths import ProjectPaths
 
 MODEL_ALIASES = {
     "gemma": "lmstudio_gemma_e2b",
-    "ministral": "lmstudio_ministral_3b",
+    "ministral": "lmstudio_ministral_14b",
 }
 
 
