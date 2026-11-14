@@ -1,284 +1,109 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/HBpVR1RR)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=24014449&assignment_repo_type=AssignmentRepo)
+# Verbalized Sampling para rascunhos de mensagens
 
-# TP1 NLP - Assistente de Rascunho com Verbalized Sampling
+[**Relatório final**](output/doc/relatorio_tp1_nlp.pdf) · [Resultados e análise](results/final/resultados_finais/observações.md) · [Reproduzir](docs/reproducao.md) · [Prompts](data/prompts/)
 
-Pipeline experimental em Python para comparar geracao direta (`baseline`) contra Verbalized Sampling (`VS`) em mensagens cotidianas em portugues. A entrega oficial usa dois modelos locais via LM Studio e um modelo fechado via OpenAI API, com tres condicoes experimentais por modelo.
+**Pedir alternativas e suas probabilidades aumenta a diversidade sem prejudicar a utilidade das respostas?** Este projeto compara geração direta com duas variantes de Verbalized Sampling (VS) em mensagens cotidianas em português. O experimento usa três modelos, métricas automáticas e uma avaliação manual registrada, com prompts, parâmetros e respostas brutas preservados.
 
-## Estrutura
+O trabalho foi desenvolvido por Matheus Henrique de Oliveira Garcia no TP1 de NLP da Universidade Federal do Amazonas. A técnica foi aplicada por engenharia de prompt, sem fine-tuning.
 
-```text
-configs/              Configuracao oficial do experimento
-data/                 Dataset em portugues e templates de prompt
-scripts/              CLIs de execucao, validacao e analise
-src/tp1_nlp/          Codigo modular do pipeline
-results/runs/         Artefatos brutos de novas execucoes
-results/final/        Run final selecionada para entrega
-output/doc/           Relatorio final em DOCX/PDF e figuras usadas no documento
-tests/                Testes com pytest
-```
+## Resultados principais
 
-## Instalacao
+Nas condições avaliadas, o **VS reduziu a repetição e aumentou a diversidade lexical nos três modelos**. As notas de utilidade e fidelidade, porém, ficaram abaixo do baseline. A variante agressiva produziu respostas mais diversas e também mais detalhes ausentes da mensagem original.
 
-```bash
+| Modelo | Condição | Self-BLEU ↓ | Distinct-2 ↑ | Utilidade / 5 | Fidelidade / 5 |
+| --- | --- | ---: | ---: | ---: | ---: |
+| GPT-4.1 mini | Baseline | 0,779 | 0,435 | 4,517 | 4,225 |
+| GPT-4.1 mini | VS intermediário | 0,270 | 0,836 | 4,333 | 4,050 |
+| GPT-4.1 mini | VS agressivo | 0,197 | 0,899 | 4,233 | 4,033 |
+| Gemma E2B | Baseline | 0,808 | 0,402 | 4,583 | 4,292 |
+| Gemma E2B | VS intermediário | 0,171 | 0,930 | 4,275 | 4,025 |
+| Gemma E2B | VS agressivo | 0,134 | 0,963 | 3,942 | 3,717 |
+| Ministral 14B | Baseline | 0,359 | 0,779 | 4,275 | 4,108 |
+| Ministral 14B | VS intermediário | 0,151 | 0,941 | 3,871 | 3,793 |
+| Ministral 14B | VS agressivo | 0,119 | 0,966 | 3,875 | 3,733 |
+
+Self-BLEU mede repetição entre alternativas; valores menores indicam menor repetição. Distinct-2 mede variedade de bigramas; valores maiores indicam maior variedade lexical. As notas manuais seguem uma escala de 1 a 5. Valores arredondados a três casas a partir das [métricas automáticas](results/final/resultados_finais/metrics_summary.csv) e das [notas agregadas](results/final/resultados_finais/manual_metrics_summary.csv).
+
+Cada combinação tem 24 grupos nas métricas de diversidade, exceto Ministral/VS intermediário, com 23 por uma falha de parse. As notas desse grupo abrangem 116 registros, incluindo a falha com nota 1; as demais combinações têm 120 registros cada.
+
+![Métricas automáticas médias por condição](output/doc/assets/fig2_metricas_automaticas.png)
+
+A figura apresenta médias simples dos três modelos por condição. A perplexidade é uma medida auxiliar dependente do avaliador fixo, sem equivalência direta com utilidade ou correção.
+
+O relatório interpreta o **VS intermediário como o compromisso mais equilibrado** entre diversidade e preservação da intenção. Essa interpretação não significa superioridade em cada modelo ou categoria. Em mensagens de intenção rígida, como recusas e agradecimentos, alternativas variadas por vezes mudaram o papel comunicativo da resposta. Algumas recusas, por exemplo, viraram adiamentos da decisão.
+
+![Utilidade e fidelidade por modelo e condição](output/doc/assets/fig3_manual_modelo_condicao.png)
+
+A [análise crítica](results/final/resultados_finais/observações.md) detalha erros e diferenças por categoria e formalidade. O [relatório](output/doc/relatorio_tp1_nlp.pdf) reúne método, resultados e discussão.
+
+## Experimento e implementação
+
+O dataset contém **24 mensagens**: três exemplos de cada categoria — pedido, cobrança, recusa, agradecimento, convite, esclarecimento, confirmação e adiamento. São 15 mensagens formais e nove informais. O pipeline compara:
+
+- **Baseline:** cinco chamadas de geração direta por mensagem, com uma resposta em cada chamada.
+- **VS intermediário:** uma chamada que solicita cinco alternativas e suas probabilidades declaradas.
+- **VS agressivo:** uma chamada que solicita cinco alternativas com probabilidades declaradas abaixo de `0.10`.
+
+As condições usam `temperature=0.6` e `top_p=0.95`. Os limites de saída são 220 tokens por chamada no baseline e 700 no VS. Os campos de formalidade e tons esperados ficam ocultos dos prompts e são usados na avaliação. O formato VS contém `tone`, `text` e `probability`; as probabilidades são estimativas verbalizadas, sem calibração demonstrada.
+
+| Modelo no experimento | Backend | Identificador registrado |
+| --- | --- | --- |
+| GPT-4.1 mini | OpenAI API | `gpt-4.1-mini` |
+| Gemma E2B | LM Studio local | `mlx-community/gemma-4-e2b-it` |
+| Ministral 14B | LM Studio local | `ministral-3-14b-instruct-2512` |
+
+A implementação em Python inclui validação do dataset, templates de prompt, clientes de LLM, parsing de JSON, tentativas de geração, métricas e exportação da avaliação manual. O [manifesto](results/final/resultados_finais/manifest.json) registra configuração, hash do dataset e ambiente.
+
+Foram preservados **1.076 registros**: 1.075 com status `success` e uma falha de parse, que substituiu cinco alternativas esperadas por um registro de erro. As [respostas brutas](results/final/resultados_finais/raw_responses/), as [gerações](results/final/resultados_finais/generations.jsonl) e a [avaliação preenchida](results/final/resultados_finais/manual_eval_completed.csv) permitem inspecionar os resultados sem novas chamadas aos modelos.
+
+## Caminho mínimo para reproduzir
+
+Python 3.11 ou superior. Na raiz do repositório:
+
+```sh
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
+python scripts/validate_project.py --config configs/experiment.lmstudio.yaml
+python -m pytest
 ```
 
-O fluxo oficial calcula perplexity por padrao. Por isso, `requirements.txt` inclui `transformers` e `torch`, usados pelo avaliador fixo de perplexity.
+A validação e os testes usam dados locais e clientes simulados, sem precisar de uma chave OpenAI ou do servidor LM Studio. Eles verificam o pipeline e não certificam os resultados experimentais.
 
-## Ambiente
+Para gerar novas respostas, prepare os modelos locais no LM Studio e a credencial OpenAI conforme [reprodução](docs/reproducao.md). A geração consulta os backends configurados e pode consumir créditos da API.
 
-As runs finais foram geradas em macOS Apple Silicon usando LM Studio como servidor local OpenAI-compatible para os modelos abertos e OpenAI API para o modelo fechado.
-
-Para reproduzir em outro computador, e necessario:
-
-- Python 3.11 ou superior;
-- dependencias instaladas via `requirements.txt`;
-- LM Studio ativo em `http://localhost:1234/v1`;
-- modelos locais configurados disponiveis no LM Studio;
-- variavel `OPENAI_API_KEY` configurada para executar `gpt-4.1-mini`.
-
-Se os modelos aparecerem com IDs diferentes no LM Studio, rode o checker e ajuste o campo `model_name` em `configs/experiment.lmstudio.yaml`.
-
-## Modelos Oficiais
-
-Modelos configurados em `configs/experiment.lmstudio.yaml`:
-
-```text
-openai_gpt41_mini     -> gpt-4.1-mini
-lmstudio_gemma_e2b     -> mlx-community/gemma-4-e2b-it
-lmstudio_ministral_14b -> ministral-3-14b-instruct-2512
-```
-
-Antes de rodar:
-
-1. Abra o LM Studio.
-2. Baixe ou selecione modelos equivalentes a Gemma e Ministral.
-3. Inicie o servidor local em `http://localhost:1234/v1`.
-4. Rode:
-
-```bash
-python3 scripts/check_lmstudio.py --config configs/experiment.lmstudio.yaml
-```
-
-Para o modelo OpenAI, defina:
-
-```bash
-export OPENAI_API_KEY="sua-chave"
-```
-
-Ou crie um `.env` local a partir do exemplo:
-
-```bash
-cp .env.example .env
-```
-
-O arquivo `.env` e ignorado pelo Git e nao deve ser entregue com chave real.
-
-## Configuracao Experimental
-
-A configuracao oficial usa comparacao controlada: `temperature` e `top_p` ficam iguais nas tres condicoes para isolar o efeito do prompt de VS.
-
-```text
-baseline         temperature=0.6  top_p=0.95  max_tokens=220
-vs_intermediate  temperature=0.6  top_p=0.95  max_tokens=700
-vs_aggressive    temperature=0.6  top_p=0.95  max_tokens=700  probability_threshold=0.10
-```
-
-O baseline usa prompt direto, mas e repetido `baseline_repetitions=5` vezes por mensagem. Isso preserva a condicao baseline e permite calcular metricas de diversidade como Jaccard par-a-par e Self-BLEU de forma comparavel ao VS, que gera cinco alternativas.
-
-Os prompts oficiais usam templates `v3`, com mensagens curtas e alvo aproximado de 15 palavras por resposta, inspirado nos prompts do paper de Verbalized Sampling. A mensagem enviada ao modelo contem a mensagem de entrada e a categoria da situacao. Os campos `formality` e `expected_tones` permanecem no dataset como labels ocultos para avaliacao e agrupamento, mas nao sao passados ao modelo.
-
-O VS retorna uma distribuicao verbalizada em JSON com:
-
-```json
-{
-  "responses": [
-    {
-      "tone": "cordial",
-      "text": "texto da resposta",
-      "probability": 0.24
-    }
-  ]
-}
-```
-
-O campo `probability` representa a probabilidade estimada da resposta, relativa a distribuicao completa de respostas plausiveis. O campo `tone` e a categoria da situacao sao adaptacoes ao enunciado do TP.
-
-## Validacao
-
-Validar estrutura, dataset e prompts:
-
-```bash
-python3 scripts/validate_project.py --config configs/experiment.lmstudio.yaml
-```
-
-Validar se o LM Studio esta ativo e expondo os modelos locais:
-
-```bash
-python3 scripts/check_lmstudio.py --config configs/experiment.lmstudio.yaml
-```
-
-Executar smoke test por modelo local:
-
-```bash
-python3 scripts/smoke_lmstudio.py --model gemma
-python3 scripts/smoke_lmstudio.py --model ministral
-```
-
-## Execucao Oficial
-
-Rodar o experimento completo:
-
-```bash
-.venv/bin/python scripts/run_experiment.py \
+```sh
+python scripts/check_lmstudio.py --config configs/experiment.lmstudio.yaml
+python scripts/run_experiment.py \
   --config configs/experiment.lmstudio.yaml \
-  --run-id lmstudio_pt_final
-```
-
-Cada execucao cria:
-
-```text
-results/runs/<run_id>/
-  manifest.json
-  run.log
-  generations.jsonl
-  raw_responses/
-```
-
-O `manifest.json` registra dataset, hash do dataset, modelos, parametros, prompts, ambiente e caminhos dos arquivos gerados.
-
-## Metricas e Graficos
-
-Calcular metricas automaticas completas, incluindo perplexity:
-
-```bash
-.venv/bin/python scripts/compute_metrics.py \
+  --run-id reproducao_vs
+python scripts/compute_metrics.py \
   --config configs/experiment.lmstudio.yaml \
-  --run-id lmstudio_pt_final
+  --run-id reproducao_vs
+python scripts/make_plots.py --run-id reproducao_vs
 ```
 
-Para desenvolvimento rapido, e possivel pular perplexity:
+Esses comandos criam uma execução em `results/runs/reproducao_vs/`. A avaliação manual é uma etapa separada; as notas originais não são atribuídas às novas respostas. O [guia completo](docs/reproducao.md) reúne configuração, validação dos modelos, métricas e avaliação manual.
 
-```bash
-.venv/bin/python scripts/compute_metrics.py \
-  --config configs/experiment.lmstudio.yaml \
-  --run-id lmstudio_pt_final \
-  --skip-perplexity
-```
+## Limitações
 
-Gerar graficos e exemplos:
+- O experimento usa 24 mensagens e uma execução registrada por modelo/configuração. Os resultados descrevem esse recorte, sem estabelecer uma melhoria geral de qualidade.
+- A comparação mantém temperatura e top-p, mas também varia formato, instruções, número de chamadas e limite de saída. Não isola apenas o pedido de probabilidades.
+- A avaliação manual foi feita por um avaliador, conforme o relatório. Não há estimativa de concordância entre avaliadores nem evidência de revisão cega independente.
+- Métricas lexicais capturam repetição e variedade superficial; uma resposta diversa pode inventar contexto ou mudar a intenção. A perplexidade depende do avaliador fixo utilizado.
+- O baseline não declara `tone`. Seu zero em `tone_diversity_ratio` não demonstra ausência real de diversidade de tom; essa métrica não permite comparação direta entre as condições.
+- As probabilidades declaradas não foram calibradas. Cumprir o limiar de `0.10` não comprova amostragem da cauda de uma distribuição probabilística conhecida.
+- Os nomes dos modelos e os parâmetros foram registrados, mas as revisões dos pesos e todas as escolhas de quantização dos modelos locais não foram fixadas no manifesto. Uma nova execução pode produzir respostas e métricas diferentes.
 
-```bash
-python3 scripts/make_plots.py --run-id lmstudio_pt_final
-```
+## Organização
 
-Saidas principais:
+| Caminho | Conteúdo |
+| --- | --- |
+| [`output/doc/`](output/doc/) | Relatório final em PDF/DOCX e figuras incorporadas. |
+| [`results/final/resultados_finais/`](results/final/resultados_finais/) | Execução final, respostas brutas, métricas e avaliação registrada. |
+| [`docs/reproducao.md`](docs/reproducao.md) | Instalação, execução, métricas e avaliação manual. |
+| [`data/`](data/) e [`configs/`](configs/) | Dataset, prompts e configuração experimental. |
+| [`src/tp1_nlp/`](src/tp1_nlp/) e [`scripts/`](scripts/) | Implementação modular e comandos do pipeline. |
+| [`tests/`](tests/) | Testes de dataset, prompts, parsing, métricas e execução simulada. |
 
-```text
-results/runs/lmstudio_pt_final/metrics_long.csv
-results/runs/lmstudio_pt_final/metrics_summary.csv
-results/runs/lmstudio_pt_final/figures/
-results/runs/lmstudio_pt_final/response_examples.csv
-```
-
-Metricas automaticas implementadas:
-
-- `jaccard`: sobreposicao lexical media par-a-par; menor tende a indicar maior diversidade.
-- `self_bleu`: repeticao entre respostas; menor tende a indicar maior diversidade.
-- `distinct_1` e `distinct_2`: variedade lexical; maior tende a indicar maior diversidade.
-- `tone_diversity_ratio`: tons validos distintos divididos pelo numero de respostas validas.
-- `tone_coverage`: cobertura dos tons esperados ocultos por mensagem; metrica auxiliar.
-- `parse_success_rate`: taxa de grupos VS com JSON parseado em respostas validas.
-- `valid_tone_rate`: proporcao de alternativas VS cujo `tone` pertence a lista fechada.
-- `threshold_violation_rate`: proporcao de respostas do VS agressivo com probabilidade maior ou igual ao limite configurado.
-- `perplexity`: fluencia estimada com `PORTULAN/gervasio-8b-portuguese-ptpt-decoder-quantized-4bit`.
-
-## Avaliacao Manual
-
-Exportar planilha:
-
-```bash
-python3 scripts/export_manual_eval.py --run-id lmstudio_pt_final
-```
-
-Depois de preencher notas de 1 a 5:
-
-```bash
-python3 scripts/import_manual_eval.py \
-  --run-id lmstudio_pt_final \
-  --file results/runs/lmstudio_pt_final/manual_eval_template.csv
-```
-
-Campos avaliados:
-
-- utilidade;
-- coerencia;
-- fidelidade a mensagem original;
-- adequacao ao tom declarado.
-
-Escala usada na avaliacao manual:
-
-```text
-5 = excelente, pronta para envio.
-4 = boa, com pequeno ajuste possivel.
-3 = aceitavel, mas precisa edicao.
-2 = fraca, com problema relevante.
-1 = inadequada.
-```
-
-Interpretacao dos campos:
-
-- `utility`: mede se a resposta seria util em uma conversa real. Pequenas inferencias plausiveis sao permitidas.
-- `coherence`: mede se o texto e claro, natural e bem formado.
-- `fidelity`: mede se a resposta respeita a intencao central da mensagem. Inferencias leves sao aceitaveis, mas mudancas de intencao devem ser penalizadas.
-- `tone_adequacy`: mede se a resposta combina com a formalidade e os tons esperados.
-
-Diversidade nao foi tratada como melhoria automatica: uma resposta diferente so e boa se continuar util, coerente e adequada.
-
-## Resultado Final Entregue
-
-A run oficial selecionada para entrega esta em:
-
-```text
-results/final/resultados_finais/
-```
-
-Artefatos incluidos:
-
-```text
-manifest.json
-generations.jsonl
-metrics_long.csv
-metrics_summary.csv
-figures/
-response_examples.csv
-manual_eval_template.csv
-manual_eval_completed.csv
-manual_metrics_summary.csv
-manual_metrics_by_category.csv
-observações.md
-```
-
-O relatorio final foi gerado fora de `results/`, em:
-
-```text
-output/doc/
-  relatorio_tp1_nlp.docx
-  relatorio_tp1_nlp.pdf
-  assets/
-```
-
-`relatorio_tp1_nlp.docx` e o documento principal para edicao e entrega. `relatorio_tp1_nlp.pdf` e a versao exportada pelo LibreOffice para conferencia visual. A pasta `assets/` contem as figuras incorporadas ao relatorio, incluindo o fluxo do pipeline, comparacoes de metricas automaticas, avaliacao manual por modelo/condicao, ganho por categoria e comparacao por formalidade.
-
-`results/runs/*` e ignorado por padrao para evitar versionar execucoes intermediarias, logs grandes e tentativas descartadas. Para reproduzir do zero, execute os comandos oficiais e gere uma nova pasta em `results/runs/`.
-
-## Testes
-
-```bash
-pytest
-```
-
-Os testes automatizados usam `FakeLLMClient` internamente para validar o pipeline sem depender do LM Studio ou da OpenAI API.
+O [DOCX](output/doc/relatorio_tp1_nlp.docx) permanece como versão editável do relatório. Novas execuções em `results/runs/` são ignoradas pelo Git; a execução final e suas evidências permanecem versionadas.
