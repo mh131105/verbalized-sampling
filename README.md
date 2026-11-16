@@ -89,16 +89,6 @@ python scripts/make_plots.py --run-id reproducao_vs
 
 Esses comandos criam uma execução em `results/runs/reproducao_vs/`. A avaliação manual é uma etapa separada; as notas originais não são atribuídas às novas respostas. O [guia completo](docs/reproducao.md) reúne configuração, validação dos modelos, métricas e avaliação manual.
 
-## Limitações
-
-- O experimento usa 24 mensagens e uma execução registrada por modelo/configuração. Os resultados descrevem esse recorte, sem estabelecer uma melhoria geral de qualidade.
-- A comparação mantém temperatura e top-p, mas também varia formato, instruções, número de chamadas e limite de saída. Não isola apenas o pedido de probabilidades.
-- A avaliação manual foi feita por um avaliador, conforme o relatório. Não há estimativa de concordância entre avaliadores nem evidência de revisão cega independente.
-- Métricas lexicais capturam repetição e variedade superficial; uma resposta diversa pode inventar contexto ou mudar a intenção. A perplexidade depende do avaliador fixo utilizado.
-- O baseline não declara `tone`. Seu zero em `tone_diversity_ratio` não demonstra ausência real de diversidade de tom; essa métrica não permite comparação direta entre as condições.
-- As probabilidades declaradas não foram calibradas. Cumprir o limiar de `0.10` não comprova amostragem da cauda de uma distribuição probabilística conhecida.
-- Os nomes dos modelos e os parâmetros foram registrados, mas as revisões dos pesos e todas as escolhas de quantização dos modelos locais não foram fixadas no manifesto. Uma nova execução pode produzir respostas e métricas diferentes.
-
 ## Organização
 
 | Caminho | Conteúdo |
