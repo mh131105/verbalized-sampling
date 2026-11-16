@@ -6,6 +6,8 @@
 
 O trabalho foi desenvolvido por Matheus Henrique de Oliveira Garcia no TP1 de NLP da Universidade Federal do Amazonas. A técnica foi aplicada por engenharia de prompt, sem fine-tuning.
 
+Esta é a versão pública para portfólio do [repositório original da disciplina](https://github.com/ed-icomp-ufam/trabalho-pr-tico-1-nlp-2026-01-mh131105), cujo acesso é restrito. O histórico de desenvolvimento, o relatório, o código e os resultados experimentais foram preservados.
+
 ## Resultados principais
 
 Nas condições avaliadas, o **VS reduziu a repetição e aumentou a diversidade lexical nos três modelos**. As notas de utilidade e fidelidade, porém, ficaram abaixo do baseline. A variante agressiva produziu respostas mais diversas e também mais detalhes ausentes da mensagem original.
@@ -58,9 +60,11 @@ Foram preservados **1.076 registros**: 1.075 com status `success` e uma falha de
 
 ## Caminho mínimo para reproduzir
 
-Python 3.11 ou superior. Na raiz do repositório:
+Python 3.11 ou superior. Clone o projeto e prepare o ambiente:
 
 ```sh
+git clone https://github.com/mh131105/verbalized-sampling.git
+cd verbalized-sampling
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
